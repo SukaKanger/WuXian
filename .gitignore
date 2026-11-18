@@ -1,0 +1,18 @@
+# Ren'Py 生成物
+*.rpyc
+*.rpymc
+/saves/
+/log.txt
+/traceback.txt
+/errors.txt
+/tmp/
+/build/
+/dist/
+/game/cache/
+# 大型素材不入库（见 ASSETS.md）
+/game/images/
+/game/audio/
+/game/voice/
+*.apk
+*.zip
+*.exe

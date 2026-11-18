@@ -1,0 +1,57 @@
+《雾线》WuXian — 免责声明 / DISCLAIMER
+版本 1.28.16 · SukaKanger · 2026
+
+一句话：这是一个人做的小作品，免费、开源、虚构；请按自己的接受度玩，出问题别赖我，想改就改。
+
+────────────────────────────────────────
+一、虚构声明 / FICTION
+《雾线》是虚构作品。故事中的雨林、旧站、二十七日、四名队员及其姓名、经历、关系，
+全部为原创或虚构；与现实中的任何个人、团体、地点、事件无关。如有雷同，纯属巧合。
+
+二、内容提示 / CONTENT WARNING
+含兽人（Furry）角色与同性恋爱分支；含轻度暴力、伤病、死亡与失踪描写；
+含对家庭创伤、药物与自我怀疑的描写。不涉及露骨性内容。
+未满 16 岁请在监护人知情下游玩；对上述题材敏感者请谨慎进入。
+
+三、AI 参与说明 / AI DISCLOSURE
+当前版本的立绘、表情差分、背景与 CG 使用 AI 生成，经人工筛选、裁切、调色与排版；
+配音为 AI 合成。AI 输出可能存在手指、透视、文字等细节偏差，属于制作条件所限，
+不影响剧情与玩法的完整。引擎、界面与剧本结构由人编写。
+
+四、免费与开源 / FREE & OPEN SOURCE
+本作永久免费：没有付费墙、没有内购、没有广告、没有赞助解锁。
+· 代码：MIT License（见 LICENSE），可商用、可修改、可再分发，保留版权声明即可。
+· 原创剧情、角色设定、文本：CC BY 4.0（见 LICENSE-ASSETS.txt），注明来源即可使用。
+· AI 生成的图像素材：随作品一并开放，供二创使用。
+作者不向任何玩家收取费用，也不会对免费内容设置付费门槛。
+
+五、免责 / NO WARRANTY
+本作按“现状”提供，不附带任何明示或默示担保。因游玩、安装、分发本作，
+或无法游玩本作而产生的任何直接或间接损失，作者不承担责任。
+请从 itch.io、GitHub 或作者本人发布的渠道获取；第三方二次打包的版本，
+其安全性与完整性由该发布者负责。
+
+六、二创与转载 / FAN WORK
+欢迎二创、翻译、实况、同人、二次分发：不必先问授权，注明“原作：雾线 / SukaKanger”即可。
+唯一不允许的两件事：把改过的版本冒充官方原版；把本作本体拿去售卖。
+（代码本身按 MIT 允许商用，但请诚实标注你改了什么。）
+
+七、联系 / CONTACT
+作者：SukaKanger
+玩家交流群（QQ）：1134240122
+itch.io：https://sukakanger.itch.io/wuxian
+GitHub：https://github.com/SukaKanger/WuXian
+聚合页：https://vlink.cc/sukakanger
+
+────────────────────────────────────────
+English summary
+WuXian is a fictional, free, open-source visual novel. Characters, places and events are
+fictional. It contains furry characters, same-sex romance branches, mild violence, injury,
+death and disappearance themes, and references to family trauma and medication. Art, CG and
+voice are AI-generated and human-curated; minor visual artifacts may exist. The code is
+licensed under MIT; original story, characters and text under CC BY 4.0. The game is provided
+"as is", without warranty of any kind; the author is not liable for any damages arising from
+its use. Fan works are welcome with attribution; do not impersonate the official release or
+sell the original build.
+
+Contact: SukaKanger · QQ group 1134240122 · https://sukakanger.itch.io/wuxian

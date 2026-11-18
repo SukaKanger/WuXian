@@ -1,0 +1,33 @@
+《雾线》WuXian — 素材与剧情授权 / ASSET & STORY LICENSE
+版本 1.28.16 · SukaKanger · 2026
+
+本文件说明除代码之外的内容授权。代码本身见 LICENSE（MIT）。
+
+1. 原创剧情、角色设定、对白文本、章节结构
+   许可：Creative Commons Attribution 4.0 International（CC BY 4.0）
+   https://creativecommons.org/licenses/by/4.0/
+   你可以复制、改编、翻译、商用、二次分发，只需注明：
+   “基于《雾线》/ WuXian by SukaKanger（https://sukakanger.itch.io/wuxian）创作”。
+
+2. AI 生成图像（立绘、表情差分、背景、CG、部分界面插画）
+   随作品一并开放用于二创与同人制作，注明来源即可。
+   注意：这些图像由 AI 生成，作者不主张其中不可版权化的部分；使用时请自行确认
+   不侵犯第三方（模型、LoRA、素材提供方）的权利。
+
+3. 界面、UI 皮肤、图标、程序化音效
+   与代码同许可：MIT。
+
+4. 音乐与环境音
+   game/audio 下的曲目由作者选用/制作，随作品免费提供，允许在实况、二创视频中直接使用；
+   单独再分发时请注明来源。
+
+5. 引擎与第三方组件
+   本作使用 Ren'Py 引擎及若干开源库（Python、SDL2、Pygame_sdl2、PIL 等），
+   它们各自遵循自身许可，详见游戏目录内 renpy/LICENSE.txt 与各组件附带声明。
+   这些许可不影响你对本作内容的使用。
+
+6. 商标与角色名称
+   “雾线 / WuXian / SukaKanger”作为作品与作者标识，不随上述许可转让。
+   你可以描述“基于雾线”，但不得让受众误以为你的版本是官方发行版。
+
+如对授权有疑问：QQ 群 1134240122 或 itch.io 页面留言。
