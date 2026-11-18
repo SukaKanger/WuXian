@@ -90,24 +90,31 @@ screen say(who, what):
             textbutton _("存档") action ShowMenu('save')
             textbutton _("设置") action ShowMenu('preferences')
 
-            # 笔记本：实物封面小图标 + 文字，挂在对话工具行里（游戏内唯一入口）
-            button:
-                style "vn2_quick_button"
-                action Show("vn2_notebook")
-                hover_sound "audio/ui/hover.wav"
-                activate_sound "audio/ui/back.wav"
+        # 笔记本：独立挂在屏幕右上角，不再和对话工具行挤在一起。
+        button:
+            style "vn2_quick_button"
+            xanchor 1.0
+            xpos 1794
+            ypos 26
+            action Show("vn2_notebook")
+            hover_sound "audio/ui/hover.wav"
+            activate_sound "audio/ui/back.wav"
+
+            frame:
+                background Frame("images/ui/name.png", 18, 6, 18, 6)
+                padding (18, 8, 20, 8)
 
                 hbox:
-                    spacing 8
+                    spacing 10
                     yalign 0.5
 
                     add Transform("images/ui/notebook_cover.png", xysize=(44, 44)):
                         yalign 0.5
-                        yoffset 2
+                        yoffset 1
 
                     text "笔记本":
                         style "vn2_quick_button_text"
-                        size 19
+                        size 20
                         yalign 0.5
 
         key "n" action Show("vn2_notebook")

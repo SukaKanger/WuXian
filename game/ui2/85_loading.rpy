@@ -36,7 +36,7 @@ image vn2_grain_tile = Tile("images/ui/grain.png")
 transform vn2_load_kenburns():
     zoom 1.0
     align (0.5, 0.5)
-    linear 9.0 zoom 1.055
+    linear 15.0 zoom 1.045
 
 
 transform vn2_fog_drift(x0, period, w=2100, y=0, a=1.0):
@@ -48,10 +48,10 @@ transform vn2_fog_drift(x0, period, w=2100, y=0, a=1.0):
 
 
 
-transform vn2_load_line_grow(delay=0.4, w=360):
+transform vn2_load_line_grow(delay=0.6, w=360):
     xsize 0
     pause delay
-    easeout 0.55 xsize w
+    easeout 0.80 xsize w
 
 
 style vn2_load_bar is bar:
@@ -75,10 +75,10 @@ screen vn2_loading():
     add Solid("#050906") alpha 0.52
 
     # ---------- 雾 ----------
-    add "images/ui/fog_b.png" at vn2_fog_drift(0, 66.0, 2100, 232, 0.62)
-    add "images/ui/fog_b.png" at vn2_fog_drift(2100, 66.0, 2100, 232, 0.62)
-    add "images/ui/fog_a.png" at vn2_fog_drift(0, 46.0, 2100, 512, 0.85)
-    add "images/ui/fog_a.png" at vn2_fog_drift(2100, 46.0, 2100, 512, 0.85)
+    add "images/ui/fog_b.png" at vn2_fog_drift(0, 86.0, 2100, 232, 0.62)
+    add "images/ui/fog_b.png" at vn2_fog_drift(2100, 86.0, 2100, 232, 0.62)
+    add "images/ui/fog_a.png" at vn2_fog_drift(0, 62.0, 2100, 512, 0.85)
+    add "images/ui/fog_a.png" at vn2_fog_drift(2100, 62.0, 2100, 512, 0.85)
 
     # ---------- 质感层 ----------
     add "images/ui/vignette.png"
@@ -106,7 +106,7 @@ screen vn2_loading():
 
         fixed:
             xysize (360, 2)
-            add Transform("images/ui/hairline.png", xysize=(360, 2)) alpha 0.55 at vn2_load_line_grow(0.42, 360)
+            add Transform("images/ui/hairline.png", xysize=(360, 2)) alpha 0.55 at vn2_load_line_grow(0.60, 360)
 
         text "二十七日 / 雨林":
             size 20
@@ -164,12 +164,12 @@ screen vn2_logo_splash():
 
 label vn2_logo_splash:
     scene vn2_black with None
-    $ renpy.pause(0.30, hard=True)
-    show screen vn2_logo_splash with Dissolve(0.80)
-    $ renpy.pause(2.00, hard=True)
-    hide screen vn2_logo_splash with Dissolve(0.80)
-    scene vn2_black with Dissolve(0.80)
-    $ renpy.pause(0.10, hard=True)
+    $ renpy.pause(0.40, hard=True)
+    show screen vn2_logo_splash with Dissolve(0.90)
+    $ renpy.pause(2.20, hard=True)
+    hide screen vn2_logo_splash with Dissolve(0.90)
+    scene vn2_black with Dissolve(0.90)
+    $ renpy.pause(0.20, hard=True)
     return
 
 
@@ -187,19 +187,20 @@ label splashscreen:
 
     python:
         _t0 = vn2_now()
-        _dur = 2.4
+        _dur = 3.0
         while vn2_load_progress < 1.0:
             _e = (vn2_now() - _t0) / _dur
             if _e >= 1.0:
                 vn2_load_progress = 1.0
                 break
-            vn2_load_progress = 1.0 - (1.0 - _e) ** 2
+            # smoothstep：起手和收尾都慢，中段才走，避免 2 秒冲到底又干等
+            vn2_load_progress = _e * _e * (3.0 - 2.0 * _e)
             renpy.restart_interaction()
             if renpy.pause(0.04):
                 vn2_load_progress = 1.0
                 break
 
-    $ renpy.pause(0.30, hard=True)
+    $ renpy.pause(0.40, hard=True)
     hide screen vn2_loading
-    with Dissolve(0.45)
+    with Dissolve(0.70)
     return

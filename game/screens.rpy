@@ -485,6 +485,21 @@ style game_menu_label_text is gui_label_text
 style return_button is navigation_button
 style return_button_text is navigation_button_text
 
+## 桌面端也统一：整块底板、文字水平垂直居中，不再用默认的小字左对齐按钮。
+style return_button:
+    xsize 300
+    ysize 72
+    background Solid("#0d130dcc")
+    hover_background Solid("#222b22ee")
+    selected_background Solid("#222b22ee")
+    padding (12, 10)
+
+style return_button_text:
+    size 26
+    xalign 0.5
+    yalign 0.5
+    text_align 0.5
+
 style game_menu_outer_frame:
     bottom_padding gui.scale(30)
     top_padding gui.scale(120)
@@ -1513,6 +1528,25 @@ screen quick_menu():
     ## touch quick menu is disabled so the bottom Back/Skip/Auto/Menu
     ## bar does not overlap the custom in-game controls.
     pass
+
+
+## 手机端设置/存档等菜单的「返回」不再用默认的小字按钮：
+## 放大触控区，整块可点，文字居中。
+style return_button:
+    variant "small"
+    xsize gui.scale(300)
+    ysize gui.scale(88)
+    background Solid("#0d130dcc")
+    hover_background Solid("#222b22ee")
+    selected_background Solid("#222b22ee")
+    padding (14, 12)
+
+style return_button_text:
+    variant "small"
+    size gui.scale(30)
+    xalign 0.5
+    yalign 0.5
+    text_align 0.5
 
 
 style window:

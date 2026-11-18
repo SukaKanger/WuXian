@@ -223,6 +223,7 @@ init python:
     ## 内部迭代文档与开发存档不进发行包（仓库内保留）：
     ## game/_docs 存游戏口径、契约、审查报告与历史记录，其中含已被否定的旧方案。
     build.classify('game/_docs/**', None)
+    build.classify('_docs/**', None)
     build.classify('game/saves/**', None)
 
     ## 发版时排除项目根目录下的历史备份、图标工作目录和验收截图，
@@ -234,6 +235,8 @@ init python:
     ## 不把已生成的旧 APK、开发工具、语音源 WAV 和 QA 工程压进新 APK。
     build.classify('*.apk', None)
     build.classify('*.zip', None)
+    build.classify('*.keystore', None)
+    build.classify('*.jks', None)
     build.classify('_tools/**', None)
     build.classify('_voice_source_wav/**', None)
     build.classify('_qa_headless*/**', None)

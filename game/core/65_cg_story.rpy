@@ -31,26 +31,49 @@ init -1 python:
         if spec.get("bgm"):
             vn2_bgm(spec["bgm"], fade=spec.get("bgm_fade", 1.8))
 
-        # 先压黑，再让画面从黑里滑进来
         black = spec.get("black", 0.0)
+
+        # 快进时不要演入画：直接落定，避免动画把快进节奏打断。
+        if renpy.get_skipping():
+            try:
+                renpy.show(
+                    "vn2_cg_frame",
+                    what=renpy.displayable(path),
+                    tag="vn2_cg_frame",
+                    at_list=[Transform(xalign=0.5, yalign=0.5, zoom=1.0)],
+                    zorder=30,
+                )
+            except Exception as e:
+                renpy.log("VN2 CG show failed: %r" % (e,))
+            if black > 0:
+                renpy.with_statement(None)
+            return
+
+        # 先压黑，再让画面从黑里亮起来；黑场期间画面已经就位，
+        # 亮起后只做很轻的漂移和推近，不再横向滑进。
         if black > 0:
             renpy.with_statement(renpy.store.Fade(black, 0.02, 0.0))
+
+        settle_dur = max(2.0, min(3.2, float(spec.get("dur", 2.0))))
+        settle_push_t = max(2.6, float(spec.get("push_t", 3.0)))
+        z_start = min(1.08, max(0.96, float(spec.get("z0", 1.0))))
+        reveal = max(0.55, float(spec.get("reveal", 0.8)))
 
         try:
             renpy.show(
                 "vn2_cg_frame",
                 what=renpy.displayable(path),
                 tag="vn2_cg_frame",
-                at_list=[vn2_cg_enter(spec["sx"], spec["sy"], spec["z0"],
-                                     spec["dur"], spec["push"],
-                                     max(0.02, spec["push_t"]))],
+                at_list=[vn2_cg_settle(spec["sx"], spec["sy"], z_start,
+                                       settle_dur, spec["push"],
+                                       settle_push_t, reveal)],
                 zorder=30,
             )
         except Exception as e:
             renpy.log("VN2 CG show failed: %r" % (e,))
 
         if black > 0:
-            renpy.with_statement(renpy.store.Fade(0.02, 0.0, spec.get("reveal", 0.6)))
+            renpy.with_statement(renpy.store.Fade(0.02, 0.0, reveal))
         elif trans is not None:
             renpy.with_statement(trans)
 
@@ -75,7 +98,7 @@ init -1 python:
                 )
             except Exception:
                 pass
-        if trans is not None:
+        if trans is not None and not renpy.get_skipping():
             renpy.with_statement(trans)
 
 

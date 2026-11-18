@@ -1,0 +1,4122 @@
+[
+  {
+    "speaker": "lan",
+    "file": "story/ch01.rpy",
+    "line": 24,
+    "display_text": "前面三里有个旧栈道。地图上标着，但没人走过。",
+    "tts_text": "前面三里有个旧栈道。地图上标着，但没人走过。",
+    "wav": "_voice_source_wav/lan/lan_0001.wav",
+    "ogg": "voice/lan/lan_0001.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0001.wav"
+  },
+  {
+    "speaker": "bai",
+    "file": "story/ch01.rpy",
+    "line": 33,
+    "display_text": "你的肩膀昨天就裂了。别撑。",
+    "tts_text": "你的肩膀昨天就裂了。别撑。",
+    "wav": "_voice_source_wav/bai/bai_0001.wav",
+    "ogg": "voice/bai/bai_0001.ogg",
+    "source_wav": "_voice_source_wav/bai/bai_0001.wav"
+  },
+  {
+    "speaker": "qing",
+    "file": "story/ch01.rpy",
+    "line": 42,
+    "display_text": "那就走。天一亮，雾散不散，看命。",
+    "tts_text": "那就走。天一亮，雾散不散，看命。",
+    "wav": "_voice_source_wav/qing/qing_0001.wav",
+    "ogg": "voice/qing/qing_0001.ogg",
+    "source_wav": "_voice_source_wav/qing/qing_0001.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch01.rpy",
+    "line": 56,
+    "display_text": "这条线，不是我画的。",
+    "tts_text": "这条线，不是我画的。",
+    "wav": "_voice_source_wav/lan/lan_0002.wav",
+    "ogg": "voice/lan/lan_0002.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0002.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch01.rpy",
+    "line": 58,
+    "display_text": "先记着。别追着问。",
+    "tts_text": "先记着。别追着问。",
+    "wav": "_voice_source_wav/lan/lan_0003.wav",
+    "ogg": "voice/lan/lan_0003.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0003.wav"
+  },
+  {
+    "speaker": "bai",
+    "file": "story/ch01.rpy",
+    "line": 67,
+    "display_text": "烫就说。",
+    "tts_text": "烫就说。",
+    "wav": "_voice_source_wav/bai/bai_0002.wav",
+    "ogg": "voice/bai/bai_0002.ogg",
+    "source_wav": "_voice_source_wav/bai/bai_0002.wav"
+  },
+  {
+    "speaker": "bai",
+    "file": "story/ch01.rpy",
+    "line": 68,
+    "display_text": "你们一个个都当我这儿是修东西的。",
+    "tts_text": "你们一个个都当我这儿是修东西的。",
+    "wav": "_voice_source_wav/bai/bai_0003.wav",
+    "ogg": "voice/bai/bai_0003.ogg",
+    "source_wav": "_voice_source_wav/bai/bai_0003.wav"
+  },
+  {
+    "speaker": "qing",
+    "file": "story/ch01.rpy",
+    "line": 77,
+    "display_text": "雾不看时辰。它想散就散。",
+    "tts_text": "雾不看时辰。它想散就散。",
+    "wav": "_voice_source_wav/qing/qing_0002.wav",
+    "ogg": "voice/qing/qing_0002.ogg",
+    "source_wav": "_voice_source_wav/qing/qing_0002.wav"
+  },
+  {
+    "speaker": "qing",
+    "file": "story/ch01.rpy",
+    "line": 79,
+    "display_text": "不过今天会散。我闻得出来。",
+    "tts_text": "不过今天会散。我闻得出来。",
+    "wav": "_voice_source_wav/qing/qing_0003.wav",
+    "ogg": "voice/qing/qing_0003.ogg",
+    "source_wav": "_voice_source_wav/qing/qing_0003.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch01.rpy",
+    "line": 102,
+    "display_text": "前半夜雾重。你先睡，我守头一班。",
+    "tts_text": "前半夜雾重。你先睡，我守头一班。",
+    "wav": "_voice_source_wav/lan/lan_0004.wav",
+    "ogg": "voice/lan/lan_0004.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0004.wav"
+  },
+  {
+    "speaker": "qing",
+    "file": "story/ch01.rpy",
+    "line": 108,
+    "display_text": "箱角磕过一回。这回不歪了。",
+    "tts_text": "箱角磕过一回。这回不歪了。",
+    "wav": "_voice_source_wav/qing/qing_0004.wav",
+    "ogg": "voice/qing/qing_0004.ogg",
+    "source_wav": "_voice_source_wav/qing/qing_0004.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch01.rpy",
+    "line": 133,
+    "display_text": "看见那条断线没有？断在这儿，可栈道不该断。",
+    "tts_text": "看见那条断线没有？断在这儿，可栈道不该断。",
+    "wav": "_voice_source_wav/lan/lan_0005.wav",
+    "ogg": "voice/lan/lan_0005.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0005.wav"
+  },
+  {
+    "speaker": "qing",
+    "file": "story/ch01.rpy",
+    "line": 148,
+    "display_text": "箱角别磕石头。里面的东西比我娇气。",
+    "tts_text": "箱角别磕石头。里面的东西比我娇气。",
+    "wav": "_voice_source_wav/qing/qing_0005.wav",
+    "ogg": "voice/qing/qing_0005.ogg",
+    "source_wav": "_voice_source_wav/qing/qing_0005.wav"
+  },
+  {
+    "speaker": "bai",
+    "file": "story/ch02.rpy",
+    "line": 18,
+    "display_text": "先缠好。踩上去手要抓边绳，裂口别再扯开。",
+    "tts_text": "先缠好。踩上去手要抓边绳，裂口别再扯开。",
+    "wav": "_voice_source_wav/bai/bai_0004.wav",
+    "ogg": "voice/bai/bai_0004.ogg",
+    "source_wav": "_voice_source_wav/bai/bai_0004.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch02.rpy",
+    "line": 32,
+    "display_text": "地图上写这儿是桥。可这不像桥。",
+    "tts_text": "地图上写这儿是桥。可这不像桥。",
+    "wav": "_voice_source_wav/lan/lan_0006.wav",
+    "ogg": "voice/lan/lan_0006.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0006.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch02.rpy",
+    "line": 35,
+    "display_text": "……那不叫桥。那叫盖在上面的东西。",
+    "tts_text": "……那不叫桥。那叫盖在上面的东西。",
+    "wav": "_voice_source_wav/lan/lan_0007.wav",
+    "ogg": "voice/lan/lan_0007.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0007.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch02.rpy",
+    "line": 56,
+    "display_text": "有人在这上面又盖了一层。",
+    "tts_text": "有人在这上面又盖了一层。",
+    "wav": "_voice_source_wav/lan/lan_0008.wav",
+    "ogg": "voice/lan/lan_0008.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0008.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch02.rpy",
+    "line": 59,
+    "display_text": "钉子是铁的。这一带早先有人走过，走过不止一回。",
+    "tts_text": "钉子是铁的。这一带早先有人走过，走过不止一回。",
+    "wav": "_voice_source_wav/lan/lan_0009.wav",
+    "ogg": "voice/lan/lan_0009.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0009.wav"
+  },
+  {
+    "speaker": "bai",
+    "file": "story/ch02.rpy",
+    "line": 66,
+    "display_text": "泡了太久。再下一场雨，就撑不住。",
+    "tts_text": "泡了太久。再下一场雨，就撑不住。",
+    "wav": "_voice_source_wav/bai/bai_0005.wav",
+    "ogg": "voice/bai/bai_0005.ogg",
+    "source_wav": "_voice_source_wav/bai/bai_0005.wav"
+  },
+  {
+    "speaker": "bai",
+    "file": "story/ch02.rpy",
+    "line": 69,
+    "display_text": "这条板先记着。过的时候别在上面停。",
+    "tts_text": "这条板先记着。过的时候别在上面停。",
+    "wav": "_voice_source_wav/bai/bai_0006.wav",
+    "ogg": "voice/bai/bai_0006.ogg",
+    "source_wav": "_voice_source_wav/bai/bai_0006.wav"
+  },
+  {
+    "speaker": "bai",
+    "file": "story/ch02.rpy",
+    "line": 91,
+    "display_text": "手伸过来。",
+    "tts_text": "手伸过来。",
+    "wav": "_voice_source_wav/bai/bai_0007.wav",
+    "ogg": "voice/bai/bai_0007.ogg",
+    "source_wav": "_voice_source_wav/bai/bai_0007.wav"
+  },
+  {
+    "speaker": "bai",
+    "file": "story/ch02.rpy",
+    "line": 94,
+    "display_text": "手稳着。抓边绳别攥太死。",
+    "tts_text": "手稳着。抓边绳别攥太死。",
+    "wav": "_voice_source_wav/bai/bai_0008.wav",
+    "ogg": "voice/bai/bai_0008.ogg",
+    "source_wav": "_voice_source_wav/bai/bai_0008.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch02.rpy",
+    "line": 101,
+    "display_text": "垫稳了。后面的人过这儿，脚不会滑。",
+    "tts_text": "垫稳了。后面的人过这儿，脚不会滑。",
+    "wav": "_voice_source_wav/lan/lan_0010.wav",
+    "ogg": "voice/lan/lan_0010.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0010.wav"
+  },
+  {
+    "speaker": "qing",
+    "file": "story/ch02.rpy",
+    "line": 106,
+    "display_text": "板上有水。箱子搁在干处，别贴着板缝。",
+    "tts_text": "板上有水。箱子搁在干处，别贴着板缝。",
+    "wav": "_voice_source_wav/qing/qing_0006.wav",
+    "ogg": "voice/qing/qing_0006.ogg",
+    "source_wav": "_voice_source_wav/qing/qing_0006.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch02.rpy",
+    "line": 128,
+    "display_text": "铁钉，不是木楔。这一带早先有人来过。",
+    "tts_text": "铁钉，不是木楔。这一带早先有人来过。",
+    "wav": "_voice_source_wav/lan/lan_0011.wav",
+    "ogg": "voice/lan/lan_0011.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0011.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch02.rpy",
+    "line": 130,
+    "display_text": "旧钉的位置别圈出来。点着就行。",
+    "tts_text": "旧钉的位置别圈出来。点着就行。",
+    "wav": "_voice_source_wav/lan/lan_0012.wav",
+    "ogg": "voice/lan/lan_0012.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0012.wav"
+  },
+  {
+    "speaker": "bai",
+    "file": "story/ch02.rpy",
+    "line": 137,
+    "display_text": "药布渗了汗。晚上我再换。",
+    "tts_text": "药布渗了汗。晚上我再换。",
+    "wav": "_voice_source_wav/bai/bai_0009.wav",
+    "ogg": "voice/bai/bai_0009.ogg",
+    "source_wav": "_voice_source_wav/bai/bai_0009.wav"
+  },
+  {
+    "speaker": "qing",
+    "file": "story/ch02.rpy",
+    "line": 145,
+    "display_text": "淋过雨的样本，读数就废了。",
+    "tts_text": "淋过雨的样本，读数就废了。",
+    "wav": "_voice_source_wav/qing/qing_0007.wav",
+    "ogg": "voice/qing/qing_0007.ogg",
+    "source_wav": "_voice_source_wav/qing/qing_0007.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch02.rpy",
+    "line": 174,
+    "display_text": "今晚就在这儿落。三处，各有各的毛病。",
+    "tts_text": "今晚就在这儿落。三处，各有各的毛病。",
+    "wav": "_voice_source_wav/lan/lan_0013.wav",
+    "ogg": "voice/lan/lan_0013.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0013.wav"
+  },
+  {
+    "speaker": "bai",
+    "file": "story/ch02.rpy",
+    "line": 180,
+    "display_text": "布返潮了。地底下的水，今晚还没全退。",
+    "tts_text": "布返潮了。地底下的水，今晚还没全退。",
+    "wav": "_voice_source_wav/bai/bai_0010.wav",
+    "ogg": "voice/bai/bai_0010.ogg",
+    "source_wav": "_voice_source_wav/bai/bai_0010.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch02.rpy",
+    "line": 193,
+    "display_text": "这块。脚踩下去不下陷。边上那块一踩一个软坑，不能睡人。",
+    "tts_text": "这块。脚踩下去不下陷。边上那块一踩一个软坑，不能睡人。",
+    "wav": "_voice_source_wav/lan/lan_0014.wav",
+    "ogg": "voice/lan/lan_0014.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0014.wav"
+  },
+  {
+    "speaker": "bai",
+    "file": "story/ch02.rpy",
+    "line": 198,
+    "display_text": "地是湿的。睡袋底下得垫两层干枝，别直接贴泥。",
+    "tts_text": "地是湿的。睡袋底下得垫两层干枝，别直接贴泥。",
+    "wav": "_voice_source_wav/bai/bai_0011.wav",
+    "ogg": "voice/bai/bai_0011.ogg",
+    "source_wav": "_voice_source_wav/bai/bai_0011.wav"
+  },
+  {
+    "speaker": "bai",
+    "file": "story/ch02.rpy",
+    "line": 209,
+    "display_text": "这块干。潮气在半尺以下，布心没返。",
+    "tts_text": "这块干。潮气在半尺以下，布心没返。",
+    "wav": "_voice_source_wav/bai/bai_0012.wav",
+    "ogg": "voice/bai/bai_0012.ogg",
+    "source_wav": "_voice_source_wav/bai/bai_0012.wav"
+  },
+  {
+    "speaker": "bai",
+    "file": "story/ch02.rpy",
+    "line": 211,
+    "display_text": "就是头上这些枝，不牢靠。夜里风一拽，说不准落哪根。",
+    "tts_text": "就是头上这些枝，不牢靠。夜里风一拽，说不准落哪根。",
+    "wav": "_voice_source_wav/bai/bai_0013.wav",
+    "ogg": "voice/bai/bai_0013.ogg",
+    "source_wav": "_voice_source_wav/bai/bai_0013.wav"
+  },
+  {
+    "speaker": "bai",
+    "file": "story/ch03.rpy",
+    "line": 16,
+    "display_text": "石头还在动。别靠边。",
+    "tts_text": "石头还在动。别靠边。",
+    "wav": "_voice_source_wav/bai/bai_0014.wav",
+    "ogg": "voice/bai/bai_0014.ogg",
+    "source_wav": "_voice_source_wav/bai/bai_0014.wav"
+  },
+  {
+    "speaker": "bai",
+    "file": "story/ch03.rpy",
+    "line": 41,
+    "display_text": "不稳就是死。稳了再动。",
+    "tts_text": "不稳就是死。稳了再动。",
+    "wav": "_voice_source_wav/bai/bai_0015.wav",
+    "ogg": "voice/bai/bai_0015.ogg",
+    "source_wav": "_voice_source_wav/bai/bai_0015.wav"
+  },
+  {
+    "speaker": "qing",
+    "file": "story/ch03.rpy",
+    "line": 51,
+    "display_text": "箱子比人慢一步。谢了。",
+    "tts_text": "箱子比人慢一步。谢了。",
+    "wav": "_voice_source_wav/qing/qing_0008.wav",
+    "ogg": "voice/qing/qing_0008.ogg",
+    "source_wav": "_voice_source_wav/qing/qing_0008.wav"
+  },
+  {
+    "speaker": "bai",
+    "file": "story/ch03.rpy",
+    "line": 73,
+    "display_text": "今天别再抬重物。",
+    "tts_text": "今天别再抬重物。",
+    "wav": "_voice_source_wav/bai/bai_0016.wav",
+    "ogg": "voice/bai/bai_0016.ogg",
+    "source_wav": "_voice_source_wav/bai/bai_0016.wav"
+  },
+  {
+    "speaker": "bai",
+    "file": "story/ch03.rpy",
+    "line": 77,
+    "display_text": "你这只耳朵，缺过一角。旧伤，不长新肉了。",
+    "tts_text": "你这只耳朵，缺过一角。旧伤，不长新肉了。",
+    "wav": "_voice_source_wav/bai/bai_0017.wav",
+    "ogg": "voice/bai/bai_0017.ogg",
+    "source_wav": "_voice_source_wav/bai/bai_0017.wav"
+  },
+  {
+    "speaker": "qing",
+    "file": "story/ch03.rpy",
+    "line": 86,
+    "display_text": "没湿。这一趟，值。",
+    "tts_text": "没湿。这一趟，值。",
+    "wav": "_voice_source_wav/qing/qing_0009.wav",
+    "ogg": "voice/qing/qing_0009.ogg",
+    "source_wav": "_voice_source_wav/qing/qing_0009.wav"
+  },
+  {
+    "speaker": "qing",
+    "file": "story/ch03.rpy",
+    "line": 91,
+    "display_text": "干处留出来，箱子才放得稳。",
+    "tts_text": "干处留出来，箱子才放得稳。",
+    "wav": "_voice_source_wav/qing/qing_0010.wav",
+    "ogg": "voice/qing/qing_0010.ogg",
+    "source_wav": "_voice_source_wav/qing/qing_0010.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch03.rpy",
+    "line": 105,
+    "display_text": "你压过一次锚。这绳你收，我不抢。",
+    "tts_text": "你压过一次锚。这绳你收，我不抢。",
+    "wav": "_voice_source_wav/lan/lan_0015.wav",
+    "ogg": "voice/lan/lan_0015.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0015.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch03.rpy",
+    "line": 112,
+    "display_text": "这里原本有路。图上擦掉了，坡也是后来塌的。",
+    "tts_text": "这里原本有路。图上擦掉了，坡也是后来塌的。",
+    "wav": "_voice_source_wav/lan/lan_0016.wav",
+    "ogg": "voice/lan/lan_0016.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0016.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch03.rpy",
+    "line": 114,
+    "display_text": "擦掉的路，图上补不回来。人记住走向就行。",
+    "tts_text": "擦掉的路，图上补不回来。人记住走向就行。",
+    "wav": "_voice_source_wav/lan/lan_0017.wav",
+    "ogg": "voice/lan/lan_0017.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0017.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch03.rpy",
+    "line": 118,
+    "display_text": "黑里走夜路，灯不能先灭。",
+    "tts_text": "黑里走夜路，灯不能先灭。",
+    "wav": "_voice_source_wav/lan/lan_0018.wav",
+    "ogg": "voice/lan/lan_0018.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0018.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch04.rpy",
+    "line": 33,
+    "display_text": "上一任队长，也在这片林子里。",
+    "tts_text": "上一任队长，也在这片林子里。",
+    "wav": "_voice_source_wav/lan/lan_0019.wav",
+    "ogg": "voice/lan/lan_0019.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0019.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch04.rpy",
+    "line": 35,
+    "display_text": "他带六个人进来。出去四个。",
+    "tts_text": "他带六个人进来。出去四个。",
+    "wav": "_voice_source_wav/lan/lan_0020.wav",
+    "ogg": "voice/lan/lan_0020.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0020.wav"
+  },
+  {
+    "speaker": "qing",
+    "file": "story/ch04.rpy",
+    "line": 48,
+    "display_text": "那两个不是死。是没找到。",
+    "tts_text": "那两个不是死。是没找到。",
+    "wav": "_voice_source_wav/qing/qing_0011.wav",
+    "ogg": "voice/qing/qing_0011.ogg",
+    "source_wav": "_voice_source_wav/qing/qing_0011.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch04.rpy",
+    "line": 49,
+    "display_text": "……一样。",
+    "tts_text": "……一样。",
+    "wav": "_voice_source_wav/lan/lan_0021.wav",
+    "ogg": "voice/lan/lan_0021.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0021.wav"
+  },
+  {
+    "speaker": "qing",
+    "file": "story/ch04.rpy",
+    "line": 51,
+    "display_text": "找到找不到，先把人凑齐。散在林子里，喊是喊不回来的。",
+    "tts_text": "找到找不到，先把人凑齐。散在林子里，喊是喊不回来的。",
+    "wav": "_voice_source_wav/qing/qing_0012.wav",
+    "ogg": "voice/qing/qing_0012.ogg",
+    "source_wav": "_voice_source_wav/qing/qing_0012.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch04.rpy",
+    "line": 60,
+    "display_text": "雨里听不见喊声。离火之前，先把绳结留在树上。",
+    "tts_text": "雨里听不见喊声。离火之前，先把绳结留在树上。",
+    "wav": "_voice_source_wav/lan/lan_0022.wav",
+    "ogg": "voice/lan/lan_0022.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0022.wav"
+  },
+  {
+    "speaker": "bai",
+    "file": "story/ch04.rpy",
+    "line": 93,
+    "display_text": "……你那只胳膊，别硬撑。",
+    "tts_text": "……你那只胳膊，别硬撑。",
+    "wav": "_voice_source_wav/bai/bai_0018.wav",
+    "ogg": "voice/bai/bai_0018.ogg",
+    "source_wav": "_voice_source_wav/bai/bai_0018.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch04.rpy",
+    "line": 103,
+    "display_text": "坐着别说话。眼睛扫四周，隔一阵换一个方向。",
+    "tts_text": "坐着别说话。眼睛扫四周，隔一阵换一个方向。",
+    "wav": "_voice_source_wav/lan/lan_0023.wav",
+    "ogg": "voice/lan/lan_0023.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0023.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch04.rpy",
+    "line": 121,
+    "display_text": "一个姓陈。一个没名字，队里都叫他小七。",
+    "tts_text": "一个姓陈。一个没名字，队里都叫他小七。",
+    "wav": "_voice_source_wav/lan/lan_0024.wav",
+    "ogg": "voice/lan/lan_0024.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0024.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch04.rpy",
+    "line": 123,
+    "display_text": "也是一场这样的雨。队里散开找人，再没凑齐。",
+    "tts_text": "也是一场这样的雨。队里散开找人，再没凑齐。",
+    "wav": "_voice_source_wav/lan/lan_0025.wav",
+    "ogg": "voice/lan/lan_0025.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0025.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch04.rpy",
+    "line": 127,
+    "display_text": "铁盒后来在半坡找到。人不在。",
+    "tts_text": "铁盒后来在半坡找到。人不在。",
+    "wav": "_voice_source_wav/lan/lan_0026.wav",
+    "ogg": "voice/lan/lan_0026.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0026.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch04.rpy",
+    "line": 133,
+    "display_text": "……行。后半夜还有得讲。",
+    "tts_text": "……行。后半夜还有得讲。",
+    "wav": "_voice_source_wav/lan/lan_0027.wav",
+    "ogg": "voice/lan/lan_0027.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0027.wav"
+  },
+  {
+    "speaker": "bai",
+    "file": "story/ch04.rpy",
+    "line": 143,
+    "display_text": "去睡。两个人轮，比一个人硬撑强。",
+    "tts_text": "去睡。两个人轮，比一个人硬撑强。",
+    "wav": "_voice_source_wav/bai/bai_0019.wav",
+    "ogg": "voice/bai/bai_0019.ogg",
+    "source_wav": "_voice_source_wav/bai/bai_0019.wav"
+  },
+  {
+    "speaker": "bai",
+    "file": "story/ch04.rpy",
+    "line": 145,
+    "display_text": "你那只胳膊今晚不许再用力。药布我睡前看过，没渗。",
+    "tts_text": "你那只胳膊今晚不许再用力。药布我睡前看过，没渗。",
+    "wav": "_voice_source_wav/bai/bai_0020.wav",
+    "ogg": "voice/bai/bai_0020.ogg",
+    "source_wav": "_voice_source_wav/bai/bai_0020.wav"
+  },
+  {
+    "speaker": "bai",
+    "file": "story/ch04.rpy",
+    "line": 152,
+    "display_text": "布带没松。夜里别压着它睡。",
+    "tts_text": "布带没松。夜里别压着它睡。",
+    "wav": "_voice_source_wav/bai/bai_0021.wav",
+    "ogg": "voice/bai/bai_0021.ogg",
+    "source_wav": "_voice_source_wav/bai/bai_0021.wav"
+  },
+  {
+    "speaker": "bai",
+    "file": "story/ch04.rpy",
+    "line": 176,
+    "display_text": "手我自己有数。你的胳膊别再用力。",
+    "tts_text": "手我自己有数。你的胳膊别再用力。",
+    "wav": "_voice_source_wav/bai/bai_0022.wav",
+    "ogg": "voice/bai/bai_0022.ogg",
+    "source_wav": "_voice_source_wav/bai/bai_0022.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch04.rpy",
+    "line": 184,
+    "display_text": "这一片。图上擦过，路也塌了。",
+    "tts_text": "这一片。图上擦过，路也塌了。",
+    "wav": "_voice_source_wav/lan/lan_0028.wav",
+    "ogg": "voice/lan/lan_0028.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0028.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch04.rpy",
+    "line": 186,
+    "display_text": "记着方位。真散了，往高处找。",
+    "tts_text": "记着方位。真散了，往高处找。",
+    "wav": "_voice_source_wav/lan/lan_0029.wav",
+    "ogg": "voice/lan/lan_0029.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0029.wav"
+  },
+  {
+    "speaker": "qing",
+    "file": "story/ch04.rpy",
+    "line": 196,
+    "display_text": "……嗯。",
+    "tts_text": "……嗯。",
+    "wav": "_voice_source_wav/qing/qing_0013.wav",
+    "ogg": "voice/qing/qing_0013.ogg",
+    "source_wav": "_voice_source_wav/qing/qing_0013.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch04.rpy",
+    "line": 208,
+    "display_text": "别圈出来。先点着就行。",
+    "tts_text": "别圈出来。先点着就行。",
+    "wav": "_voice_source_wav/lan/lan_0030.wav",
+    "ogg": "voice/lan/lan_0030.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0030.wav"
+  },
+  {
+    "speaker": "bai",
+    "file": "story/ch04.rpy",
+    "line": 221,
+    "display_text": "左胳膊抬不起来就直说。别瞒。",
+    "tts_text": "左胳膊抬不起来就直说。别瞒。",
+    "wav": "_voice_source_wav/bai/bai_0023.wav",
+    "ogg": "voice/bai/bai_0023.ogg",
+    "source_wav": "_voice_source_wav/bai/bai_0023.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch05.rpy",
+    "line": 29,
+    "display_text": "这种结，越拉越紧。松不了。",
+    "tts_text": "这种结，越拉越紧。松不了。",
+    "wav": "_voice_source_wav/lan/lan_0031.wav",
+    "ogg": "voice/lan/lan_0031.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0031.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch05.rpy",
+    "line": 31,
+    "display_text": "像。",
+    "tts_text": "像。",
+    "wav": "_voice_source_wav/lan/lan_0032.wav",
+    "ogg": "voice/lan/lan_0032.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0032.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch05.rpy",
+    "line": 52,
+    "display_text": "成了。以后你打，我不用看。",
+    "tts_text": "成了。以后你打，我不用看。",
+    "wav": "_voice_source_wav/lan/lan_0033.wav",
+    "ogg": "voice/lan/lan_0033.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0033.wav"
+  },
+  {
+    "speaker": "bai",
+    "file": "story/ch05.rpy",
+    "line": 62,
+    "display_text": "绳是死的，人要活的。两种都得会。",
+    "tts_text": "绳是死的，人要活的。两种都得会。",
+    "wav": "_voice_source_wav/bai/bai_0024.wav",
+    "ogg": "voice/bai/bai_0024.ogg",
+    "source_wav": "_voice_source_wav/bai/bai_0024.wav"
+  },
+  {
+    "speaker": "bai",
+    "file": "story/ch05.rpy",
+    "line": 64,
+    "display_text": "吊着胳膊，别硬拉。绳尾绕两圈再收，省手。",
+    "tts_text": "吊着胳膊，别硬拉。绳尾绕两圈再收，省手。",
+    "wav": "_voice_source_wav/bai/bai_0025.wav",
+    "ogg": "voice/bai/bai_0025.ogg",
+    "source_wav": "_voice_source_wav/bai/bai_0025.wav"
+  },
+  {
+    "speaker": "qing",
+    "file": "story/ch05.rpy",
+    "line": 73,
+    "display_text": "箱绳只打活扣。翻山要开箱，不能跟箱子较劲。",
+    "tts_text": "箱绳只打活扣。翻山要开箱，不能跟箱子较劲。",
+    "wav": "_voice_source_wav/qing/qing_0014.wav",
+    "ogg": "voice/qing/qing_0014.ogg",
+    "source_wav": "_voice_source_wav/qing/qing_0014.wav"
+  },
+  {
+    "speaker": "qing",
+    "file": "story/ch05.rpy",
+    "line": 103,
+    "display_text": "坐这儿。布是干的。",
+    "tts_text": "坐这儿。布是干的。",
+    "wav": "_voice_source_wav/qing/qing_0015.wav",
+    "ogg": "voice/qing/qing_0015.ogg",
+    "source_wav": "_voice_source_wav/qing/qing_0015.wav"
+  },
+  {
+    "speaker": "bai",
+    "file": "story/ch05.rpy",
+    "line": 117,
+    "display_text": "不僵了。阴天还会紧，不碍事。",
+    "tts_text": "不僵了。阴天还会紧，不碍事。",
+    "wav": "_voice_source_wav/bai/bai_0026.wav",
+    "ogg": "voice/bai/bai_0026.ogg",
+    "source_wav": "_voice_source_wav/bai/bai_0026.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch05.rpy",
+    "line": 125,
+    "display_text": "两段都带上。死结绑东西，活扣救人。",
+    "tts_text": "两段都带上。死结绑东西，活扣救人。",
+    "wav": "_voice_source_wav/lan/lan_0034.wav",
+    "ogg": "voice/lan/lan_0034.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0034.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch05.rpy",
+    "line": 137,
+    "display_text": "练熟了，黑里也打得出来。",
+    "tts_text": "练熟了，黑里也打得出来。",
+    "wav": "_voice_source_wav/lan/lan_0035.wav",
+    "ogg": "voice/lan/lan_0035.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0035.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch05.rpy",
+    "line": 146,
+    "display_text": "吊东西。也吊人。",
+    "tts_text": "吊东西。也吊人。",
+    "wav": "_voice_source_wav/lan/lan_0036.wav",
+    "ogg": "voice/lan/lan_0036.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0036.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch05.rpy",
+    "line": 148,
+    "display_text": "……别问了。",
+    "tts_text": "……别问了。",
+    "wav": "_voice_source_wav/lan/lan_0037.wav",
+    "ogg": "voice/lan/lan_0037.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0037.wav"
+  },
+  {
+    "speaker": "bai",
+    "file": "story/ch05.rpy",
+    "line": 156,
+    "display_text": "活扣救命，死结绑人。都带上。",
+    "tts_text": "活扣救命，死结绑人。都带上。",
+    "wav": "_voice_source_wav/bai/bai_0027.wav",
+    "ogg": "voice/bai/bai_0027.ogg",
+    "source_wav": "_voice_source_wav/bai/bai_0027.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch06.rpy",
+    "line": 16,
+    "display_text": "[player_name]！",
+    "tts_text": "队长！",
+    "wav": "_voice_source_wav/lan/lan_0038.wav",
+    "ogg": "voice/lan/lan_0038.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0038.wav"
+  },
+  {
+    "speaker": "bai",
+    "file": "story/ch06.rpy",
+    "line": 43,
+    "display_text": "我这边顺路收记号。你跟上。",
+    "tts_text": "我这边顺路收记号。你跟上。",
+    "wav": "_voice_source_wav/bai/bai_0028.wav",
+    "ogg": "voice/bai/bai_0028.ogg",
+    "source_wav": "_voice_source_wav/bai/bai_0028.wav"
+  },
+  {
+    "speaker": "qing",
+    "file": "story/ch06.rpy",
+    "line": 52,
+    "display_text": "浅的那串走得急。深的那串，扛了东西。",
+    "tts_text": "浅的那串走得急。深的那串，扛了东西。",
+    "wav": "_voice_source_wav/qing/qing_0016.wav",
+    "ogg": "voice/qing/qing_0016.ogg",
+    "source_wav": "_voice_source_wav/qing/qing_0016.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch06.rpy",
+    "line": 67,
+    "display_text": "我以为你们走了另一条。",
+    "tts_text": "我以为你们走了另一条。",
+    "wav": "_voice_source_wav/lan/lan_0039.wav",
+    "ogg": "voice/lan/lan_0039.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0039.wav"
+  },
+  {
+    "speaker": "bai",
+    "file": "story/ch06.rpy",
+    "line": 77,
+    "display_text": "走散就站在原地。这是规矩。",
+    "tts_text": "走散就站在原地。这是规矩。",
+    "wav": "_voice_source_wav/bai/bai_0029.wav",
+    "ogg": "voice/bai/bai_0029.ogg",
+    "source_wav": "_voice_source_wav/bai/bai_0029.wav"
+  },
+  {
+    "speaker": "qing",
+    "file": "story/ch06.rpy",
+    "line": 87,
+    "display_text": "人可以淋。箱子不行。",
+    "tts_text": "人可以淋。箱子不行。",
+    "wav": "_voice_source_wav/qing/qing_0017.wav",
+    "ogg": "voice/qing/qing_0017.ogg",
+    "source_wav": "_voice_source_wav/qing/qing_0017.wav"
+  },
+  {
+    "speaker": "bai",
+    "file": "story/ch06.rpy",
+    "line": 126,
+    "display_text": "那会儿我扛着两只包。听见喊，人已经错开了。",
+    "tts_text": "那会儿我扛着两只包。听见喊，人已经错开了。",
+    "wav": "_voice_source_wav/bai/bai_0030.wav",
+    "ogg": "voice/bai/bai_0030.ogg",
+    "source_wav": "_voice_source_wav/bai/bai_0030.wav"
+  },
+  {
+    "speaker": "bai",
+    "file": "story/ch06.rpy",
+    "line": 143,
+    "display_text": "我那会儿……",
+    "tts_text": "我那会儿……",
+    "wav": "_voice_source_wav/bai/bai_0031.wav",
+    "ogg": "voice/bai/bai_0031.ogg",
+    "source_wav": "_voice_source_wav/bai/bai_0031.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch06.rpy",
+    "line": 164,
+    "display_text": "后半夜我叫你。火别压太死。",
+    "tts_text": "后半夜我叫你。火别压太死。",
+    "wav": "_voice_source_wav/lan/lan_0040.wav",
+    "ogg": "voice/lan/lan_0040.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0040.wav"
+  },
+  {
+    "speaker": "bai",
+    "file": "story/ch06.rpy",
+    "line": 170,
+    "display_text": "洞口风硬。你别坐太久。",
+    "tts_text": "洞口风硬。你别坐太久。",
+    "wav": "_voice_source_wav/bai/bai_0032.wav",
+    "ogg": "voice/bai/bai_0032.ogg",
+    "source_wav": "_voice_source_wav/bai/bai_0032.wav"
+  },
+  {
+    "speaker": "qing",
+    "file": "story/ch06.rpy",
+    "line": 176,
+    "display_text": "前半夜我先眯。后半夜我叫你。",
+    "tts_text": "前半夜我先眯。后半夜我叫你。",
+    "wav": "_voice_source_wav/qing/qing_0018.wav",
+    "ogg": "voice/qing/qing_0018.ogg",
+    "source_wav": "_voice_source_wav/qing/qing_0018.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch07.rpy",
+    "line": 31,
+    "display_text": "牌子上写的是编号。没有名字。",
+    "tts_text": "牌子上写的是编号。没有名字。",
+    "wav": "_voice_source_wav/lan/lan_0041.wav",
+    "ogg": "voice/lan/lan_0041.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0041.wav"
+  },
+  {
+    "speaker": "qing",
+    "file": "story/ch07.rpy",
+    "line": 32,
+    "display_text": "站不在地图上。所以牌子也不需要名字。",
+    "tts_text": "站不在地图上。所以牌子也不需要名字。",
+    "wav": "_voice_source_wav/qing/qing_0019.wav",
+    "ogg": "voice/qing/qing_0019.ogg",
+    "source_wav": "_voice_source_wav/qing/qing_0019.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch07.rpy",
+    "line": 60,
+    "display_text": "底下压过的东西，不只是这一张。",
+    "tts_text": "底下压过的东西，不只是这一张。",
+    "wav": "_voice_source_wav/lan/lan_0042.wav",
+    "ogg": "voice/lan/lan_0042.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0042.wav"
+  },
+  {
+    "speaker": "qing",
+    "file": "story/ch07.rpy",
+    "line": 71,
+    "display_text": "压痕能留个位置。图上对不对得上，回去再看。",
+    "tts_text": "压痕能留个位置。图上对不对得上，回去再看。",
+    "wav": "_voice_source_wav/qing/qing_0020.wav",
+    "ogg": "voice/qing/qing_0020.ogg",
+    "source_wav": "_voice_source_wav/qing/qing_0020.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch07.rpy",
+    "line": 93,
+    "display_text": "有了编号，就能查到它原来叫什么。",
+    "tts_text": "有了编号，就能查到它原来叫什么。",
+    "wav": "_voice_source_wav/lan/lan_0043.wav",
+    "ogg": "voice/lan/lan_0043.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0043.wav"
+  },
+  {
+    "speaker": "bai",
+    "file": "story/ch07.rpy",
+    "line": 102,
+    "display_text": "漆皮比林子新。钉上去不久，又锈成这样——潮得不对。",
+    "tts_text": "漆皮比林子新。钉上去不久，又锈成这样——潮得不对。",
+    "wav": "_voice_source_wav/bai/bai_0033.wav",
+    "ogg": "voice/bai/bai_0033.ogg",
+    "source_wav": "_voice_source_wav/bai/bai_0033.wav"
+  },
+  {
+    "speaker": "bai",
+    "file": "story/ch07.rpy",
+    "line": 104,
+    "display_text": "药签留不住这种潮。这牌子钉上来之前，泡过水。",
+    "tts_text": "药签留不住这种潮。这牌子钉上来之前，泡过水。",
+    "wav": "_voice_source_wav/bai/bai_0034.wav",
+    "ogg": "voice/bai/bai_0034.ogg",
+    "source_wav": "_voice_source_wav/bai/bai_0034.wav"
+  },
+  {
+    "speaker": "qing",
+    "file": "story/ch07.rpy",
+    "line": 111,
+    "display_text": "拔了，就等于告诉后来的人：这里没人。",
+    "tts_text": "拔了，就等于告诉后来的人：这里没人。",
+    "wav": "_voice_source_wav/qing/qing_0021.wav",
+    "ogg": "voice/qing/qing_0021.ogg",
+    "source_wav": "_voice_source_wav/qing/qing_0021.wav"
+  },
+  {
+    "speaker": "qing",
+    "file": "story/ch07.rpy",
+    "line": 113,
+    "display_text": "带着吧。人总要有个凭证。",
+    "tts_text": "带着吧。人总要有个凭证。",
+    "wav": "_voice_source_wav/qing/qing_0022.wav",
+    "ogg": "voice/qing/qing_0022.ogg",
+    "source_wav": "_voice_source_wav/qing/qing_0022.wav"
+  },
+  {
+    "speaker": "bai",
+    "file": "story/ch07.rpy",
+    "line": 138,
+    "display_text": "不想说就不说。手先松开。",
+    "tts_text": "不想说就不说。手先松开。",
+    "wav": "_voice_source_wav/bai/bai_0035.wav",
+    "ogg": "voice/bai/bai_0035.ogg",
+    "source_wav": "_voice_source_wav/bai/bai_0035.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch07.rpy",
+    "line": 148,
+    "display_text": "见过就好。路上你认路。",
+    "tts_text": "见过就好。路上你认路。",
+    "wav": "_voice_source_wav/lan/lan_0044.wav",
+    "ogg": "voice/lan/lan_0044.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0044.wav"
+  },
+  {
+    "speaker": "qing",
+    "file": "story/ch07.rpy",
+    "line": 156,
+    "display_text": "一块一块排过去。数到哪块算哪块。",
+    "tts_text": "一块一块排过去。数到哪块算哪块。",
+    "wav": "_voice_source_wav/qing/qing_0023.wav",
+    "ogg": "voice/qing/qing_0023.ogg",
+    "source_wav": "_voice_source_wav/qing/qing_0023.wav"
+  },
+  {
+    "speaker": "qing",
+    "file": "story/ch07.rpy",
+    "line": 158,
+    "display_text": "牌子不会只立一块。后头还有。",
+    "tts_text": "牌子不会只立一块。后头还有。",
+    "wav": "_voice_source_wav/qing/qing_0024.wav",
+    "ogg": "voice/qing/qing_0024.ogg",
+    "source_wav": "_voice_source_wav/qing/qing_0024.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch07.rpy",
+    "line": 173,
+    "display_text": "认路费眼。省不下。",
+    "tts_text": "认路费眼。省不下。",
+    "wav": "_voice_source_wav/lan/lan_0045.wav",
+    "ogg": "voice/lan/lan_0045.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0045.wav"
+  },
+  {
+    "speaker": "qing",
+    "file": "story/ch07.rpy",
+    "line": 187,
+    "display_text": "分着吃，碗里的账才平。",
+    "tts_text": "分着吃，碗里的账才平。",
+    "wav": "_voice_source_wav/qing/qing_0025.wav",
+    "ogg": "voice/qing/qing_0025.ogg",
+    "source_wav": "_voice_source_wav/qing/qing_0025.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch08.rpy",
+    "line": 20,
+    "display_text": "别停。停下来就陷。",
+    "tts_text": "别停。停下来就陷。",
+    "wav": "_voice_source_wav/lan/lan_0046.wav",
+    "ogg": "voice/lan/lan_0046.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0046.wav"
+  },
+  {
+    "speaker": "bai",
+    "file": "story/ch08.rpy",
+    "line": 21,
+    "display_text": "药箱举高。底一沾水，药就废。",
+    "tts_text": "药箱举高。底一沾水，药就废。",
+    "wav": "_voice_source_wav/bai/bai_0036.wav",
+    "ogg": "voice/bai/bai_0036.ogg",
+    "source_wav": "_voice_source_wav/bai/bai_0036.wav"
+  },
+  {
+    "speaker": "qing",
+    "file": "story/ch08.rpy",
+    "line": 22,
+    "display_text": "上游在下雨。这片洼地会连成一片。",
+    "tts_text": "上游在下雨。这片洼地会连成一片。",
+    "wav": "_voice_source_wav/qing/qing_0026.wav",
+    "ogg": "voice/qing/qing_0026.ogg",
+    "source_wav": "_voice_source_wav/qing/qing_0026.wav"
+  },
+  {
+    "speaker": "ari",
+    "file": "story/ch08.rpy",
+    "line": 39,
+    "display_text": "……拉我一把。就一把。",
+    "tts_text": "……拉我一把。就一把。",
+    "wav": "_voice_source_wav/ari/ari_0001.wav",
+    "ogg": "voice/ari/ari_0001.ogg",
+    "source_wav": "_voice_source_wav/ari/ari_0001.wav"
+  },
+  {
+    "speaker": "ari",
+    "file": "story/ch08.rpy",
+    "line": 56,
+    "display_text": "水线我认得。左边两丈是实底，右边全是烂泥。",
+    "tts_text": "水线我认得。左边两丈是实底，右边全是烂泥。",
+    "wav": "_voice_source_wav/ari/ari_0002.wav",
+    "ogg": "voice/ari/ari_0002.ogg",
+    "source_wav": "_voice_source_wav/ari/ari_0002.wav"
+  },
+  {
+    "speaker": "ari",
+    "file": "story/ch08.rpy",
+    "line": 58,
+    "display_text": "部落里的规矩。受了人一把力，要还一条路。",
+    "tts_text": "部落里的规矩。受了人一把力，要还一条路。",
+    "wav": "_voice_source_wav/ari/ari_0003.wav",
+    "ogg": "voice/ari/ari_0003.ogg",
+    "source_wav": "_voice_source_wav/ari/ari_0003.wav"
+  },
+  {
+    "speaker": "qing",
+    "file": "story/ch08.rpy",
+    "line": 71,
+    "display_text": "她认得这片水。",
+    "tts_text": "她认得这片水。",
+    "wav": "_voice_source_wav/qing/qing_0027.wav",
+    "ogg": "voice/qing/qing_0027.ogg",
+    "source_wav": "_voice_source_wav/qing/qing_0027.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch08.rpy",
+    "line": 96,
+    "display_text": "欠你一次。",
+    "tts_text": "欠你一次。",
+    "wav": "_voice_source_wav/lan/lan_0047.wav",
+    "ogg": "voice/lan/lan_0047.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0047.wav"
+  },
+  {
+    "speaker": "bai",
+    "file": "story/ch08.rpy",
+    "line": 104,
+    "display_text": "别摔。里面是全队的药。",
+    "tts_text": "别摔。里面是全队的药。",
+    "wav": "_voice_source_wav/bai/bai_0037.wav",
+    "ogg": "voice/bai/bai_0037.ogg",
+    "source_wav": "_voice_source_wav/bai/bai_0037.wav"
+  },
+  {
+    "speaker": "qing",
+    "file": "story/ch08.rpy",
+    "line": 112,
+    "display_text": "样本比人娇气。摔不得。",
+    "tts_text": "样本比人娇气。摔不得。",
+    "wav": "_voice_source_wav/qing/qing_0028.wav",
+    "ogg": "voice/qing/qing_0028.ogg",
+    "source_wav": "_voice_source_wav/qing/qing_0028.wav"
+  },
+  {
+    "speaker": "qing",
+    "file": "story/ch08.rpy",
+    "line": 146,
+    "display_text": "扣紧了再走。箱子晃一路，纸页就散一路。",
+    "tts_text": "扣紧了再走。箱子晃一路，纸页就散一路。",
+    "wav": "_voice_source_wav/qing/qing_0029.wav",
+    "ogg": "voice/qing/qing_0029.ogg",
+    "source_wav": "_voice_source_wav/qing/qing_0029.wav"
+  },
+  {
+    "speaker": "ari",
+    "file": "story/ch08.rpy",
+    "line": 151,
+    "display_text": "顺着我指的线走。今晚之前，别再下水。",
+    "tts_text": "顺着我指的线走。今晚之前，别再下水。",
+    "wav": "_voice_source_wav/ari/ari_0004.wav",
+    "ogg": "voice/ari/ari_0004.ogg",
+    "source_wav": "_voice_source_wav/ari/ari_0004.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch09.rpy",
+    "line": 20,
+    "display_text": "不是刺的。",
+    "tts_text": "不是刺的。",
+    "wav": "_voice_source_wav/lan/lan_0048.wav",
+    "ogg": "voice/lan/lan_0048.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0048.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch09.rpy",
+    "line": 22,
+    "display_text": "站里出来的东西。拔不掉。",
+    "tts_text": "站里出来的东西。拔不掉。",
+    "wav": "_voice_source_wav/lan/lan_0049.wav",
+    "ogg": "voice/lan/lan_0049.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0049.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch09.rpy",
+    "line": 41,
+    "display_text": "上一个碰它的人，没活过那年冬天。",
+    "tts_text": "上一个碰它的人，没活过那年冬天。",
+    "wav": "_voice_source_wav/lan/lan_0050.wav",
+    "ogg": "voice/lan/lan_0050.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0050.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch09.rpy",
+    "line": 48,
+    "display_text": "三个人。两个没出来。一个……",
+    "tts_text": "三个人。两个没出来。一个……",
+    "wav": "_voice_source_wav/lan/lan_0051.wav",
+    "ogg": "voice/lan/lan_0051.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0051.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch09.rpy",
+    "line": 50,
+    "display_text": "一个我没找着。",
+    "tts_text": "一个我没找着。",
+    "wav": "_voice_source_wav/lan/lan_0052.wav",
+    "ogg": "voice/lan/lan_0052.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0052.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch09.rpy",
+    "line": 57,
+    "display_text": "谢谢。",
+    "tts_text": "谢谢。",
+    "wav": "_voice_source_wav/lan/lan_0053.wav",
+    "ogg": "voice/lan/lan_0053.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0053.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch09.rpy",
+    "line": 103,
+    "display_text": "高一处，线就多走一里。",
+    "tts_text": "高一处，线就多走一里。",
+    "wav": "_voice_source_wav/lan/lan_0054.wav",
+    "ogg": "voice/lan/lan_0054.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0054.wav"
+  },
+  {
+    "speaker": "qing",
+    "file": "story/ch09.rpy",
+    "line": 114,
+    "display_text": "近水好架。就是潮气往里钻。",
+    "tts_text": "近水好架。就是潮气往里钻。",
+    "wav": "_voice_source_wav/qing/qing_0030.wav",
+    "ogg": "voice/qing/qing_0030.ogg",
+    "source_wav": "_voice_source_wav/qing/qing_0030.wav"
+  },
+  {
+    "speaker": "bai",
+    "file": "story/ch09.rpy",
+    "line": 125,
+    "display_text": "稳是稳。方向别挪。",
+    "tts_text": "稳是稳。方向别挪。",
+    "wav": "_voice_source_wav/bai/bai_0038.wav",
+    "ogg": "voice/bai/bai_0038.ogg",
+    "source_wav": "_voice_source_wav/bai/bai_0038.wav"
+  },
+  {
+    "speaker": "bai",
+    "file": "story/ch09.rpy",
+    "line": 153,
+    "display_text": "后半夜我叫你。你先眯一会儿。",
+    "tts_text": "后半夜我叫你。你先眯一会儿。",
+    "wav": "_voice_source_wav/bai/bai_0039.wav",
+    "ogg": "voice/bai/bai_0039.ogg",
+    "source_wav": "_voice_source_wav/bai/bai_0039.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch09.rpy",
+    "line": 163,
+    "display_text": "明天一早，图在谁那儿，谁先看方向。",
+    "tts_text": "明天一早，图在谁那儿，谁先看方向。",
+    "wav": "_voice_source_wav/lan/lan_0055.wav",
+    "ogg": "voice/lan/lan_0055.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0055.wav"
+  },
+  {
+    "speaker": "qing",
+    "file": "story/ch09.rpy",
+    "line": 172,
+    "display_text": "数清了，就没人藏私心。",
+    "tts_text": "数清了，就没人藏私心。",
+    "wav": "_voice_source_wav/qing/qing_0031.wav",
+    "ogg": "voice/qing/qing_0031.ogg",
+    "source_wav": "_voice_source_wav/qing/qing_0031.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch09.rpy",
+    "line": 188,
+    "display_text": "这截你收着。收尾照着这个结打。",
+    "tts_text": "这截你收着。收尾照着这个结打。",
+    "wav": "_voice_source_wav/lan/lan_0056.wav",
+    "ogg": "voice/lan/lan_0056.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0056.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch09.rpy",
+    "line": 194,
+    "display_text": "收尾照着这个结打。",
+    "tts_text": "收尾照着这个结打。",
+    "wav": "_voice_source_wav/lan/lan_0057.wav",
+    "ogg": "voice/lan/lan_0057.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0057.wav"
+  },
+  {
+    "speaker": "bai",
+    "file": "story/ch09.rpy",
+    "line": 200,
+    "display_text": "有动静先喊。别一个人摸黑出去看。",
+    "tts_text": "有动静先喊。别一个人摸黑出去看。",
+    "wav": "_voice_source_wav/bai/bai_0040.wav",
+    "ogg": "voice/bai/bai_0040.ogg",
+    "source_wav": "_voice_source_wav/bai/bai_0040.wav"
+  },
+  {
+    "speaker": "qing",
+    "file": "story/ch09.rpy",
+    "line": 207,
+    "display_text": "时辰到了就换。别硬撑，硬撑容易漏动静。",
+    "tts_text": "时辰到了就换。别硬撑，硬撑容易漏动静。",
+    "wav": "_voice_source_wav/qing/qing_0032.wav",
+    "ogg": "voice/qing/qing_0032.ogg",
+    "source_wav": "_voice_source_wav/qing/qing_0032.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch10.rpy",
+    "line": 20,
+    "display_text": "看脚下。裸岩那段不挂绳。",
+    "tts_text": "看脚下。裸岩那段不挂绳。",
+    "wav": "_voice_source_wav/lan/lan_0058.wav",
+    "ogg": "voice/lan/lan_0058.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0058.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch10.rpy",
+    "line": 27,
+    "display_text": "抓住岩缝！",
+    "tts_text": "抓住岩缝！",
+    "wav": "_voice_source_wav/lan/lan_0059.wav",
+    "ogg": "voice/lan/lan_0059.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0059.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch10.rpy",
+    "line": 30,
+    "display_text": "这截不能再吃第二回力。",
+    "tts_text": "这截不能再吃第二回力。",
+    "wav": "_voice_source_wav/lan/lan_0060.wav",
+    "ogg": "voice/lan/lan_0060.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0060.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch10.rpy",
+    "line": 32,
+    "display_text": "留着。芯烂了，外头看不出来。",
+    "tts_text": "留着。芯烂了，外头看不出来。",
+    "wav": "_voice_source_wav/lan/lan_0061.wav",
+    "ogg": "voice/lan/lan_0061.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0061.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch10.rpy",
+    "line": 44,
+    "display_text": "这条线，被人改过。",
+    "tts_text": "这条线，被人改过。",
+    "wav": "_voice_source_wav/lan/lan_0062.wav",
+    "ogg": "voice/lan/lan_0062.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0062.wav"
+  },
+  {
+    "speaker": "qing",
+    "file": "story/ch10.rpy",
+    "line": 46,
+    "display_text": "改的人手法很熟。用的是制图笔。",
+    "tts_text": "改的人手法很熟。用的是制图笔。",
+    "wav": "_voice_source_wav/qing/qing_0033.wav",
+    "ogg": "voice/qing/qing_0033.ogg",
+    "source_wav": "_voice_source_wav/qing/qing_0033.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch10.rpy",
+    "line": 47,
+    "display_text": "队里没有制图笔。",
+    "tts_text": "队里没有制图笔。",
+    "wav": "_voice_source_wav/lan/lan_0063.wav",
+    "ogg": "voice/lan/lan_0063.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0063.wav"
+  },
+  {
+    "speaker": "qing",
+    "file": "story/ch10.rpy",
+    "line": 48,
+    "display_text": "所以动图的人，不在我们四个里头。",
+    "tts_text": "所以动图的人，不在我们四个里头。",
+    "wav": "_voice_source_wav/qing/qing_0034.wav",
+    "ogg": "voice/qing/qing_0034.ogg",
+    "source_wav": "_voice_source_wav/qing/qing_0034.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch10.rpy",
+    "line": 68,
+    "display_text": "我早看见了。没说。",
+    "tts_text": "我早看见了。没说。",
+    "wav": "_voice_source_wav/lan/lan_0064.wav",
+    "ogg": "voice/lan/lan_0064.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0064.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch10.rpy",
+    "line": 70,
+    "display_text": "我怕一说，队伍就散。",
+    "tts_text": "我怕一说，队伍就散。",
+    "wav": "_voice_source_wav/lan/lan_0065.wav",
+    "ogg": "voice/lan/lan_0065.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0065.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch10.rpy",
+    "line": 78,
+    "display_text": "给我一晚。明天天亮，我把知道的都说出来。",
+    "tts_text": "给我一晚。明天天亮，我把知道的都说出来。",
+    "wav": "_voice_source_wav/lan/lan_0066.wav",
+    "ogg": "voice/lan/lan_0066.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0066.wav"
+  },
+  {
+    "speaker": "qing",
+    "file": "story/ch10.rpy",
+    "line": 85,
+    "display_text": "看见的东西，装看不见，也是一种记法。",
+    "tts_text": "看见的东西，装看不见，也是一种记法。",
+    "wav": "_voice_source_wav/qing/qing_0035.wav",
+    "ogg": "voice/qing/qing_0035.ogg",
+    "source_wav": "_voice_source_wav/qing/qing_0035.wav"
+  },
+  {
+    "speaker": "bai",
+    "file": "story/ch10.rpy",
+    "line": 98,
+    "display_text": "这半片你拿着。我减着量，多的这半不留也搁不住。",
+    "tts_text": "这半片你拿着。我减着量，多的这半不留也搁不住。",
+    "wav": "_voice_source_wav/bai/bai_0041.wav",
+    "ogg": "voice/bai/bai_0041.ogg",
+    "source_wav": "_voice_source_wav/bai/bai_0041.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch10.rpy",
+    "line": 115,
+    "display_text": "疼就说。别学那支散掉的队，硬撑到看不见人。",
+    "tts_text": "疼就说。别学那支散掉的队，硬撑到看不见人。",
+    "wav": "_voice_source_wav/lan/lan_0067.wav",
+    "ogg": "voice/lan/lan_0067.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0067.wav"
+  },
+  {
+    "speaker": "bai",
+    "file": "story/ch10.rpy",
+    "line": 123,
+    "display_text": "饿了再找我。",
+    "tts_text": "饿了再找我。",
+    "wav": "_voice_source_wav/bai/bai_0042.wav",
+    "ogg": "voice/bai/bai_0042.ogg",
+    "source_wav": "_voice_source_wav/bai/bai_0042.wav"
+  },
+  {
+    "speaker": "qing",
+    "file": "story/ch10.rpy",
+    "line": 130,
+    "display_text": "药写在纸上，就不会有人匀错。",
+    "tts_text": "药写在纸上，就不会有人匀错。",
+    "wav": "_voice_source_wav/qing/qing_0036.wav",
+    "ogg": "voice/qing/qing_0036.ogg",
+    "source_wav": "_voice_source_wav/qing/qing_0036.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch10.rpy",
+    "line": 138,
+    "display_text": "别记。听见了也别往本子上写。",
+    "tts_text": "别记。听见了也别往本子上写。",
+    "wav": "_voice_source_wav/lan/lan_0068.wav",
+    "ogg": "voice/lan/lan_0068.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0068.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch10.rpy",
+    "line": 155,
+    "display_text": "断线才是真话。改过的，是想让我们走错。",
+    "tts_text": "断线才是真话。改过的，是想让我们走错。",
+    "wav": "_voice_source_wav/lan/lan_0069.wav",
+    "ogg": "voice/lan/lan_0069.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0069.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch10.rpy",
+    "line": 157,
+    "display_text": "先按原图走。那一笔，我再想想。",
+    "tts_text": "先按原图走。那一笔，我再想想。",
+    "wav": "_voice_source_wav/lan/lan_0070.wav",
+    "ogg": "voice/lan/lan_0070.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0070.wav"
+  },
+  {
+    "speaker": "qing",
+    "file": "story/ch10.rpy",
+    "line": 164,
+    "display_text": "纸比人可靠。两条路都留着，到岔口再认。",
+    "tts_text": "纸比人可靠。两条路都留着，到岔口再认。",
+    "wav": "_voice_source_wav/qing/qing_0037.wav",
+    "ogg": "voice/qing/qing_0037.ogg",
+    "source_wav": "_voice_source_wav/qing/qing_0037.wav"
+  },
+  {
+    "speaker": "bai",
+    "file": "story/ch10.rpy",
+    "line": 169,
+    "display_text": "雾里别硬走。走错一里，回来就是两里。",
+    "tts_text": "雾里别硬走。走错一里，回来就是两里。",
+    "wav": "_voice_source_wav/bai/bai_0043.wav",
+    "ogg": "voice/bai/bai_0043.ogg",
+    "source_wav": "_voice_source_wav/bai/bai_0043.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch11.rpy",
+    "line": 22,
+    "display_text": "都上来了。",
+    "tts_text": "都上来了。",
+    "wav": "_voice_source_wav/lan/lan_0071.wav",
+    "ogg": "voice/lan/lan_0071.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0071.wav"
+  },
+  {
+    "speaker": "bai",
+    "file": "story/ch11.rpy",
+    "line": 24,
+    "display_text": "药箱没沾水。人也齐。",
+    "tts_text": "药箱没沾水。人也齐。",
+    "wav": "_voice_source_wav/bai/bai_0044.wav",
+    "ogg": "voice/bai/bai_0044.ogg",
+    "source_wav": "_voice_source_wav/bai/bai_0044.wav"
+  },
+  {
+    "speaker": "qing",
+    "file": "story/ch11.rpy",
+    "line": 26,
+    "display_text": "坡上风口大。先看信标，别久站。",
+    "tts_text": "坡上风口大。先看信标，别久站。",
+    "wav": "_voice_source_wav/qing/qing_0038.wav",
+    "ogg": "voice/qing/qing_0038.ogg",
+    "source_wav": "_voice_source_wav/qing/qing_0038.wav"
+  },
+  {
+    "speaker": "qing",
+    "file": "story/ch11.rpy",
+    "line": 40,
+    "display_text": "线路被人重新接过。接法很土，但能响。",
+    "tts_text": "线路被人重新接过。接法很土，但能响。",
+    "wav": "_voice_source_wav/qing/qing_0039.wav",
+    "ogg": "voice/qing/qing_0039.ogg",
+    "source_wav": "_voice_source_wav/qing/qing_0039.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch11.rpy",
+    "line": 44,
+    "display_text": "改过的那条支线，指的就是这座塔。",
+    "tts_text": "改过的那条支线，指的就是这座塔。",
+    "wav": "_voice_source_wav/lan/lan_0072.wav",
+    "ogg": "voice/lan/lan_0072.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0072.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch11.rpy",
+    "line": 47,
+    "display_text": "图上少了一笔。信标的方向，原图上没有标。",
+    "tts_text": "图上少了一笔。信标的方向，原图上没有标。",
+    "wav": "_voice_source_wav/lan/lan_0073.wav",
+    "ogg": "voice/lan/lan_0073.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0073.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch11.rpy",
+    "line": 68,
+    "display_text": "四个字。「还活着」。",
+    "tts_text": "四个字。「还活着」。",
+    "wav": "_voice_source_wav/lan/lan_0074.wav",
+    "ogg": "voice/lan/lan_0074.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0074.wav"
+  },
+  {
+    "speaker": "qing",
+    "file": "story/ch11.rpy",
+    "line": 76,
+    "display_text": "接过线的人懂一点，不多。",
+    "tts_text": "接过线的人懂一点，不多。",
+    "wav": "_voice_source_wav/qing/qing_0040.wav",
+    "ogg": "voice/qing/qing_0040.ogg",
+    "source_wav": "_voice_source_wav/qing/qing_0040.wav"
+  },
+  {
+    "speaker": "bai",
+    "file": "story/ch11.rpy",
+    "line": 84,
+    "display_text": "别先露位置。对方是谁，还不知道。",
+    "tts_text": "别先露位置。对方是谁，还不知道。",
+    "wav": "_voice_source_wav/bai/bai_0045.wav",
+    "ogg": "voice/bai/bai_0045.ogg",
+    "source_wav": "_voice_source_wav/bai/bai_0045.wav"
+  },
+  {
+    "speaker": "bai",
+    "file": "story/ch11.rpy",
+    "line": 118,
+    "display_text": "药是留给人的。电也是。",
+    "tts_text": "药是留给人的。电也是。",
+    "wav": "_voice_source_wav/bai/bai_0046.wav",
+    "ogg": "voice/bai/bai_0046.ogg",
+    "source_wav": "_voice_source_wav/bai/bai_0046.wav"
+  },
+  {
+    "speaker": "bai",
+    "file": "story/ch11.rpy",
+    "line": 128,
+    "display_text": "都留着。走到下一处，再想办法。",
+    "tts_text": "都留着。走到下一处，再想办法。",
+    "wav": "_voice_source_wav/bai/bai_0047.wav",
+    "ogg": "voice/bai/bai_0047.ogg",
+    "source_wav": "_voice_source_wav/bai/bai_0047.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch11.rpy",
+    "line": 147,
+    "display_text": "上一支队伍出来的时候，我也在。",
+    "tts_text": "上一支队伍出来的时候，我也在。",
+    "wav": "_voice_source_wav/lan/lan_0075.wav",
+    "ogg": "voice/lan/lan_0075.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0075.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch11.rpy",
+    "line": 167,
+    "display_text": "上一支队伍出来的时候，我也在。",
+    "tts_text": "上一支队伍出来的时候，我也在。",
+    "wav": "_voice_source_wav/lan/lan_0076.wav",
+    "ogg": "voice/lan/lan_0076.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0076.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch11.rpy",
+    "line": 169,
+    "display_text": "这回我不一个人记了。",
+    "tts_text": "这回我不一个人记了。",
+    "wav": "_voice_source_wav/lan/lan_0077.wav",
+    "ogg": "voice/lan/lan_0077.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0077.wav"
+  },
+  {
+    "speaker": "qing",
+    "file": "story/ch11.rpy",
+    "line": 176,
+    "display_text": "方向记死。以后找不找得到，全看这一笔。",
+    "tts_text": "方向记死。以后找不找得到，全看这一笔。",
+    "wav": "_voice_source_wav/qing/qing_0041.wav",
+    "ogg": "voice/qing/qing_0041.ogg",
+    "source_wav": "_voice_source_wav/qing/qing_0041.wav"
+  },
+  {
+    "speaker": "bai",
+    "file": "story/ch11.rpy",
+    "line": 184,
+    "display_text": "人比机器要紧。他脸色不对。",
+    "tts_text": "人比机器要紧。他脸色不对。",
+    "wav": "_voice_source_wav/bai/bai_0048.wav",
+    "ogg": "voice/bai/bai_0048.ogg",
+    "source_wav": "_voice_source_wav/bai/bai_0048.wav"
+  },
+  {
+    "speaker": "bai",
+    "file": "story/ch11.rpy",
+    "line": 201,
+    "display_text": "胳膊还僵不僵。",
+    "tts_text": "胳膊还僵不僵。",
+    "wav": "_voice_source_wav/bai/bai_0049.wav",
+    "ogg": "voice/bai/bai_0049.ogg",
+    "source_wav": "_voice_source_wav/bai/bai_0049.wav"
+  },
+  {
+    "speaker": "bai",
+    "file": "story/ch11.rpy",
+    "line": 203,
+    "display_text": "阴天这处最容易紧。今晚换我守后半夜，你睡踏实。",
+    "tts_text": "阴天这处最容易紧。今晚换我守后半夜，你睡踏实。",
+    "wav": "_voice_source_wav/bai/bai_0050.wav",
+    "ogg": "voice/bai/bai_0050.ogg",
+    "source_wav": "_voice_source_wav/bai/bai_0050.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch11.rpy",
+    "line": 210,
+    "display_text": "有你在这边，我不用回头。",
+    "tts_text": "有你在这边，我不用回头。",
+    "wav": "_voice_source_wav/lan/lan_0078.wav",
+    "ogg": "voice/lan/lan_0078.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0078.wav"
+  },
+  {
+    "speaker": "qing",
+    "file": "story/ch11.rpy",
+    "line": 217,
+    "display_text": "袋口系活扣。翻山要开箱，不能跟箱子较劲。",
+    "tts_text": "袋口系活扣。翻山要开箱，不能跟箱子较劲。",
+    "wav": "_voice_source_wav/qing/qing_0042.wav",
+    "ogg": "voice/qing/qing_0042.ogg",
+    "source_wav": "_voice_source_wav/qing/qing_0042.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch12.rpy",
+    "line": 19,
+    "display_text": "这个营地有人住过。走得很急。",
+    "tts_text": "这个营地有人住过。走得很急。",
+    "wav": "_voice_source_wav/lan/lan_0079.wav",
+    "ogg": "voice/lan/lan_0079.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0079.wav"
+  },
+  {
+    "speaker": "bai",
+    "file": "story/ch12.rpy",
+    "line": 52,
+    "display_text": "……谢了。这只手再折一次，就握不住针了。",
+    "tts_text": "……谢了。这只手再折一次，就握不住针了。",
+    "wav": "_voice_source_wav/bai/bai_0051.wav",
+    "ogg": "voice/bai/bai_0051.ogg",
+    "source_wav": "_voice_source_wav/bai/bai_0051.wav"
+  },
+  {
+    "speaker": "bai",
+    "file": "story/ch12.rpy",
+    "line": 59,
+    "display_text": "我自己有数。",
+    "tts_text": "我自己有数。",
+    "wav": "_voice_source_wav/bai/bai_0052.wav",
+    "ogg": "voice/bai/bai_0052.ogg",
+    "source_wav": "_voice_source_wav/bai/bai_0052.wav"
+  },
+  {
+    "speaker": "qing",
+    "file": "story/ch12.rpy",
+    "line": 67,
+    "display_text": "朽了。再挂一晚，风一吹就倒。",
+    "tts_text": "朽了。再挂一晚，风一吹就倒。",
+    "wav": "_voice_source_wav/qing/qing_0043.wav",
+    "ogg": "voice/qing/qing_0043.ogg",
+    "source_wav": "_voice_source_wav/qing/qing_0043.wav"
+  },
+  {
+    "speaker": "bai",
+    "file": "story/ch12.rpy",
+    "line": 77,
+    "display_text": "你的胳膊。刚才接杆那一下，旧伤有没有再扯着？",
+    "tts_text": "你的胳膊。刚才接杆那一下，旧伤有没有再扯着？",
+    "wav": "_voice_source_wav/bai/bai_0053.wav",
+    "ogg": "voice/bai/bai_0053.ogg",
+    "source_wav": "_voice_source_wav/bai/bai_0053.wav"
+  },
+  {
+    "speaker": "bai",
+    "file": "story/ch12.rpy",
+    "line": 80,
+    "display_text": "我这只老毛病。阴天僵，平时能用。你的别硬撑。",
+    "tts_text": "我这只老毛病。阴天僵，平时能用。你的别硬撑。",
+    "wav": "_voice_source_wav/bai/bai_0054.wav",
+    "ogg": "voice/bai/bai_0054.ogg",
+    "source_wav": "_voice_source_wav/bai/bai_0054.wav"
+  },
+  {
+    "speaker": "bai",
+    "file": "story/ch12.rpy",
+    "line": 111,
+    "display_text": "不碍事。阴天会僵，平时能用。",
+    "tts_text": "不碍事。阴天会僵，平时能用。",
+    "wav": "_voice_source_wav/bai/bai_0055.wav",
+    "ogg": "voice/bai/bai_0055.ogg",
+    "source_wav": "_voice_source_wav/bai/bai_0055.wav"
+  },
+  {
+    "speaker": "qing",
+    "file": "story/ch12.rpy",
+    "line": 120,
+    "display_text": "瓶型不一样。住这儿的不止一批人。",
+    "tts_text": "瓶型不一样。住这儿的不止一批人。",
+    "wav": "_voice_source_wav/qing/qing_0044.wav",
+    "ogg": "voice/qing/qing_0044.ogg",
+    "source_wav": "_voice_source_wav/qing/qing_0044.wav"
+  },
+  {
+    "speaker": "bai",
+    "file": "story/ch12.rpy",
+    "line": 130,
+    "display_text": "走吧。这儿不留宿。",
+    "tts_text": "走吧。这儿不留宿。",
+    "wav": "_voice_source_wav/bai/bai_0056.wav",
+    "ogg": "voice/bai/bai_0056.ogg",
+    "source_wav": "_voice_source_wav/bai/bai_0056.wav"
+  },
+  {
+    "speaker": "bai",
+    "file": "story/ch12.rpy",
+    "line": 142,
+    "display_text": "洗过晒过就能用。路上卷布比卷纸省。",
+    "tts_text": "洗过晒过就能用。路上卷布比卷纸省。",
+    "wav": "_voice_source_wav/bai/bai_0057.wav",
+    "ogg": "voice/bai/bai_0057.ogg",
+    "source_wav": "_voice_source_wav/bai/bai_0057.wav"
+  },
+  {
+    "speaker": "qing",
+    "file": "story/ch12.rpy",
+    "line": 150,
+    "display_text": "瓶子不能碰碎。回程比来路晃。",
+    "tts_text": "瓶子不能碰碎。回程比来路晃。",
+    "wav": "_voice_source_wav/qing/qing_0045.wav",
+    "ogg": "voice/qing/qing_0045.ogg",
+    "source_wav": "_voice_source_wav/qing/qing_0045.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch12.rpy",
+    "line": 158,
+    "display_text": "记号留浅一点。后来的人能认，找站的人也顺这条线。",
+    "tts_text": "记号留浅一点。后来的人能认，找站的人也顺这条线。",
+    "wav": "_voice_source_wav/lan/lan_0080.wav",
+    "ogg": "voice/lan/lan_0080.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0080.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch13.rpy",
+    "line": 20,
+    "display_text": "地图上标的是对的那条。远一天，但人齐。",
+    "tts_text": "地图上标的是对的那条。远一天，但人齐。",
+    "wav": "_voice_source_wav/lan/lan_0081.wav",
+    "ogg": "voice/lan/lan_0081.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0081.wav"
+  },
+  {
+    "speaker": "bai",
+    "file": "story/ch13.rpy",
+    "line": 21,
+    "display_text": "近的那条我走过一段。坡塌了，伤员撑不住。",
+    "tts_text": "近的那条我走过一段。坡塌了，伤员撑不住。",
+    "wav": "_voice_source_wav/bai/bai_0058.wav",
+    "ogg": "voice/bai/bai_0058.ogg",
+    "source_wav": "_voice_source_wav/bai/bai_0058.wav"
+  },
+  {
+    "speaker": "bai",
+    "file": "story/ch13.rpy",
+    "line": 26,
+    "display_text": "今天必须定。天黑前扎营，再拖就要摸黑走坡。",
+    "tts_text": "今天必须定。天黑前扎营，再拖就要摸黑走坡。",
+    "wav": "_voice_source_wav/bai/bai_0059.wav",
+    "ogg": "voice/bai/bai_0059.ogg",
+    "source_wav": "_voice_source_wav/bai/bai_0059.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch13.rpy",
+    "line": 27,
+    "display_text": "图上这条线，前人走过。没有塌痕。",
+    "tts_text": "图上这条线，前人走过。没有塌痕。",
+    "wav": "_voice_source_wav/lan/lan_0082.wav",
+    "ogg": "voice/lan/lan_0082.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0082.wav"
+  },
+  {
+    "speaker": "qing",
+    "file": "story/ch13.rpy",
+    "line": 28,
+    "display_text": "……嗯。",
+    "tts_text": "……嗯。",
+    "wav": "_voice_source_wav/qing/qing_0046.wav",
+    "ogg": "voice/qing/qing_0046.ogg",
+    "source_wav": "_voice_source_wav/qing/qing_0046.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch13.rpy",
+    "line": 39,
+    "display_text": "远一天，走得稳。",
+    "tts_text": "远一天，走得稳。",
+    "wav": "_voice_source_wav/lan/lan_0083.wav",
+    "ogg": "voice/lan/lan_0083.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0083.wav"
+  },
+  {
+    "speaker": "bai",
+    "file": "story/ch13.rpy",
+    "line": 46,
+    "display_text": "先看谁的脚先打晃。撑不住，就走近的。",
+    "tts_text": "先看谁的脚先打晃。撑不住，就走近的。",
+    "wav": "_voice_source_wav/bai/bai_0060.wav",
+    "ogg": "voice/bai/bai_0060.ogg",
+    "source_wav": "_voice_source_wav/bai/bai_0060.wav"
+  },
+  {
+    "speaker": "qing",
+    "file": "story/ch13.rpy",
+    "line": 53,
+    "display_text": "……对的那条。",
+    "tts_text": "……对的那条。",
+    "wav": "_voice_source_wav/qing/qing_0047.wav",
+    "ogg": "voice/qing/qing_0047.ogg",
+    "source_wav": "_voice_source_wav/qing/qing_0047.wav"
+  },
+  {
+    "speaker": "bai",
+    "file": "story/ch13.rpy",
+    "line": 78,
+    "display_text": "背包我来分。你只管走你的。",
+    "tts_text": "背包我来分。你只管走你的。",
+    "wav": "_voice_source_wav/bai/bai_0061.wav",
+    "ogg": "voice/bai/bai_0061.ogg",
+    "source_wav": "_voice_source_wav/bai/bai_0061.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch13.rpy",
+    "line": 84,
+    "display_text": "人数对得上，再往前走。",
+    "tts_text": "人数对得上，再往前走。",
+    "wav": "_voice_source_wav/lan/lan_0084.wav",
+    "ogg": "voice/lan/lan_0084.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0084.wav"
+  },
+  {
+    "speaker": "qing",
+    "file": "story/ch13.rpy",
+    "line": 89,
+    "display_text": "记下退路。回去也按这套落脚。",
+    "tts_text": "记下退路。回去也按这套落脚。",
+    "wav": "_voice_source_wav/qing/qing_0048.wav",
+    "ogg": "voice/qing/qing_0048.ogg",
+    "source_wav": "_voice_source_wav/qing/qing_0048.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch13.rpy",
+    "line": 104,
+    "display_text": "今天的粥比昨天稠。",
+    "tts_text": "今天的粥比昨天稠。",
+    "wav": "_voice_source_wav/lan/lan_0085.wav",
+    "ogg": "voice/lan/lan_0085.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0085.wav"
+  },
+  {
+    "speaker": "bai",
+    "file": "story/ch13.rpy",
+    "line": 105,
+    "display_text": "稠就多吃。路上不一定有。",
+    "tts_text": "稠就多吃。路上不一定有。",
+    "wav": "_voice_source_wav/bai/bai_0062.wav",
+    "ogg": "voice/bai/bai_0062.ogg",
+    "source_wav": "_voice_source_wav/bai/bai_0062.wav"
+  },
+  {
+    "speaker": "qing",
+    "file": "story/ch13.rpy",
+    "line": 106,
+    "display_text": "嗯。",
+    "tts_text": "嗯。",
+    "wav": "_voice_source_wav/qing/qing_0049.wav",
+    "ogg": "voice/qing/qing_0049.ogg",
+    "source_wav": "_voice_source_wav/qing/qing_0049.wav"
+  },
+  {
+    "speaker": "qing",
+    "file": "story/ch13.rpy",
+    "line": 127,
+    "display_text": "干的给你。我这份涩，能咽。",
+    "tts_text": "干的给你。我这份涩，能咽。",
+    "wav": "_voice_source_wav/qing/qing_0050.wav",
+    "ogg": "voice/qing/qing_0050.ogg",
+    "source_wav": "_voice_source_wav/qing/qing_0050.wav"
+  },
+  {
+    "speaker": "bai",
+    "file": "story/ch13.rpy",
+    "line": 135,
+    "display_text": "你先喝。我这只手不挑温度。",
+    "tts_text": "你先喝。我这只手不挑温度。",
+    "wav": "_voice_source_wav/bai/bai_0063.wav",
+    "ogg": "voice/bai/bai_0063.ogg",
+    "source_wav": "_voice_source_wav/bai/bai_0063.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch13.rpy",
+    "line": 140,
+    "display_text": "留着。明天路上垫一口。",
+    "tts_text": "留着。明天路上垫一口。",
+    "wav": "_voice_source_wav/lan/lan_0086.wav",
+    "ogg": "voice/lan/lan_0086.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0086.wav"
+  },
+  {
+    "speaker": "bai",
+    "file": "story/ch13.rpy",
+    "line": 162,
+    "display_text": "活扣好。一拉就开。",
+    "tts_text": "活扣好。一拉就开。",
+    "wav": "_voice_source_wav/bai/bai_0064.wav",
+    "ogg": "voice/bai/bai_0064.ogg",
+    "source_wav": "_voice_source_wav/bai/bai_0064.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch13.rpy",
+    "line": 171,
+    "display_text": "补过的图，还是图。",
+    "tts_text": "补过的图，还是图。",
+    "wav": "_voice_source_wav/lan/lan_0087.wav",
+    "ogg": "voice/lan/lan_0087.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0087.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch14.rpy",
+    "line": 28,
+    "display_text": "跟我走，我在前头认路。绳放我肩上，滑了有人拉。",
+    "tts_text": "跟我走，我在前头认路。绳放我肩上，滑了有人拉。",
+    "wav": "_voice_source_wav/lan/lan_0088.wav",
+    "ogg": "voice/lan/lan_0088.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0088.wav"
+  },
+  {
+    "speaker": "bai",
+    "file": "story/ch14.rpy",
+    "line": 30,
+    "display_text": "能走的我管伤。走不动的，我先停下来等。",
+    "tts_text": "能走的我管伤。走不动的，我先停下来等。",
+    "wav": "_voice_source_wav/bai/bai_0065.wav",
+    "ogg": "voice/bai/bai_0065.ogg",
+    "source_wav": "_voice_source_wav/bai/bai_0065.wav"
+  },
+  {
+    "speaker": "qing",
+    "file": "story/ch14.rpy",
+    "line": 32,
+    "display_text": "箱子不轻。要抬，得两个人抬。",
+    "tts_text": "箱子不轻。要抬，得两个人抬。",
+    "wav": "_voice_source_wav/qing/qing_0051.wav",
+    "ogg": "voice/qing/qing_0051.ogg",
+    "source_wav": "_voice_source_wav/qing/qing_0051.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch14.rpy",
+    "line": 63,
+    "display_text": "跟得上，就别掉队。",
+    "tts_text": "跟得上，就别掉队。",
+    "wav": "_voice_source_wav/lan/lan_0089.wav",
+    "ogg": "voice/lan/lan_0089.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0089.wav"
+  },
+  {
+    "speaker": "bai",
+    "file": "story/ch14.rpy",
+    "line": 72,
+    "display_text": "伤口我来管。你只管走路。",
+    "tts_text": "伤口我来管。你只管走路。",
+    "wav": "_voice_source_wav/bai/bai_0066.wav",
+    "ogg": "voice/bai/bai_0066.ogg",
+    "source_wav": "_voice_source_wav/bai/bai_0066.wav"
+  },
+  {
+    "speaker": "qing",
+    "file": "story/ch14.rpy",
+    "line": 81,
+    "display_text": "样本箱不轻。你帮我抬。",
+    "tts_text": "样本箱不轻。你帮我抬。",
+    "wav": "_voice_source_wav/qing/qing_0052.wav",
+    "ogg": "voice/qing/qing_0052.ogg",
+    "source_wav": "_voice_source_wav/qing/qing_0052.wav"
+  },
+  {
+    "speaker": "shiqi",
+    "file": "story/ch15.rpy",
+    "line": 20,
+    "display_text": "走到这儿的人，都要换一样东西。",
+    "tts_text": "走到这儿的人，都要换一样东西。",
+    "wav": "_voice_source_wav/shiqi/shiqi_0001.wav",
+    "ogg": "voice/shiqi/shiqi_0001.ogg",
+    "source_wav": "_voice_source_wav/shiqi/shiqi_0001.wav"
+  },
+  {
+    "speaker": "shiqi",
+    "file": "story/ch15.rpy",
+    "line": 36,
+    "display_text": "门后十七条廊。一条廊一道记号。走错的，我不领回来。",
+    "tts_text": "门后十七条廊。一条廊一道记号。走错的，我不领回来。",
+    "wav": "_voice_source_wav/shiqi/shiqi_0002.wav",
+    "ogg": "voice/shiqi/shiqi_0002.ogg",
+    "source_wav": "_voice_source_wav/shiqi/shiqi_0002.wav"
+  },
+  {
+    "speaker": "qing",
+    "file": "story/ch15.rpy",
+    "line": 38,
+    "display_text": "珠子上的纹，是规矩。",
+    "tts_text": "珠子上的纹，是规矩。",
+    "wav": "_voice_source_wav/qing/qing_0053.wav",
+    "ogg": "voice/qing/qing_0053.ogg",
+    "source_wav": "_voice_source_wav/qing/qing_0053.wav"
+  },
+  {
+    "speaker": "qing",
+    "file": "story/ch15.rpy",
+    "line": 40,
+    "display_text": "哪格抽屉能动，哪条廊不能进，哪样东西出门要留下，都刻在珠子上。",
+    "tts_text": "哪格抽屉能动，哪条廊不能进，哪样东西出门要留下，都刻在珠子上。",
+    "wav": "_voice_source_wav/qing/qing_0054.wav",
+    "ogg": "voice/qing/qing_0054.ogg",
+    "source_wav": "_voice_source_wav/qing/qing_0054.wav"
+  },
+  {
+    "speaker": "shiqi",
+    "file": "story/ch15.rpy",
+    "line": 67,
+    "display_text": "按规矩换的。看一眼，记一条。",
+    "tts_text": "按规矩换的。看一眼，记一条。",
+    "wav": "_voice_source_wav/shiqi/shiqi_0003.wav",
+    "ogg": "voice/shiqi/shiqi_0003.ogg",
+    "source_wav": "_voice_source_wav/shiqi/shiqi_0003.wav"
+  },
+  {
+    "speaker": "shiqi",
+    "file": "story/ch15.rpy",
+    "line": 76,
+    "display_text": "门只开一回。看急了，后面的廊，我不留第二道缝。",
+    "tts_text": "门只开一回。看急了，后面的廊，我不留第二道缝。",
+    "wav": "_voice_source_wav/shiqi/shiqi_0004.wav",
+    "ogg": "voice/shiqi/shiqi_0004.ogg",
+    "source_wav": "_voice_source_wav/shiqi/shiqi_0004.wav"
+  },
+  {
+    "speaker": "bai",
+    "file": "story/ch15.rpy",
+    "line": 87,
+    "display_text": "门外看够了再进。人先稳住。",
+    "tts_text": "门外看够了再进。人先稳住。",
+    "wav": "_voice_source_wav/bai/bai_0067.wav",
+    "ogg": "voice/bai/bai_0067.ogg",
+    "source_wav": "_voice_source_wav/bai/bai_0067.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch15.rpy",
+    "line": 103,
+    "display_text": "先摸清规矩再进。欠了人情，进门以后还得还。",
+    "tts_text": "先摸清规矩再进。欠了人情，进门以后还得还。",
+    "wav": "_voice_source_wav/lan/lan_0090.wav",
+    "ogg": "voice/lan/lan_0090.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0090.wav"
+  },
+  {
+    "speaker": "bai",
+    "file": "story/ch15.rpy",
+    "line": 104,
+    "display_text": "先看人能不能撑过长廊。伤员的脚、药的余量，得先报清楚。",
+    "tts_text": "先看人能不能撑过长廊。伤员的脚、药的余量，得先报清楚。",
+    "wav": "_voice_source_wav/bai/bai_0068.wav",
+    "ogg": "voice/bai/bai_0068.ogg",
+    "source_wav": "_voice_source_wav/bai/bai_0068.wav"
+  },
+  {
+    "speaker": "qing",
+    "file": "story/ch15.rpy",
+    "line": 105,
+    "display_text": "珠子的纹路我先记下。记下来，走错廊也有个比照。",
+    "tts_text": "珠子的纹路我先记下。记下来，走错廊也有个比照。",
+    "wav": "_voice_source_wav/qing/qing_0055.wav",
+    "ogg": "voice/qing/qing_0055.ogg",
+    "source_wav": "_voice_source_wav/qing/qing_0055.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch15.rpy",
+    "line": 117,
+    "display_text": "规矩问清了，再谈条件。",
+    "tts_text": "规矩问清了，再谈条件。",
+    "wav": "_voice_source_wav/lan/lan_0091.wav",
+    "ogg": "voice/lan/lan_0091.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0091.wav"
+  },
+  {
+    "speaker": "bai",
+    "file": "story/ch15.rpy",
+    "line": 123,
+    "display_text": "人撑不到的廊，别安排我们走。",
+    "tts_text": "人撑不到的廊，别安排我们走。",
+    "wav": "_voice_source_wav/bai/bai_0069.wav",
+    "ogg": "voice/bai/bai_0069.ogg",
+    "source_wav": "_voice_source_wav/bai/bai_0069.wav"
+  },
+  {
+    "speaker": "qing",
+    "file": "story/ch15.rpy",
+    "line": 129,
+    "display_text": "纹路顺序没乱。守珠子的人一直按这套规矩来。",
+    "tts_text": "纹路顺序没乱。守珠子的人一直按这套规矩来。",
+    "wav": "_voice_source_wav/qing/qing_0056.wav",
+    "ogg": "voice/qing/qing_0056.ogg",
+    "source_wav": "_voice_source_wav/qing/qing_0056.wav"
+  },
+  {
+    "speaker": "shiqi",
+    "file": "story/ch15.rpy",
+    "line": 139,
+    "display_text": "走到这儿的人，都要换一样东西。",
+    "tts_text": "走到这儿的人，都要换一样东西。",
+    "wav": "_voice_source_wav/shiqi/shiqi_0005.wav",
+    "ogg": "voice/shiqi/shiqi_0005.ogg",
+    "source_wav": "_voice_source_wav/shiqi/shiqi_0005.wav"
+  },
+  {
+    "speaker": "shiqi",
+    "file": "story/ch15.rpy",
+    "line": 141,
+    "display_text": "钥匙拿去，门我不开第二回。",
+    "tts_text": "钥匙拿去，门我不开第二回。",
+    "wav": "_voice_source_wav/shiqi/shiqi_0006.wav",
+    "ogg": "voice/shiqi/shiqi_0006.ogg",
+    "source_wav": "_voice_source_wav/shiqi/shiqi_0006.wav"
+  },
+  {
+    "speaker": "shiqi",
+    "file": "story/ch15.rpy",
+    "line": 143,
+    "display_text": "你说的每一句，我都记着。",
+    "tts_text": "你说的每一句，我都记着。",
+    "wav": "_voice_source_wav/shiqi/shiqi_0007.wav",
+    "ogg": "voice/shiqi/shiqi_0007.ogg",
+    "source_wav": "_voice_source_wav/shiqi/shiqi_0007.wav"
+  },
+  {
+    "speaker": "shiqi",
+    "file": "story/ch15.rpy",
+    "line": 152,
+    "display_text": "钥匙拿去。门我不开第二回。",
+    "tts_text": "钥匙拿去。门我不开第二回。",
+    "wav": "_voice_source_wav/shiqi/shiqi_0008.wav",
+    "ogg": "voice/shiqi/shiqi_0008.ogg",
+    "source_wav": "_voice_source_wav/shiqi/shiqi_0008.wav"
+  },
+  {
+    "speaker": "shiqi",
+    "file": "story/ch15.rpy",
+    "line": 158,
+    "display_text": "你说的每一句，我都记着。",
+    "tts_text": "你说的每一句，我都记着。",
+    "wav": "_voice_source_wav/shiqi/shiqi_0009.wav",
+    "ogg": "voice/shiqi/shiqi_0009.ogg",
+    "source_wav": "_voice_source_wav/shiqi/shiqi_0009.wav"
+  },
+  {
+    "speaker": "bai",
+    "file": "story/ch15.rpy",
+    "line": 180,
+    "display_text": "站门口冻的。进来之前先回暖。",
+    "tts_text": "站门口冻的。进来之前先回暖。",
+    "wav": "_voice_source_wav/bai/bai_0070.wav",
+    "ogg": "voice/bai/bai_0070.ogg",
+    "source_wav": "_voice_source_wav/bai/bai_0070.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch15.rpy",
+    "line": 194,
+    "display_text": "有动静你先退。我在前头。",
+    "tts_text": "有动静你先退。我在前头。",
+    "wav": "_voice_source_wav/lan/lan_0092.wav",
+    "ogg": "voice/lan/lan_0092.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0092.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch16.rpy",
+    "line": 20,
+    "display_text": "你包里叮当响了一路。",
+    "tts_text": "你包里叮当响了一路。",
+    "wav": "_voice_source_wav/lan/lan_0093.wav",
+    "ogg": "voice/lan/lan_0093.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0093.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch16.rpy",
+    "line": 23,
+    "display_text": "三股。",
+    "tts_text": "三股。",
+    "wav": "_voice_source_wav/lan/lan_0094.wav",
+    "ogg": "voice/lan/lan_0094.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0094.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch16.rpy",
+    "line": 25,
+    "display_text": "我们那队用四股。",
+    "tts_text": "我们那队用四股。",
+    "wav": "_voice_source_wav/lan/lan_0095.wav",
+    "ogg": "voice/lan/lan_0095.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0095.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch16.rpy",
+    "line": 44,
+    "display_text": "给我看看。",
+    "tts_text": "给我看看。",
+    "wav": "_voice_source_wav/lan/lan_0096.wav",
+    "ogg": "voice/lan/lan_0096.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0096.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch16.rpy",
+    "line": 47,
+    "display_text": "……哪儿捡的。",
+    "tts_text": "……哪儿捡的。",
+    "wav": "_voice_source_wav/lan/lan_0097.wav",
+    "ogg": "voice/lan/lan_0097.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0097.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch16.rpy",
+    "line": 52,
+    "display_text": "这是我原来那支队的。一圈线，中间断一道。她画的。",
+    "tts_text": "这是我原来那支队的。一圈线，中间断一道。她画的。",
+    "wav": "_voice_source_wav/lan/lan_0098.wav",
+    "ogg": "voice/lan/lan_0098.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0098.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch16.rpy",
+    "line": 70,
+    "display_text": "……嗯。比挂外面稳。",
+    "tts_text": "……嗯。比挂外面稳。",
+    "wav": "_voice_source_wav/lan/lan_0099.wav",
+    "ogg": "voice/lan/lan_0099.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0099.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch16.rpy",
+    "line": 73,
+    "display_text": "这儿。",
+    "tts_text": "这儿。",
+    "wav": "_voice_source_wav/lan/lan_0100.wav",
+    "ogg": "voice/lan/lan_0100.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0100.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch16.rpy",
+    "line": 81,
+    "display_text": "丢了它，我就找不到她们那支队了。",
+    "tts_text": "丢了它，我就找不到她们那支队了。",
+    "wav": "_voice_source_wav/lan/lan_0101.wav",
+    "ogg": "voice/lan/lan_0101.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0101.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch16.rpy",
+    "line": 88,
+    "display_text": "三个人。两个没出去。剩下那个，我一直在找。",
+    "tts_text": "三个人。两个没出去。剩下那个，我一直在找。",
+    "wav": "_voice_source_wav/lan/lan_0102.wav",
+    "ogg": "voice/lan/lan_0102.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0102.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch16.rpy",
+    "line": 102,
+    "display_text": "第三种。留着给你自己用。",
+    "tts_text": "第三种。留着给你自己用。",
+    "wav": "_voice_source_wav/lan/lan_0103.wav",
+    "ogg": "voice/lan/lan_0103.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0103.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch16.rpy",
+    "line": 115,
+    "display_text": "谁教你的。",
+    "tts_text": "谁教你的。",
+    "wav": "_voice_source_wav/lan/lan_0104.wav",
+    "ogg": "voice/lan/lan_0104.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0104.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch16.rpy",
+    "line": 118,
+    "display_text": "画那图的人，也没教过我。",
+    "tts_text": "画那图的人，也没教过我。",
+    "wav": "_voice_source_wav/lan/lan_0105.wav",
+    "ogg": "voice/lan/lan_0105.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0105.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch16.rpy",
+    "line": 123,
+    "display_text": "也行。断了再说。",
+    "tts_text": "也行。断了再说。",
+    "wav": "_voice_source_wav/lan/lan_0106.wav",
+    "ogg": "voice/lan/lan_0106.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0106.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch16.rpy",
+    "line": 129,
+    "display_text": "第四股不是断的。是有人拿刀割的，救人。",
+    "tts_text": "第四股不是断的。是有人拿刀割的，救人。",
+    "wav": "_voice_source_wav/lan/lan_0107.wav",
+    "ogg": "voice/lan/lan_0107.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0107.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch16.rpy",
+    "line": 138,
+    "display_text": "图上的线接上了。人没回来。",
+    "tts_text": "图上的线接上了。人没回来。",
+    "wav": "_voice_source_wav/lan/lan_0108.wav",
+    "ogg": "voice/lan/lan_0108.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0108.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch16.rpy",
+    "line": 139,
+    "display_text": "那天雨比今晚大。我们走到断口，她在前面。",
+    "tts_text": "那天雨比今晚大。我们走到断口，她在前面。",
+    "wav": "_voice_source_wav/lan/lan_0109.wav",
+    "ogg": "voice/lan/lan_0109.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0109.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch16.rpy",
+    "line": 144,
+    "display_text": "先别问刻的是谁。",
+    "tts_text": "先别问刻的是谁。",
+    "wav": "_voice_source_wav/lan/lan_0110.wav",
+    "ogg": "voice/lan/lan_0110.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0110.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch16.rpy",
+    "line": 154,
+    "display_text": "明天两条走法。沿水线，稳，多半天。翻脊线，快，坡陡。",
+    "tts_text": "明天两条走法。沿水线，稳，多半天。翻脊线，快，坡陡。",
+    "wav": "_voice_source_wav/lan/lan_0111.wav",
+    "ogg": "voice/lan/lan_0111.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0111.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch16.rpy",
+    "line": 169,
+    "display_text": "那就慢。慢一点，少出一次事。",
+    "tts_text": "那就慢。慢一点，少出一次事。",
+    "wav": "_voice_source_wav/lan/lan_0112.wav",
+    "ogg": "voice/lan/lan_0112.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0112.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch16.rpy",
+    "line": 175,
+    "display_text": "坡陡，绳得四个人拉。",
+    "tts_text": "坡陡，绳得四个人拉。",
+    "wav": "_voice_source_wav/lan/lan_0113.wav",
+    "ogg": "voice/lan/lan_0113.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0113.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch16.rpy",
+    "line": 178,
+    "display_text": "行。脚下滑了别喊。",
+    "tts_text": "行。脚下滑了别喊。",
+    "wav": "_voice_source_wav/lan/lan_0114.wav",
+    "ogg": "voice/lan/lan_0114.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0114.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch16.rpy",
+    "line": 185,
+    "display_text": "这条。绕远，但能看见站。",
+    "tts_text": "这条。绕远，但能看见站。",
+    "wav": "_voice_source_wav/lan/lan_0115.wav",
+    "ogg": "voice/lan/lan_0115.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0115.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch16.rpy",
+    "line": 194,
+    "display_text": "[player_name]。",
+    "tts_text": "队长。",
+    "wav": "_voice_source_wav/lan/lan_0116.wav",
+    "ogg": "voice/lan/lan_0116.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0116.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch16.rpy",
+    "line": 196,
+    "display_text": "没什么。",
+    "tts_text": "没什么。",
+    "wav": "_voice_source_wav/lan/lan_0117.wav",
+    "ogg": "voice/lan/lan_0117.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0117.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch17.rpy",
+    "line": 41,
+    "display_text": "你不用跟这么紧。",
+    "tts_text": "你不用跟这么紧。",
+    "wav": "_voice_source_wav/lan/lan_0118.wav",
+    "ogg": "voice/lan/lan_0118.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0118.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch17.rpy",
+    "line": 50,
+    "display_text": "……关了也好。",
+    "tts_text": "……关了也好。",
+    "wav": "_voice_source_wav/lan/lan_0119.wav",
+    "ogg": "voice/lan/lan_0119.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0119.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch17.rpy",
+    "line": 60,
+    "display_text": "她在断线的那头。我去把她叫回来。",
+    "tts_text": "她在断线的那头。我去把她叫回来。",
+    "wav": "_voice_source_wav/lan/lan_0120.wav",
+    "ogg": "voice/lan/lan_0120.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0120.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch17.rpy",
+    "line": 75,
+    "display_text": "图上那条断线我认得。顺着它，能走到站那边。",
+    "tts_text": "图上那条断线我认得。顺着它，能走到站那边。",
+    "wav": "_voice_source_wav/lan/lan_0121.wav",
+    "ogg": "voice/lan/lan_0121.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0121.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch17.rpy",
+    "line": 77,
+    "display_text": "断线在哪，我心里有数。不用图。",
+    "tts_text": "断线在哪，我心里有数。不用图。",
+    "wav": "_voice_source_wav/lan/lan_0122.wav",
+    "ogg": "voice/lan/lan_0122.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0122.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch17.rpy",
+    "line": 97,
+    "display_text": "塌方埋了两个。我出来的时候，图还在她手里。",
+    "tts_text": "塌方埋了两个。我出来的时候，图还在她手里。",
+    "wav": "_voice_source_wav/lan/lan_0123.wav",
+    "ogg": "voice/lan/lan_0123.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0123.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch17.rpy",
+    "line": 104,
+    "display_text": "你的绳留着。我的那队，四股。",
+    "tts_text": "你的绳留着。我的那队，四股。",
+    "wav": "_voice_source_wav/lan/lan_0124.wav",
+    "ogg": "voice/lan/lan_0124.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0124.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch17.rpy",
+    "line": 111,
+    "display_text": "线走到头，就是站。站那边有什么，我没进去过。",
+    "tts_text": "线走到头，就是站。站那边有什么，我没进去过。",
+    "wav": "_voice_source_wav/lan/lan_0125.wav",
+    "ogg": "voice/lan/lan_0125.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0125.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch17.rpy",
+    "line": 122,
+    "display_text": "别记。听见了也别往本子上写。",
+    "tts_text": "别记。听见了也别往本子上写。",
+    "wav": "_voice_source_wav/lan/lan_0126.wav",
+    "ogg": "voice/lan/lan_0126.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0126.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch17.rpy",
+    "line": 137,
+    "display_text": "守站的。别靠近。",
+    "tts_text": "守站的。别靠近。",
+    "wav": "_voice_source_wav/lan/lan_0127.wav",
+    "ogg": "voice/lan/lan_0127.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0127.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch17.rpy",
+    "line": 150,
+    "display_text": "并排走，步子得一样快。",
+    "tts_text": "并排走，步子得一样快。",
+    "wav": "_voice_source_wav/lan/lan_0128.wav",
+    "ogg": "voice/lan/lan_0128.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0128.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch17.rpy",
+    "line": 162,
+    "display_text": "这条路我还认得。哪天要回来，顺着它就能找着营地。",
+    "tts_text": "这条路我还认得。哪天要回来，顺着它就能找着营地。",
+    "wav": "_voice_source_wav/lan/lan_0129.wav",
+    "ogg": "voice/lan/lan_0129.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0129.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch17.rpy",
+    "line": 170,
+    "display_text": "……拴这么紧。",
+    "tts_text": "……拴这么紧。",
+    "wav": "_voice_source_wav/lan/lan_0130.wav",
+    "ogg": "voice/lan/lan_0130.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0130.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch18.rpy",
+    "line": 28,
+    "display_text": "近的那条省一天。对的那条，人齐。",
+    "tts_text": "近的那条省一天。对的那条，人齐。",
+    "wav": "_voice_source_wav/lan/lan_0131.wav",
+    "ogg": "voice/lan/lan_0131.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0131.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch18.rpy",
+    "line": 31,
+    "display_text": "路我来看。你跟着就成。",
+    "tts_text": "路我来看。你跟着就成。",
+    "wav": "_voice_source_wav/lan/lan_0132.wav",
+    "ogg": "voice/lan/lan_0132.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0132.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch18.rpy",
+    "line": 64,
+    "display_text": "这段坡碎，绕开。你脚不吃力。",
+    "tts_text": "这段坡碎，绕开。你脚不吃力。",
+    "wav": "_voice_source_wav/lan/lan_0133.wav",
+    "ogg": "voice/lan/lan_0133.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0133.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch18.rpy",
+    "line": 78,
+    "display_text": "近路塌过一段。跟紧，别走散。",
+    "tts_text": "近路塌过一段。跟紧，别走散。",
+    "wav": "_voice_source_wav/lan/lan_0134.wav",
+    "ogg": "voice/lan/lan_0134.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0134.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch18.rpy",
+    "line": 86,
+    "display_text": "远一天。走到了，就一起进去。",
+    "tts_text": "远一天。走到了，就一起进去。",
+    "wav": "_voice_source_wav/lan/lan_0135.wav",
+    "ogg": "voice/lan/lan_0135.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0135.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch18.rpy",
+    "line": 93,
+    "display_text": "我带路。你认记号，圈加一横那种。",
+    "tts_text": "我带路。你认记号，圈加一横那种。",
+    "wav": "_voice_source_wav/lan/lan_0136.wav",
+    "ogg": "voice/lan/lan_0136.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0136.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch18.rpy",
+    "line": 116,
+    "display_text": "你留着。我吃得少。",
+    "tts_text": "你留着。我吃得少。",
+    "wav": "_voice_source_wav/lan/lan_0137.wav",
+    "ogg": "voice/lan/lan_0137.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0137.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch18.rpy",
+    "line": 124,
+    "display_text": "这回断不了。",
+    "tts_text": "这回断不了。",
+    "wav": "_voice_source_wav/lan/lan_0138.wav",
+    "ogg": "voice/lan/lan_0138.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0138.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch18.rpy",
+    "line": 144,
+    "display_text": "半张在你那儿。半张在我这儿。站门口对得上，就是同一条线。",
+    "tts_text": "半张在你那儿。半张在我这儿。站门口对得上，就是同一条线。",
+    "wav": "_voice_source_wav/lan/lan_0139.wav",
+    "ogg": "voice/lan/lan_0139.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0139.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch18.rpy",
+    "line": 161,
+    "display_text": "收好。到门口再对。",
+    "tts_text": "收好。到门口再对。",
+    "wav": "_voice_source_wav/lan/lan_0140.wav",
+    "ogg": "voice/lan/lan_0140.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0140.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch18.rpy",
+    "line": 164,
+    "display_text": "攥着，别松。",
+    "tts_text": "攥着，别松。",
+    "wav": "_voice_source_wav/lan/lan_0141.wav",
+    "ogg": "voice/lan/lan_0141.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0141.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch18.rpy",
+    "line": 174,
+    "display_text": "也行。丢了谁的，都接不上。",
+    "tts_text": "也行。丢了谁的，都接不上。",
+    "wav": "_voice_source_wav/lan/lan_0142.wav",
+    "ogg": "voice/lan/lan_0142.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0142.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch18.rpy",
+    "line": 182,
+    "display_text": "……罗盘你拿惯了。我不夺。",
+    "tts_text": "……罗盘你拿惯了。我不夺。",
+    "wav": "_voice_source_wav/lan/lan_0143.wav",
+    "ogg": "voice/lan/lan_0143.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0143.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch18.rpy",
+    "line": 200,
+    "display_text": "脊线快，滑。谷底稳，费天光。退回去，人保住，图上这段就永远对不上。",
+    "tts_text": "脊线快，滑。谷底稳，费天光。退回去，人保住，图上这段就永远对不上。",
+    "wav": "_voice_source_wav/lan/lan_0144.wav",
+    "ogg": "voice/lan/lan_0144.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0144.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch18.rpy",
+    "line": 211,
+    "display_text": "这一步你先踩。踩住了，我跟。",
+    "tts_text": "这一步你先踩。踩住了，我跟。",
+    "wav": "_voice_source_wav/lan/lan_0145.wav",
+    "ogg": "voice/lan/lan_0145.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0145.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch18.rpy",
+    "line": 227,
+    "display_text": "退。人先回去。",
+    "tts_text": "退。人先回去。",
+    "wav": "_voice_source_wav/lan/lan_0146.wav",
+    "ogg": "voice/lan/lan_0146.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0146.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch18.rpy",
+    "line": 238,
+    "display_text": "歇够了就走。门在前面，不等人。",
+    "tts_text": "歇够了就走。门在前面，不等人。",
+    "wav": "_voice_source_wav/lan/lan_0147.wav",
+    "ogg": "voice/lan/lan_0147.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0147.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch18.rpy",
+    "line": 248,
+    "display_text": "图能对上，人未必能一起走到。",
+    "tts_text": "图能对上，人未必能一起走到。",
+    "wav": "_voice_source_wav/lan/lan_0148.wav",
+    "ogg": "voice/lan/lan_0148.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0148.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch18.rpy",
+    "line": 254,
+    "display_text": "上一次走这段，是我一个人。",
+    "tts_text": "上一次走这段，是我一个人。",
+    "wav": "_voice_source_wav/lan/lan_0149.wav",
+    "ogg": "voice/lan/lan_0149.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0149.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch18.rpy",
+    "line": 270,
+    "display_text": "到了。",
+    "tts_text": "到了。",
+    "wav": "_voice_source_wav/lan/lan_0150.wav",
+    "ogg": "voice/lan/lan_0150.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0150.wav"
+  },
+  {
+    "speaker": "bai",
+    "file": "story/ch19.rpy",
+    "line": 24,
+    "display_text": "六支。",
+    "tts_text": "六支。",
+    "wav": "_voice_source_wav/bai/bai_0071.wav",
+    "ogg": "voice/bai/bai_0071.ogg",
+    "source_wav": "_voice_source_wav/bai/bai_0071.wav"
+  },
+  {
+    "speaker": "bai",
+    "file": "story/ch19.rpy",
+    "line": 29,
+    "display_text": "你帮着对。",
+    "tts_text": "你帮着对。",
+    "wav": "_voice_source_wav/bai/bai_0072.wav",
+    "ogg": "voice/bai/bai_0072.ogg",
+    "source_wav": "_voice_source_wav/bai/bai_0072.wav"
+  },
+  {
+    "speaker": "bai",
+    "file": "story/ch19.rpy",
+    "line": 32,
+    "display_text": "我自己来。",
+    "tts_text": "我自己来。",
+    "wav": "_voice_source_wav/bai/bai_0073.wav",
+    "ogg": "voice/bai/bai_0073.ogg",
+    "source_wav": "_voice_source_wav/bai/bai_0073.wav"
+  },
+  {
+    "speaker": "bai",
+    "file": "story/ch19.rpy",
+    "line": 55,
+    "display_text": "……行。别摆在火边。",
+    "tts_text": "……行。别摆在火边。",
+    "wav": "_voice_source_wav/bai/bai_0074.wav",
+    "ogg": "voice/bai/bai_0074.ogg",
+    "source_wav": "_voice_source_wav/bai/bai_0074.wav"
+  },
+  {
+    "speaker": "bai",
+    "file": "story/ch19.rpy",
+    "line": 57,
+    "display_text": "烂纸怕潮，也怕火。",
+    "tts_text": "烂纸怕潮，也怕火。",
+    "wav": "_voice_source_wav/bai/bai_0075.wav",
+    "ogg": "voice/bai/bai_0075.ogg",
+    "source_wav": "_voice_source_wav/bai/bai_0075.wav"
+  },
+  {
+    "speaker": "bai",
+    "file": "story/ch19.rpy",
+    "line": 70,
+    "display_text": "减的那支，不算在队里的账上。",
+    "tts_text": "减的那支，不算在队里的账上。",
+    "wav": "_voice_source_wav/bai/bai_0076.wav",
+    "ogg": "voice/bai/bai_0076.ogg",
+    "source_wav": "_voice_source_wav/bai/bai_0076.wav"
+  },
+  {
+    "speaker": "bai",
+    "file": "story/ch19.rpy",
+    "line": 89,
+    "display_text": "伤药不留过夜。留到明天，瓶里是什么就说不清了。",
+    "tts_text": "伤药不留过夜。留到明天，瓶里是什么就说不清了。",
+    "wav": "_voice_source_wav/bai/bai_0077.wav",
+    "ogg": "voice/bai/bai_0077.ogg",
+    "source_wav": "_voice_source_wav/bai/bai_0077.wav"
+  },
+  {
+    "speaker": "bai",
+    "file": "story/ch19.rpy",
+    "line": 108,
+    "display_text": "……减了有一阵了。",
+    "tts_text": "……减了有一阵了。",
+    "wav": "_voice_source_wav/bai/bai_0078.wav",
+    "ogg": "voice/bai/bai_0078.ogg",
+    "source_wav": "_voice_source_wav/bai/bai_0078.wav"
+  },
+  {
+    "speaker": "bai",
+    "file": "story/ch19.rpy",
+    "line": 115,
+    "display_text": "记上就丢不了。",
+    "tts_text": "记上就丢不了。",
+    "wav": "_voice_source_wav/bai/bai_0079.wav",
+    "ogg": "voice/bai/bai_0079.ogg",
+    "source_wav": "_voice_source_wav/bai/bai_0079.wav"
+  },
+  {
+    "speaker": "bai",
+    "file": "story/ch19.rpy",
+    "line": 127,
+    "display_text": "旧营里那位留下的。刻纹记的是用药的分量，珠子裂一颗，就是减过一回。",
+    "tts_text": "旧营里那位留下的。刻纹记的是用药的分量，珠子裂一颗，就是减过一回。",
+    "wav": "_voice_source_wav/bai/bai_0080.wav",
+    "ogg": "voice/bai/bai_0080.ogg",
+    "source_wav": "_voice_source_wav/bai/bai_0080.wav"
+  },
+  {
+    "speaker": "bai",
+    "file": "story/ch19.rpy",
+    "line": 137,
+    "display_text": "珠子别沾水。沾水，刻纹就花了。",
+    "tts_text": "珠子别沾水。沾水，刻纹就花了。",
+    "wav": "_voice_source_wav/bai/bai_0081.wav",
+    "ogg": "voice/bai/bai_0081.ogg",
+    "source_wav": "_voice_source_wav/bai/bai_0081.wav"
+  },
+  {
+    "speaker": "bai",
+    "file": "story/ch19.rpy",
+    "line": 146,
+    "display_text": "……裂的那颗，记的是最后一回。",
+    "tts_text": "……裂的那颗，记的是最后一回。",
+    "wav": "_voice_source_wav/bai/bai_0082.wav",
+    "ogg": "voice/bai/bai_0082.ogg",
+    "source_wav": "_voice_source_wav/bai/bai_0082.wav"
+  },
+  {
+    "speaker": "bai",
+    "file": "story/ch19.rpy",
+    "line": 157,
+    "display_text": "你手上这道口子，夜里要换药。一半够撑到进站。",
+    "tts_text": "你手上这道口子，夜里要换药。一半够撑到进站。",
+    "wav": "_voice_source_wav/bai/bai_0083.wav",
+    "ogg": "voice/bai/bai_0083.ogg",
+    "source_wav": "_voice_source_wav/bai/bai_0083.wav"
+  },
+  {
+    "speaker": "bai",
+    "file": "story/ch20.rpy",
+    "line": 24,
+    "display_text": "手。",
+    "tts_text": "手。",
+    "wav": "_voice_source_wav/bai/bai_0084.wav",
+    "ogg": "voice/bai/bai_0084.ogg",
+    "source_wav": "_voice_source_wav/bai/bai_0084.wav"
+  },
+  {
+    "speaker": "bai",
+    "file": "story/ch20.rpy",
+    "line": 26,
+    "display_text": "伸过来。",
+    "tts_text": "伸过来。",
+    "wav": "_voice_source_wav/bai/bai_0085.wav",
+    "ogg": "voice/bai/bai_0085.ogg",
+    "source_wav": "_voice_source_wav/bai/bai_0085.wav"
+  },
+  {
+    "speaker": "bai",
+    "file": "story/ch20.rpy",
+    "line": 27,
+    "display_text": "别攥。攥着血出得更快。",
+    "tts_text": "别攥。攥着血出得更快。",
+    "wav": "_voice_source_wav/bai/bai_0086.wav",
+    "ogg": "voice/bai/bai_0086.ogg",
+    "source_wav": "_voice_source_wav/bai/bai_0086.wav"
+  },
+  {
+    "speaker": "bai",
+    "file": "story/ch20.rpy",
+    "line": 45,
+    "display_text": "六支针剂。麻醉一支，抗感染一支。",
+    "tts_text": "六支针剂。麻醉一支，抗感染一支。",
+    "wav": "_voice_source_wav/bai/bai_0087.wav",
+    "ogg": "voice/bai/bai_0087.ogg",
+    "source_wav": "_voice_source_wav/bai/bai_0087.wav"
+  },
+  {
+    "speaker": "bai",
+    "file": "story/ch20.rpy",
+    "line": 47,
+    "display_text": "用掉两支，箱里剩四支。",
+    "tts_text": "用掉两支，箱里剩四支。",
+    "wav": "_voice_source_wav/bai/bai_0088.wav",
+    "ogg": "voice/bai/bai_0088.ogg",
+    "source_wav": "_voice_source_wav/bai/bai_0088.wav"
+  },
+  {
+    "speaker": "bai",
+    "file": "story/ch20.rpy",
+    "line": 51,
+    "display_text": "……灯再亮一点。",
+    "tts_text": "……灯再亮一点。",
+    "wav": "_voice_source_wav/bai/bai_0089.wav",
+    "ogg": "voice/bai/bai_0089.ogg",
+    "source_wav": "_voice_source_wav/bai/bai_0089.wav"
+  },
+  {
+    "speaker": "bai",
+    "file": "story/ch20.rpy",
+    "line": 60,
+    "display_text": "干净比快要紧。",
+    "tts_text": "干净比快要紧。",
+    "wav": "_voice_source_wav/bai/bai_0090.wav",
+    "ogg": "voice/bai/bai_0090.ogg",
+    "source_wav": "_voice_source_wav/bai/bai_0090.wav"
+  },
+  {
+    "speaker": "bai",
+    "file": "story/ch20.rpy",
+    "line": 65,
+    "display_text": "行。就这个位置。",
+    "tts_text": "行。就这个位置。",
+    "wav": "_voice_source_wav/bai/bai_0091.wav",
+    "ogg": "voice/bai/bai_0091.ogg",
+    "source_wav": "_voice_source_wav/bai/bai_0091.wav"
+  },
+  {
+    "speaker": "bai",
+    "file": "story/ch20.rpy",
+    "line": 80,
+    "display_text": "我的手没事。",
+    "tts_text": "我的手没事。",
+    "wav": "_voice_source_wav/bai/bai_0092.wav",
+    "ogg": "voice/bai/bai_0092.ogg",
+    "source_wav": "_voice_source_wav/bai/bai_0092.wav"
+  },
+  {
+    "speaker": "bai",
+    "file": "story/ch20.rpy",
+    "line": 88,
+    "display_text": "铁片卷了边。得清干净，再缝。",
+    "tts_text": "铁片卷了边。得清干净，再缝。",
+    "wav": "_voice_source_wav/bai/bai_0093.wav",
+    "ogg": "voice/bai/bai_0093.ogg",
+    "source_wav": "_voice_source_wav/bai/bai_0093.wav"
+  },
+  {
+    "speaker": "bai",
+    "file": "story/ch20.rpy",
+    "line": 96,
+    "display_text": "……就一刻。一刻之后，伤口不能再拖。",
+    "tts_text": "……就一刻。一刻之后，伤口不能再拖。",
+    "wav": "_voice_source_wav/bai/bai_0094.wav",
+    "ogg": "voice/bai/bai_0094.ogg",
+    "source_wav": "_voice_source_wav/bai/bai_0094.wav"
+  },
+  {
+    "speaker": "bai",
+    "file": "story/ch20.rpy",
+    "line": 101,
+    "display_text": "先回暖。手凉了，缝线收不匀。",
+    "tts_text": "先回暖。手凉了，缝线收不匀。",
+    "wav": "_voice_source_wav/bai/bai_0095.wav",
+    "ogg": "voice/bai/bai_0095.ogg",
+    "source_wav": "_voice_source_wav/bai/bai_0095.wav"
+  },
+  {
+    "speaker": "bai",
+    "file": "story/ch20.rpy",
+    "line": 133,
+    "display_text": "……手不抖了。是你按的。",
+    "tts_text": "……手不抖了。是你按的。",
+    "wav": "_voice_source_wav/bai/bai_0096.wav",
+    "ogg": "voice/bai/bai_0096.ogg",
+    "source_wav": "_voice_source_wav/bai/bai_0096.wav"
+  },
+  {
+    "speaker": "bai",
+    "file": "story/ch20.rpy",
+    "line": 141,
+    "display_text": "继续。我停了，这只手就废在这儿。",
+    "tts_text": "继续。我停了，这只手就废在这儿。",
+    "wav": "_voice_source_wav/bai/bai_0097.wav",
+    "ogg": "voice/bai/bai_0097.ogg",
+    "source_wav": "_voice_source_wav/bai/bai_0097.wav"
+  },
+  {
+    "speaker": "bai",
+    "file": "story/ch20.rpy",
+    "line": 150,
+    "display_text": "再进半分。好，收口。",
+    "tts_text": "再进半分。好，收口。",
+    "wav": "_voice_source_wav/bai/bai_0098.wav",
+    "ogg": "voice/bai/bai_0098.ogg",
+    "source_wav": "_voice_source_wav/bai/bai_0098.wav"
+  },
+  {
+    "speaker": "bai",
+    "file": "story/ch20.rpy",
+    "line": 157,
+    "display_text": "你的手留着这支。夜里换药，别省。",
+    "tts_text": "你的手留着这支。夜里换药，别省。",
+    "wav": "_voice_source_wav/bai/bai_0099.wav",
+    "ogg": "voice/bai/bai_0099.ogg",
+    "source_wav": "_voice_source_wav/bai/bai_0099.wav"
+  },
+  {
+    "speaker": "bai",
+    "file": "story/ch20.rpy",
+    "line": 174,
+    "display_text": "下回别把伤口留给夜里。",
+    "tts_text": "下回别把伤口留给夜里。",
+    "wav": "_voice_source_wav/bai/bai_0100.wav",
+    "ogg": "voice/bai/bai_0100.ogg",
+    "source_wav": "_voice_source_wav/bai/bai_0100.wav"
+  },
+  {
+    "speaker": "bai",
+    "file": "story/ch20.rpy",
+    "line": 176,
+    "display_text": "夜里看不清。看不清，缝出来都是疤。",
+    "tts_text": "夜里看不清。看不清，缝出来都是疤。",
+    "wav": "_voice_source_wav/bai/bai_0101.wav",
+    "ogg": "voice/bai/bai_0101.ogg",
+    "source_wav": "_voice_source_wav/bai/bai_0101.wav"
+  },
+  {
+    "speaker": "bai",
+    "file": "story/ch21.rpy",
+    "line": 51,
+    "display_text": "昨晚那针，你手腕还疼？",
+    "tts_text": "昨晚那针，你手腕还疼？",
+    "wav": "_voice_source_wav/bai/bai_0102.wav",
+    "ogg": "voice/bai/bai_0102.ogg",
+    "source_wav": "_voice_source_wav/bai/bai_0102.wav"
+  },
+  {
+    "speaker": "bai",
+    "file": "story/ch21.rpy",
+    "line": 53,
+    "display_text": "夜里要是发麻，喊我。",
+    "tts_text": "夜里要是发麻，喊我。",
+    "wav": "_voice_source_wav/bai/bai_0103.wav",
+    "ogg": "voice/bai/bai_0103.ogg",
+    "source_wav": "_voice_source_wav/bai/bai_0103.wav"
+  },
+  {
+    "speaker": "bai",
+    "file": "story/ch21.rpy",
+    "line": 62,
+    "display_text": "结打内侧。打外侧，蹭箱子。",
+    "tts_text": "结打内侧。打外侧，蹭箱子。",
+    "wav": "_voice_source_wav/bai/bai_0104.wav",
+    "ogg": "voice/bai/bai_0104.ogg",
+    "source_wav": "_voice_source_wav/bai/bai_0104.wav"
+  },
+  {
+    "speaker": "bai",
+    "file": "story/ch21.rpy",
+    "line": 77,
+    "display_text": "旧伤。天冷就这样，不碍事。",
+    "tts_text": "旧伤。天冷就这样，不碍事。",
+    "wav": "_voice_source_wav/bai/bai_0105.wav",
+    "ogg": "voice/bai/bai_0105.ogg",
+    "source_wav": "_voice_source_wav/bai/bai_0105.wav"
+  },
+  {
+    "speaker": "bai",
+    "file": "story/ch21.rpy",
+    "line": 88,
+    "display_text": "没人应。也没人跑。",
+    "tts_text": "没人应。也没人跑。",
+    "wav": "_voice_source_wav/bai/bai_0106.wav",
+    "ogg": "voice/bai/bai_0106.ogg",
+    "source_wav": "_voice_source_wav/bai/bai_0106.wav"
+  },
+  {
+    "speaker": "bai",
+    "file": "story/ch21.rpy",
+    "line": 100,
+    "display_text": "进去以后，箱子不离手。",
+    "tts_text": "进去以后，箱子不离手。",
+    "wav": "_voice_source_wav/bai/bai_0107.wav",
+    "ogg": "voice/bai/bai_0107.ogg",
+    "source_wav": "_voice_source_wav/bai/bai_0107.wav"
+  },
+  {
+    "speaker": "bai",
+    "file": "story/ch21.rpy",
+    "line": 111,
+    "display_text": "针剂三支。药布还能缠两回。酒精够擦一轮伤口。",
+    "tts_text": "针剂三支。药布还能缠两回。酒精够擦一轮伤口。",
+    "wav": "_voice_source_wav/bai/bai_0108.wav",
+    "ogg": "voice/bai/bai_0108.ogg",
+    "source_wav": "_voice_source_wav/bai/bai_0108.wav"
+  },
+  {
+    "speaker": "bai",
+    "file": "story/ch21.rpy",
+    "line": 127,
+    "display_text": "平均就平均。路上谁先伤着，先拿公共的。",
+    "tts_text": "平均就平均。路上谁先伤着，先拿公共的。",
+    "wav": "_voice_source_wav/bai/bai_0109.wav",
+    "ogg": "voice/bai/bai_0109.ogg",
+    "source_wav": "_voice_source_wav/bai/bai_0109.wav"
+  },
+  {
+    "speaker": "bai",
+    "file": "story/ch21.rpy",
+    "line": 137,
+    "display_text": "我管着。你手上那道口子，换药别省。",
+    "tts_text": "我管着。你手上那道口子，换药别省。",
+    "wav": "_voice_source_wav/bai/bai_0110.wav",
+    "ogg": "voice/bai/bai_0110.ogg",
+    "source_wav": "_voice_source_wav/bai/bai_0110.wav"
+  },
+  {
+    "speaker": "bai",
+    "file": "story/ch21.rpy",
+    "line": 147,
+    "display_text": "……记下就丢不了。",
+    "tts_text": "……记下就丢不了。",
+    "wav": "_voice_source_wav/bai/bai_0111.wav",
+    "ogg": "voice/bai/bai_0111.ogg",
+    "source_wav": "_voice_source_wav/bai/bai_0111.wav"
+  },
+  {
+    "speaker": "bai",
+    "file": "story/ch21.rpy",
+    "line": 160,
+    "display_text": "我减药，不是想硬撑。",
+    "tts_text": "我减药，不是想硬撑。",
+    "wav": "_voice_source_wav/bai/bai_0112.wav",
+    "ogg": "voice/bai/bai_0112.ogg",
+    "source_wav": "_voice_source_wav/bai/bai_0112.wav"
+  },
+  {
+    "speaker": "bai",
+    "file": "story/ch21.rpy",
+    "line": 162,
+    "display_text": "吃全份，手会慢。慢半拍，缝不上别人的口子。我留够站得稳的量，多余的省下来，留给队里。",
+    "tts_text": "吃全份，手会慢。慢半拍，缝不上别人的口子。我留够站得稳的量，多余的省下来，留给队里。",
+    "wav": "_voice_source_wav/bai/bai_0113.wav",
+    "ogg": "voice/bai/bai_0113.ogg",
+    "source_wav": "_voice_source_wav/bai/bai_0113.wav"
+  },
+  {
+    "speaker": "bai",
+    "file": "story/ch21.rpy",
+    "line": 171,
+    "display_text": "以前队里有人倒下，我手上慢过一回。从那以后，我不敢吃全份。",
+    "tts_text": "以前队里有人倒下，我手上慢过一回。从那以后，我不敢吃全份。",
+    "wav": "_voice_source_wav/bai/bai_0114.wav",
+    "ogg": "voice/bai/bai_0114.ogg",
+    "source_wav": "_voice_source_wav/bai/bai_0114.wav"
+  },
+  {
+    "speaker": "bai",
+    "file": "story/ch21.rpy",
+    "line": 175,
+    "display_text": "药留着不是给我舒服的。是留着手，给队里处理伤口。",
+    "tts_text": "药留着不是给我舒服的。是留着手，给队里处理伤口。",
+    "wav": "_voice_source_wav/bai/bai_0115.wav",
+    "ogg": "voice/bai/bai_0115.ogg",
+    "source_wav": "_voice_source_wav/bai/bai_0115.wav"
+  },
+  {
+    "speaker": "bai",
+    "file": "story/ch21.rpy",
+    "line": 188,
+    "display_text": "……多出来的那支，我不会动。",
+    "tts_text": "……多出来的那支，我不会动。",
+    "wav": "_voice_source_wav/bai/bai_0116.wav",
+    "ogg": "voice/bai/bai_0116.ogg",
+    "source_wav": "_voice_source_wav/bai/bai_0116.wav"
+  },
+  {
+    "speaker": "bai",
+    "file": "story/ch21.rpy",
+    "line": 195,
+    "display_text": "你手还没好。",
+    "tts_text": "你手还没好。",
+    "wav": "_voice_source_wav/bai/bai_0117.wav",
+    "ogg": "voice/bai/bai_0117.ogg",
+    "source_wav": "_voice_source_wav/bai/bai_0117.wav"
+  },
+  {
+    "speaker": "bai",
+    "file": "story/ch21.rpy",
+    "line": 214,
+    "display_text": "我来开。你靠后。",
+    "tts_text": "我来开。你靠后。",
+    "wav": "_voice_source_wav/bai/bai_0118.wav",
+    "ogg": "voice/bai/bai_0118.ogg",
+    "source_wav": "_voice_source_wav/bai/bai_0118.wav"
+  },
+  {
+    "speaker": "bai",
+    "file": "story/ch21.rpy",
+    "line": 218,
+    "display_text": "走这边。别碰响铁丝。",
+    "tts_text": "走这边。别碰响铁丝。",
+    "wav": "_voice_source_wav/bai/bai_0119.wav",
+    "ogg": "voice/bai/bai_0119.ogg",
+    "source_wav": "_voice_source_wav/bai/bai_0119.wav"
+  },
+  {
+    "speaker": "qing",
+    "file": "story/ch22.rpy",
+    "line": 20,
+    "display_text": "有人在这儿住过。",
+    "tts_text": "有人在这儿住过。",
+    "wav": "_voice_source_wav/qing/qing_0057.wav",
+    "ogg": "voice/qing/qing_0057.ogg",
+    "source_wav": "_voice_source_wav/qing/qing_0057.wav"
+  },
+  {
+    "speaker": "qing",
+    "file": "story/ch22.rpy",
+    "line": 28,
+    "display_text": "里头是什么，你早看了一半。",
+    "tts_text": "里头是什么，你早看了一半。",
+    "wav": "_voice_source_wav/qing/qing_0058.wav",
+    "ogg": "voice/qing/qing_0058.ogg",
+    "source_wav": "_voice_source_wav/qing/qing_0058.wav"
+  },
+  {
+    "speaker": "qing",
+    "file": "story/ch22.rpy",
+    "line": 31,
+    "display_text": "先看门。箱子的事，以后再说。",
+    "tts_text": "先看门。箱子的事，以后再说。",
+    "wav": "_voice_source_wav/qing/qing_0059.wav",
+    "ogg": "voice/qing/qing_0059.ogg",
+    "source_wav": "_voice_source_wav/qing/qing_0059.wav"
+  },
+  {
+    "speaker": "qing",
+    "file": "story/ch22.rpy",
+    "line": 43,
+    "display_text": "一、二、三。到这道门，十七步。",
+    "tts_text": "一、二、三。到这道门，十七步。",
+    "wav": "_voice_source_wav/qing/qing_0060.wav",
+    "ogg": "voice/qing/qing_0060.ogg",
+    "source_wav": "_voice_source_wav/qing/qing_0060.wav"
+  },
+  {
+    "speaker": "qing",
+    "file": "story/ch22.rpy",
+    "line": 58,
+    "display_text": "箱子稳，人就稳。",
+    "tts_text": "箱子稳，人就稳。",
+    "wav": "_voice_source_wav/qing/qing_0061.wav",
+    "ogg": "voice/qing/qing_0061.ogg",
+    "source_wav": "_voice_source_wav/qing/qing_0061.wav"
+  },
+  {
+    "speaker": "qing",
+    "file": "story/ch22.rpy",
+    "line": 65,
+    "display_text": "别踩那片墙根。滑。",
+    "tts_text": "别踩那片墙根。滑。",
+    "wav": "_voice_source_wav/qing/qing_0062.wav",
+    "ogg": "voice/qing/qing_0062.ogg",
+    "source_wav": "_voice_source_wav/qing/qing_0062.wav"
+  },
+  {
+    "speaker": "qing",
+    "file": "story/ch22.rpy",
+    "line": 89,
+    "display_text": "有人比我们先到。走得也不急。",
+    "tts_text": "有人比我们先到。走得也不急。",
+    "wav": "_voice_source_wav/qing/qing_0063.wav",
+    "ogg": "voice/qing/qing_0063.ogg",
+    "source_wav": "_voice_source_wav/qing/qing_0063.wav"
+  },
+  {
+    "speaker": "qing",
+    "file": "story/ch22.rpy",
+    "line": 96,
+    "display_text": "水往低处走。潮的这面，挨着河。",
+    "tts_text": "水往低处走。潮的这面，挨着河。",
+    "wav": "_voice_source_wav/qing/qing_0064.wav",
+    "ogg": "voice/qing/qing_0064.ogg",
+    "source_wav": "_voice_source_wav/qing/qing_0064.wav"
+  },
+  {
+    "speaker": "qing",
+    "file": "story/ch22.rpy",
+    "line": 110,
+    "display_text": "老师的记录。只留下这半页。",
+    "tts_text": "老师的记录。只留下这半页。",
+    "wav": "_voice_source_wav/qing/qing_0065.wav",
+    "ogg": "voice/qing/qing_0065.ogg",
+    "source_wav": "_voice_source_wav/qing/qing_0065.wav"
+  },
+  {
+    "speaker": "qing",
+    "file": "story/ch22.rpy",
+    "line": 127,
+    "display_text": "……嗯。放在我这儿，最稳。",
+    "tts_text": "……嗯。放在我这儿，最稳。",
+    "wav": "_voice_source_wav/qing/qing_0066.wav",
+    "ogg": "voice/qing/qing_0066.ogg",
+    "source_wav": "_voice_source_wav/qing/qing_0066.wav"
+  },
+  {
+    "speaker": "qing",
+    "file": "story/ch22.rpy",
+    "line": 133,
+    "display_text": "行。你记你的。纸我带回箱里。",
+    "tts_text": "行。你记你的。纸我带回箱里。",
+    "wav": "_voice_source_wav/qing/qing_0067.wav",
+    "ogg": "voice/qing/qing_0067.ogg",
+    "source_wav": "_voice_source_wav/qing/qing_0067.wav"
+  },
+  {
+    "speaker": "qing",
+    "file": "story/ch22.rpy",
+    "line": 141,
+    "display_text": "抄下来的，带得出去才作数。",
+    "tts_text": "抄下来的，带得出去才作数。",
+    "wav": "_voice_source_wav/qing/qing_0068.wav",
+    "ogg": "voice/qing/qing_0068.ogg",
+    "source_wav": "_voice_source_wav/qing/qing_0068.wav"
+  },
+  {
+    "speaker": "qing",
+    "file": "story/ch22.rpy",
+    "line": 150,
+    "display_text": "珠子别动。纹路是数给后来人看的。",
+    "tts_text": "珠子别动。纹路是数给后来人看的。",
+    "wav": "_voice_source_wav/qing/qing_0069.wav",
+    "ogg": "voice/qing/qing_0069.ogg",
+    "source_wav": "_voice_source_wav/qing/qing_0069.wav"
+  },
+  {
+    "speaker": "qing",
+    "file": "story/ch23.rpy",
+    "line": 18,
+    "display_text": "不是抽空。是抽走。",
+    "tts_text": "不是抽空。是抽走。",
+    "wav": "_voice_source_wav/qing/qing_0070.wav",
+    "ogg": "voice/qing/qing_0070.ogg",
+    "source_wav": "_voice_source_wav/qing/qing_0070.wav"
+  },
+  {
+    "speaker": "qing",
+    "file": "story/ch23.rpy",
+    "line": 47,
+    "display_text": "纸留了很久才抽走。灰压成了实的。",
+    "tts_text": "纸留了很久才抽走。灰压成了实的。",
+    "wav": "_voice_source_wav/qing/qing_0071.wav",
+    "ogg": "voice/qing/qing_0071.ogg",
+    "source_wav": "_voice_source_wav/qing/qing_0071.wav"
+  },
+  {
+    "speaker": "qing",
+    "file": "story/ch23.rpy",
+    "line": 59,
+    "display_text": "灰返过潮。抽走之后，这屋子又漏过雨。",
+    "tts_text": "灰返过潮。抽走之后，这屋子又漏过雨。",
+    "wav": "_voice_source_wav/qing/qing_0072.wav",
+    "ogg": "voice/qing/qing_0072.ogg",
+    "source_wav": "_voice_source_wav/qing/qing_0072.wav"
+  },
+  {
+    "speaker": "qing",
+    "file": "story/ch23.rpy",
+    "line": 74,
+    "display_text": "先对笔迹。柜里漏下的字，跟箱底这页是同一路，才作数。",
+    "tts_text": "先对笔迹。柜里漏下的字，跟箱底这页是同一路，才作数。",
+    "wav": "_voice_source_wav/qing/qing_0073.wav",
+    "ogg": "voice/qing/qing_0073.ogg",
+    "source_wav": "_voice_source_wav/qing/qing_0073.wav"
+  },
+  {
+    "speaker": "qing",
+    "file": "story/ch23.rpy",
+    "line": 102,
+    "display_text": "是老师的字。",
+    "tts_text": "是老师的字。",
+    "wav": "_voice_source_wav/qing/qing_0074.wav",
+    "ogg": "voice/qing/qing_0074.ogg",
+    "source_wav": "_voice_source_wav/qing/qing_0074.wav"
+  },
+  {
+    "speaker": "qing",
+    "file": "story/ch23.rpy",
+    "line": 123,
+    "display_text": "我签过字。这座站的记录，是让人一份份拿走的。",
+    "tts_text": "我签过字。这座站的记录，是让人一份份拿走的。",
+    "wav": "_voice_source_wav/qing/qing_0075.wav",
+    "ogg": "voice/qing/qing_0075.ogg",
+    "source_wav": "_voice_source_wav/qing/qing_0075.wav"
+  },
+  {
+    "speaker": "qing",
+    "file": "story/ch23.rpy",
+    "line": 133,
+    "display_text": "抄下来的，带得出去才作数。",
+    "tts_text": "抄下来的，带得出去才作数。",
+    "wav": "_voice_source_wav/qing/qing_0076.wav",
+    "ogg": "voice/qing/qing_0076.ogg",
+    "source_wav": "_voice_source_wav/qing/qing_0076.wav"
+  },
+  {
+    "speaker": "qing",
+    "file": "story/ch24.rpy",
+    "line": 26,
+    "display_text": "我知道它在哪。",
+    "tts_text": "我知道它在哪。",
+    "wav": "_voice_source_wav/qing/qing_0077.wav",
+    "ogg": "voice/qing/qing_0077.ogg",
+    "source_wav": "_voice_source_wav/qing/qing_0077.wav"
+  },
+  {
+    "speaker": "qing",
+    "file": "story/ch24.rpy",
+    "line": 28,
+    "display_text": "关灯那天，我在场。",
+    "tts_text": "关灯那天，我在场。",
+    "wav": "_voice_source_wav/qing/qing_0078.wav",
+    "ogg": "voice/qing/qing_0078.ogg",
+    "source_wav": "_voice_source_wav/qing/qing_0078.wav"
+  },
+  {
+    "speaker": "qing",
+    "file": "story/ch24.rpy",
+    "line": 43,
+    "display_text": "这些年。它还能亮。",
+    "tts_text": "这些年。它还能亮。",
+    "wav": "_voice_source_wav/qing/qing_0079.wav",
+    "ogg": "voice/qing/qing_0079.ogg",
+    "source_wav": "_voice_source_wav/qing/qing_0079.wav"
+  },
+  {
+    "speaker": "qing",
+    "file": "story/ch24.rpy",
+    "line": 50,
+    "display_text": "……行。等他发话。",
+    "tts_text": "……行。等他发话。",
+    "wav": "_voice_source_wav/qing/qing_0080.wav",
+    "ogg": "voice/qing/qing_0080.ogg",
+    "source_wav": "_voice_source_wav/qing/qing_0080.wav"
+  },
+  {
+    "speaker": "qing",
+    "file": "story/ch24.rpy",
+    "line": 56,
+    "display_text": "……谢了。",
+    "tts_text": "……谢了。",
+    "wav": "_voice_source_wav/qing/qing_0081.wav",
+    "ogg": "voice/qing/qing_0081.ogg",
+    "source_wav": "_voice_source_wav/qing/qing_0081.wav"
+  },
+  {
+    "speaker": "qing",
+    "file": "story/ch24.rpy",
+    "line": 65,
+    "display_text": "珠子的顺序没乱。守着它的人，一直按这套规矩来。",
+    "tts_text": "珠子的顺序没乱。守着它的人，一直按这套规矩来。",
+    "wav": "_voice_source_wav/qing/qing_0082.wav",
+    "ogg": "voice/qing/qing_0082.ogg",
+    "source_wav": "_voice_source_wav/qing/qing_0082.wav"
+  },
+  {
+    "speaker": "qing",
+    "file": "story/ch24.rpy",
+    "line": 90,
+    "display_text": "也行。东西留在这儿，人先出去。",
+    "tts_text": "也行。东西留在这儿，人先出去。",
+    "wav": "_voice_source_wav/qing/qing_0083.wav",
+    "ogg": "voice/qing/qing_0083.ogg",
+    "source_wav": "_voice_source_wav/qing/qing_0083.wav"
+  },
+  {
+    "speaker": "qing",
+    "file": "story/ch24.rpy",
+    "line": 101,
+    "display_text": "带出去。留这儿，早晚又被抽走。",
+    "tts_text": "带出去。留这儿，早晚又被抽走。",
+    "wav": "_voice_source_wav/qing/qing_0084.wav",
+    "ogg": "voice/qing/qing_0084.ogg",
+    "source_wav": "_voice_source_wav/qing/qing_0084.wav"
+  },
+  {
+    "speaker": "ari",
+    "file": "story/ch24.rpy",
+    "line": 115,
+    "display_text": "补给搁这儿了。别在站里过夜。",
+    "tts_text": "补给搁这儿了。别在站里过夜。",
+    "wav": "_voice_source_wav/ari/ari_0005.wav",
+    "ogg": "voice/ari/ari_0005.ogg",
+    "source_wav": "_voice_source_wav/ari/ari_0005.wav"
+  },
+  {
+    "speaker": "qing",
+    "file": "story/ch24.rpy",
+    "line": 129,
+    "display_text": "样本不怕潮，人怕。先垫一口。",
+    "tts_text": "样本不怕潮，人怕。先垫一口。",
+    "wav": "_voice_source_wav/qing/qing_0085.wav",
+    "ogg": "voice/qing/qing_0085.ogg",
+    "source_wav": "_voice_source_wav/qing/qing_0085.wav"
+  },
+  {
+    "speaker": "qing",
+    "file": "story/ch24.rpy",
+    "line": 171,
+    "display_text": "箱子稳，人就稳。路上先护它。",
+    "tts_text": "箱子稳，人就稳。路上先护它。",
+    "wav": "_voice_source_wav/qing/qing_0086.wav",
+    "ogg": "voice/qing/qing_0086.ogg",
+    "source_wav": "_voice_source_wav/qing/qing_0086.wav"
+  },
+  {
+    "speaker": "qing",
+    "file": "story/ch24.rpy",
+    "line": 181,
+    "display_text": "副本你收着。原件……我带着。",
+    "tts_text": "副本你收着。原件……我带着。",
+    "wav": "_voice_source_wav/qing/qing_0087.wav",
+    "ogg": "voice/qing/qing_0087.ogg",
+    "source_wav": "_voice_source_wav/qing/qing_0087.wav"
+  },
+  {
+    "speaker": "qing",
+    "file": "story/ch24.rpy",
+    "line": 190,
+    "display_text": "封门的东西备着。用不用，看出去那条路。",
+    "tts_text": "封门的东西备着。用不用，看出去那条路。",
+    "wav": "_voice_source_wav/qing/qing_0088.wav",
+    "ogg": "voice/qing/qing_0088.ogg",
+    "source_wav": "_voice_source_wav/qing/qing_0088.wav"
+  },
+  {
+    "speaker": "qing",
+    "file": "story/ch24.rpy",
+    "line": 209,
+    "display_text": "走。趁雾没全散，路还认得出来。",
+    "tts_text": "走。趁雾没全散，路还认得出来。",
+    "wav": "_voice_source_wav/qing/qing_0089.wav",
+    "ogg": "voice/qing/qing_0089.ogg",
+    "source_wav": "_voice_source_wav/qing/qing_0089.wav"
+  },
+  {
+    "speaker": "qing",
+    "file": "story/ch24.rpy",
+    "line": 217,
+    "display_text": "再看一夜。剩下的格子，明天一上午能对完。",
+    "tts_text": "再看一夜。剩下的格子，明天一上午能对完。",
+    "wav": "_voice_source_wav/qing/qing_0090.wav",
+    "ogg": "voice/qing/qing_0090.ogg",
+    "source_wav": "_voice_source_wav/qing/qing_0090.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch28.rpy",
+    "line": 20,
+    "display_text": "这一趟我走到了。上一趟没走到的，算你陪我走完。",
+    "tts_text": "这一趟我走到了。上一趟没走到的，算你陪我走完。",
+    "wav": "_voice_source_wav/lan/lan_0151.wav",
+    "ogg": "voice/lan/lan_0151.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0151.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/ch28.rpy",
+    "line": 30,
+    "display_text": "路我自己走。断线我自己补，补不补得上，看命。",
+    "tts_text": "路我自己走。断线我自己补，补不补得上，看命。",
+    "wav": "_voice_source_wav/lan/lan_0152.wav",
+    "ogg": "voice/lan/lan_0152.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0152.wav"
+  },
+  {
+    "speaker": "bai",
+    "file": "story/ch28.rpy",
+    "line": 41,
+    "display_text": "针剂留了两支。你的旧伤，换换药，别等发炎。",
+    "tts_text": "针剂留了两支。你的旧伤，换换药，别等发炎。",
+    "wav": "_voice_source_wav/bai/bai_0120.wav",
+    "ogg": "voice/bai/bai_0120.ogg",
+    "source_wav": "_voice_source_wav/bai/bai_0120.wav"
+  },
+  {
+    "speaker": "bai",
+    "file": "story/ch28.rpy",
+    "line": 54,
+    "display_text": "箱子我留在身边。我记了十年名字，记不动了。",
+    "tts_text": "箱子我留在身边。我记了十年名字，记不动了。",
+    "wav": "_voice_source_wav/bai/bai_0121.wav",
+    "ogg": "voice/bai/bai_0121.ogg",
+    "source_wav": "_voice_source_wav/bai/bai_0121.wav"
+  },
+  {
+    "speaker": "qing",
+    "file": "story/ch28.rpy",
+    "line": 66,
+    "display_text": "记录我誊了一份给你。原件我带走，复印件你留着。",
+    "tts_text": "记录我誊了一份给你。原件我带走，复印件你留着。",
+    "wav": "_voice_source_wav/qing/qing_0091.wav",
+    "ogg": "voice/qing/qing_0091.ogg",
+    "source_wav": "_voice_source_wav/qing/qing_0091.wav"
+  },
+  {
+    "speaker": "qing",
+    "file": "story/ch28.rpy",
+    "line": 77,
+    "display_text": "我不出去。总得有人记得这些人在哪。",
+    "tts_text": "我不出去。总得有人记得这些人在哪。",
+    "wav": "_voice_source_wav/qing/qing_0092.wav",
+    "ogg": "voice/qing/qing_0092.ogg",
+    "source_wav": "_voice_source_wav/qing/qing_0092.wav"
+  },
+  {
+    "speaker": "ari",
+    "file": "story/ch28.rpy",
+    "line": 90,
+    "display_text": "往前走。别回头认路。",
+    "tts_text": "往前走。别回头认路。",
+    "wav": "_voice_source_wav/ari/ari_0006.wav",
+    "ogg": "voice/ari/ari_0006.ogg",
+    "source_wav": "_voice_source_wav/ari/ari_0006.wav"
+  },
+  {
+    "speaker": "shiqi",
+    "file": "story/ch28.rpy",
+    "line": 99,
+    "display_text": "信你一次。出去之后，记得这地方有人守过。",
+    "tts_text": "信你一次。出去之后，记得这地方有人守过。",
+    "wav": "_voice_source_wav/shiqi/shiqi_0010.wav",
+    "ogg": "voice/shiqi/shiqi_0010.ogg",
+    "source_wav": "_voice_source_wav/shiqi/shiqi_0010.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/endings.rpy",
+    "line": 22,
+    "display_text": "出去以后，我把整张图重画一遍。",
+    "tts_text": "出去以后，我把整张图重画一遍。",
+    "wav": "_voice_source_wav/lan/lan_0153.wav",
+    "ogg": "voice/lan/lan_0153.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0153.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/endings.rpy",
+    "line": 24,
+    "display_text": "补上。不描旧的，重新走一遍，记下来。",
+    "tts_text": "补上。不描旧的，重新走一遍，记下来。",
+    "wav": "_voice_source_wav/lan/lan_0154.wav",
+    "ogg": "voice/lan/lan_0154.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0154.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/endings.rpy",
+    "line": 28,
+    "display_text": "跟紧。栈道滑，别踩我踩过的那块松板。",
+    "tts_text": "跟紧。栈道滑，别踩我踩过的那块松板。",
+    "wav": "_voice_source_wav/lan/lan_0155.wav",
+    "ogg": "voice/lan/lan_0155.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0155.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/endings.rpy",
+    "line": 32,
+    "display_text": "上一次走这段，是我一个人。",
+    "tts_text": "上一次走这段，是我一个人。",
+    "wav": "_voice_source_wav/lan/lan_0156.wav",
+    "ogg": "voice/lan/lan_0156.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0156.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/endings.rpy",
+    "line": 34,
+    "display_text": "这一次不是。",
+    "tts_text": "这一次不是。",
+    "wav": "_voice_source_wav/lan/lan_0157.wav",
+    "ogg": "voice/lan/lan_0157.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0157.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/endings.rpy",
+    "line": 37,
+    "display_text": "[player_name]。",
+    "tts_text": "队长。",
+    "wav": "_voice_source_wav/lan/lan_0158.wav",
+    "ogg": "voice/lan/lan_0158.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0158.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/endings.rpy",
+    "line": 60,
+    "display_text": "我姐没走出来。我得回去找。",
+    "tts_text": "我姐没走出来。我得回去找。",
+    "wav": "_voice_source_wav/lan/lan_0159.wav",
+    "ogg": "voice/lan/lan_0159.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0159.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/endings.rpy",
+    "line": 62,
+    "display_text": "习惯了。",
+    "tts_text": "习惯了。",
+    "wav": "_voice_source_wav/lan/lan_0160.wav",
+    "ogg": "voice/lan/lan_0160.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0160.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/endings.rpy",
+    "line": 66,
+    "display_text": "留给你。哪天你走这条线，替我看一眼。",
+    "tts_text": "留给你。哪天你走这条线，替我看一眼。",
+    "wav": "_voice_source_wav/lan/lan_0161.wav",
+    "ogg": "voice/lan/lan_0161.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0161.wav"
+  },
+  {
+    "speaker": "bai",
+    "file": "story/endings.rpy",
+    "line": 93,
+    "display_text": "手腕那道伤，重新缠一遍。旧布湿了，不换会烂。",
+    "tts_text": "手腕那道伤，重新缠一遍。旧布湿了，不换会烂。",
+    "wav": "_voice_source_wav/bai/bai_0122.wav",
+    "ogg": "voice/bai/bai_0122.ogg",
+    "source_wav": "_voice_source_wav/bai/bai_0122.wav"
+  },
+  {
+    "speaker": "bai",
+    "file": "story/endings.rpy",
+    "line": 95,
+    "display_text": "药箱分一半。针剂三支归你，两支归我。",
+    "tts_text": "药箱分一半。针剂三支归你，两支归我。",
+    "wav": "_voice_source_wav/bai/bai_0123.wav",
+    "ogg": "voice/bai/bai_0123.ogg",
+    "source_wav": "_voice_source_wav/bai/bai_0123.wav"
+  },
+  {
+    "speaker": "bai",
+    "file": "story/endings.rpy",
+    "line": 101,
+    "display_text": "出去以后，针剂够开个小诊所。手稳，饿不着。",
+    "tts_text": "出去以后，针剂够开个小诊所。手稳，饿不着。",
+    "wav": "_voice_source_wav/bai/bai_0124.wav",
+    "ogg": "voice/bai/bai_0124.ogg",
+    "source_wav": "_voice_source_wav/bai/bai_0124.wav"
+  },
+  {
+    "speaker": "bai",
+    "file": "story/endings.rpy",
+    "line": 105,
+    "display_text": "以前这个结，都是你替我打的。",
+    "tts_text": "以前这个结，都是你替我打的。",
+    "wav": "_voice_source_wav/bai/bai_0125.wav",
+    "ogg": "voice/bai/bai_0125.ogg",
+    "source_wav": "_voice_source_wav/bai/bai_0125.wav"
+  },
+  {
+    "speaker": "bai",
+    "file": "story/endings.rpy",
+    "line": 106,
+    "display_text": "手稳这回事，我以前只信自己那只手。这回信两只。",
+    "tts_text": "手稳这回事，我以前只信自己那只手。这回信两只。",
+    "wav": "_voice_source_wav/bai/bai_0126.wav",
+    "ogg": "voice/bai/bai_0126.ogg",
+    "source_wav": "_voice_source_wav/bai/bai_0126.wav"
+  },
+  {
+    "speaker": "bai",
+    "file": "story/endings.rpy",
+    "line": 108,
+    "display_text": "那就再按一次。",
+    "tts_text": "那就再按一次。",
+    "wav": "_voice_source_wav/bai/bai_0127.wav",
+    "ogg": "voice/bai/bai_0127.ogg",
+    "source_wav": "_voice_source_wav/bai/bai_0127.wav"
+  },
+  {
+    "speaker": "bai",
+    "file": "story/endings.rpy",
+    "line": 126,
+    "display_text": "伸手。最后一道，我处理完。",
+    "tts_text": "伸手。最后一道，我处理完。",
+    "wav": "_voice_source_wav/bai/bai_0128.wav",
+    "ogg": "voice/bai/bai_0128.ogg",
+    "source_wav": "_voice_source_wav/bai/bai_0128.wav"
+  },
+  {
+    "speaker": "bai",
+    "file": "story/endings.rpy",
+    "line": 129,
+    "display_text": "别沾水。三天换一次药布，药在箱侧袋里。",
+    "tts_text": "别沾水。三天换一次药布，药在箱侧袋里。",
+    "wav": "_voice_source_wav/bai/bai_0129.wav",
+    "ogg": "voice/bai/bai_0129.ogg",
+    "source_wav": "_voice_source_wav/bai/bai_0129.wav"
+  },
+  {
+    "speaker": "bai",
+    "file": "story/endings.rpy",
+    "line": 131,
+    "display_text": "那个人我得留下照顾。走不开。",
+    "tts_text": "那个人我得留下照顾。走不开。",
+    "wav": "_voice_source_wav/bai/bai_0130.wav",
+    "ogg": "voice/bai/bai_0130.ogg",
+    "source_wav": "_voice_source_wav/bai/bai_0130.wav"
+  },
+  {
+    "speaker": "bai",
+    "file": "story/endings.rpy",
+    "line": 134,
+    "display_text": "药在我这儿才有用。我是医生。",
+    "tts_text": "药在我这儿才有用。我是医生。",
+    "wav": "_voice_source_wav/bai/bai_0131.wav",
+    "ogg": "voice/bai/bai_0131.ogg",
+    "source_wav": "_voice_source_wav/bai/bai_0131.wav"
+  },
+  {
+    "speaker": "qing",
+    "file": "story/endings.rpy",
+    "line": 160,
+    "display_text": "原件我带走。副本你收着。",
+    "tts_text": "原件我带走。副本你收着。",
+    "wav": "_voice_source_wav/qing/qing_0093.wav",
+    "ogg": "voice/qing/qing_0093.ogg",
+    "source_wav": "_voice_source_wav/qing/qing_0093.wav"
+  },
+  {
+    "speaker": "qing",
+    "file": "story/endings.rpy",
+    "line": 162,
+    "display_text": "你不会。",
+    "tts_text": "你不会。",
+    "wav": "_voice_source_wav/qing/qing_0094.wav",
+    "ogg": "voice/qing/qing_0094.ogg",
+    "source_wav": "_voice_source_wav/qing/qing_0094.wav"
+  },
+  {
+    "speaker": "qing",
+    "file": "story/endings.rpy",
+    "line": 166,
+    "display_text": "箱子沉。两个人抬，比一个人抱稳。",
+    "tts_text": "箱子沉。两个人抬，比一个人抱稳。",
+    "wav": "_voice_source_wav/qing/qing_0095.wav",
+    "ogg": "voice/qing/qing_0095.ogg",
+    "source_wav": "_voice_source_wav/qing/qing_0095.wav"
+  },
+  {
+    "speaker": "qing",
+    "file": "story/endings.rpy",
+    "line": 193,
+    "display_text": "我不走。总得有人记得这儿发生过什么。",
+    "tts_text": "我不走。总得有人记得这儿发生过什么。",
+    "wav": "_voice_source_wav/qing/qing_0096.wav",
+    "ogg": "voice/qing/qing_0096.ogg",
+    "source_wav": "_voice_source_wav/qing/qing_0096.wav"
+  },
+  {
+    "speaker": "qing",
+    "file": "story/endings.rpy",
+    "line": 195,
+    "display_text": "习惯了。",
+    "tts_text": "习惯了。",
+    "wav": "_voice_source_wav/qing/qing_0097.wav",
+    "ogg": "voice/qing/qing_0097.ogg",
+    "source_wav": "_voice_source_wav/qing/qing_0097.wav"
+  },
+  {
+    "speaker": "shiqi",
+    "file": "story/endings.rpy",
+    "line": 226,
+    "display_text": "封了，就再也打不开。想清楚。",
+    "tts_text": "封了，就再也打不开。想清楚。",
+    "wav": "_voice_source_wav/shiqi/shiqi_0011.wav",
+    "ogg": "voice/shiqi/shiqi_0011.ogg",
+    "source_wav": "_voice_source_wav/shiqi/shiqi_0011.wav"
+  },
+  {
+    "speaker": "shiqi",
+    "file": "story/endings.rpy",
+    "line": 228,
+    "display_text": "名字我替你们抹掉。出去以后，别提这座站。",
+    "tts_text": "名字我替你们抹掉。出去以后，别提这座站。",
+    "wav": "_voice_source_wav/shiqi/shiqi_0012.wav",
+    "ogg": "voice/shiqi/shiqi_0012.ogg",
+    "source_wav": "_voice_source_wav/shiqi/shiqi_0012.wav"
+  },
+  {
+    "speaker": "lan",
+    "file": "story/endings.rpy",
+    "line": 253,
+    "display_text": "走吧，出去。",
+    "tts_text": "走吧，出去。",
+    "wav": "_voice_source_wav/lan/lan_0162.wav",
+    "ogg": "voice/lan/lan_0162.ogg",
+    "source_wav": "_voice_source_wav/lan/lan_0162.wav"
+  },
+  {
+    "speaker": "bai",
+    "file": "story/endings.rpy",
+    "line": 256,
+    "display_text": "药箱我带着。",
+    "tts_text": "药箱我带着。",
+    "wav": "_voice_source_wav/bai/bai_0132.wav",
+    "ogg": "voice/bai/bai_0132.ogg",
+    "source_wav": "_voice_source_wav/bai/bai_0132.wav"
+  },
+  {
+    "speaker": "qing",
+    "file": "story/endings.rpy",
+    "line": 259,
+    "display_text": "记录一页不少。",
+    "tts_text": "记录一页不少。",
+    "wav": "_voice_source_wav/qing/qing_0098.wav",
+    "ogg": "voice/qing/qing_0098.ogg",
+    "source_wav": "_voice_source_wav/qing/qing_0098.wav"
+  },
+  {
+    "speaker": "shiqi",
+    "file": "story/endings.rpy",
+    "line": 263,
+    "display_text": "珠子留下。你把证据带出去了，这些，该让外面知道。",
+    "tts_text": "珠子留下。你把证据带出去了，这些，该让外面知道。",
+    "wav": "_voice_source_wav/shiqi/shiqi_0013.wav",
+    "ogg": "voice/shiqi/shiqi_0013.ogg",
+    "source_wav": "_voice_source_wav/shiqi/shiqi_0013.wav"
+  },
+  {
+    "speaker": "shiqi",
+    "file": "story/endings.rpy",
+    "line": 268,
+    "display_text": "替我看看外面的天。",
+    "tts_text": "替我看看外面的天。",
+    "wav": "_voice_source_wav/shiqi/shiqi_0014.wav",
+    "ogg": "voice/shiqi/shiqi_0014.ogg",
+    "source_wav": "_voice_source_wav/shiqi/shiqi_0014.wav"
+  }
+]

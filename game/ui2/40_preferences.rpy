@@ -56,7 +56,7 @@ screen preferences():
     $ ts = persistent.vn2_text_scale
     $ cur_size = VN2_TEXT_SCALES[ts][1]
     $ n_cg_total = vn2_cg_total()
-    $ n_chapter_total = len(CHAPTERS)
+    $ n_chapter_total = VN2_CHAPTER_TOTAL
     $ n_end_total = len(vn2_endings_matrix())
 
     use game_menu(_("设置"), scroll="viewport"):

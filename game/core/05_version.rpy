@@ -16,7 +16,7 @@ init -6 python:
     VN2_VERSION_YEAR     = 2026   # 内部版本年份
     VN2_VERSION_GEN      = 1      # 第几代序号，内部号补零到四位（0001）
     VN2_VERSION_CHAPTERS = 28     # 已完成章节数（ch01–ch28）；每完成一章 +1
-    VN2_VERSION_PATCH    = 16     # 补丁号：修 bug / 小修 +1
+    VN2_VERSION_PATCH    = 21     # 补丁号：修 bug / 小修 +1
     VN2_VERSION_STAGE    = "Beta"  # 阶段："Demo" 早期测试 / "Beta" 公开测试 / "GA" 转正
 
     # ---- 拼合（一般不需要手改）----

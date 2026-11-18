@@ -179,8 +179,20 @@ init -1 python:
             return cand2
         return cand
 
+    # 统一的“慢半拍”系数：原始参数是按短视频节奏写的，实际全屏观看时
+    # 落位太快、黑场还没亮完画面就已经到位，看起来像硬切。
+    # 这里统一把落位/推近/亮起拉长，再配合下方 transform 的 ease 缓动。
+    VN2_CG_TIME_SCALE = 1.75
+    VN2_CG_PUSH_SCALE = 1.55
+    VN2_CG_REVEAL_SCALE = 1.35
+
     def vn2_cg_fx(cid):
-        return VN2_CG_FX.get(cid, VN2_CG_FX_DEFAULT)
+        spec = dict(VN2_CG_FX.get(cid, VN2_CG_FX_DEFAULT))
+        spec["dur"] = max(1.20, float(spec.get("dur", 0.9)) * VN2_CG_TIME_SCALE)
+        spec["push_t"] = max(1.30, float(spec.get("push_t", 1.0)) * VN2_CG_PUSH_SCALE)
+        spec["reveal"] = max(0.34, float(spec.get("reveal", 0.55)) * VN2_CG_REVEAL_SCALE)
+        spec["black"] = max(0.30, float(spec.get("black", 0.35)) * 1.10)
+        return spec
 
     def vn2_cg_enter_at(cid):
         """给画廊 / 预览用：只做运动，不带黑场。"""
@@ -198,15 +210,40 @@ transform vn2_cg_enter(sx=0.0, sy=0.0, z0=1.0, dur=0.9, push=1.0, push_t=1.2):
     zoom z0
     alpha 0.0
 
-    parallel:
-        easein_quart dur alpha 1.0
-    parallel:
-        easein_quart dur xpos 0.5
-    parallel:
-        easein_quart dur ypos 0.5
-    parallel:
-        easein_quart dur zoom 1.0
+    # 黑场完全压住之后再起运动，避免观众看到的是“已经走了一半”
+    pause 0.10
 
-    linear push_t zoom push
+    parallel:
+        ease dur alpha 1.0
+    parallel:
+        ease dur xpos 0.5
+    parallel:
+        ease dur ypos 0.5
+    parallel:
+        ease dur zoom 1.0
+
+    ease push_t zoom push
+
+
+# 剧情 CG 用的“落定”演出：不做横冲直撞的滑入，
+# 只在黑场亮起后做很小的一段漂移 + 极缓推近，观感更像镜头自己站稳。
+transform vn2_cg_settle(sx=0.0, sy=0.0, z0=1.0, dur=2.2, push=1.0, push_t=3.0, wait=0.8):
+    xanchor 0.5
+    yanchor 0.5
+    xpos 0.5 + sx * 0.10
+    ypos 0.5 + sy * 0.10
+    zoom z0
+    alpha 1.0
+
+    pause wait
+
+    parallel:
+        ease dur xpos 0.5
+    parallel:
+        ease dur ypos 0.5
+    parallel:
+        ease dur zoom 1.0
+
+    ease push_t zoom push
 
 default vn2_cg_current = None

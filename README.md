@@ -8,7 +8,7 @@
 [![License: MIT](https://img.shields.io/badge/code-MIT-3da639?style=flat-square)](LICENSE)
 [![Story: CC BY 4.0](https://img.shields.io/badge/story-CC%20BY%204.0-ef9421?style=flat-square)](LICENSE-ASSETS.txt)
 [![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20Android%20%7C%20Web-4c8bf5?style=flat-square)](#下载)
-[![Version](https://img.shields.io/badge/version-1.28.16%20Beta-d4a017?style=flat-square)](https://github.com/SukaKanger/WuXian/releases)
+[![Version](https://img.shields.io/badge/version-1.28.21%20Beta-d4a017?style=flat-square)](https://github.com/SukaKanger/WuXian/releases)
 
 </div>
 
@@ -29,9 +29,9 @@
 
 三段都不含剧透，直接从游戏里录：
 
-- [营地 · 雨林推镜（8s）](https://github.com/SukaKanger/WuXian/releases/download/v1.28.16-beta/WuXian-promo-1-camp.mp4)
-- [CG01 · 入画演出（7.6s）](https://github.com/SukaKanger/WuXian/releases/download/v1.28.16-beta/WuXian-promo-2-cg.mp4)
-- [游戏内笔记本（7.5s）](https://github.com/SukaKanger/WuXian/releases/download/v1.28.16-beta/WuXian-promo-3-notebook.mp4)
+- [营地 · 雨林推镜（8s）](https://github.com/SukaKanger/WuXian/releases/download/v1.28.21-beta/WuXian-promo-1-camp.mp4)
+- [CG01 · 入画演出（7.6s）](https://github.com/SukaKanger/WuXian/releases/download/v1.28.21-beta/WuXian-promo-2-cg.mp4)
+- [游戏内笔记本（7.5s）](https://github.com/SukaKanger/WuXian/releases/download/v1.28.21-beta/WuXian-promo-3-notebook.mp4)
 
 | | |
 | --- | --- |
@@ -42,8 +42,8 @@
 
 | 平台 | 获取方式 |
 | --- | --- |
-| Windows | [最新 Release](https://github.com/SukaKanger/WuXian/releases) 里的 `WuXian-Setup-1.28.16.exe`（解压式安装向导，可选路径与快捷方式） |
-| Android | 同一 Release 里的 `WuXian-1.28.16-beta.apk` |
+| Windows | [最新 Release](https://github.com/SukaKanger/WuXian/releases) 里的 `WuXian-Setup-1.28.21.exe`（解压式安装向导，可选路径与快捷方式） |
+| Android | 同一 Release 里的 `WuXian-1.28.21-beta.apk` |
 | Web | [itch.io 页面](https://sukakanger.itch.io/wuxian) 的浏览器版 |
 | 全部版本 | [itch.io](https://sukakanger.itch.io/wuxian) |
 
@@ -111,3 +111,4 @@ _tools/     构建与素材处理脚本
 Ren'Py 引擎与开源社区；所有在 itch.io、GitHub 和群里反馈过 bug 的玩家。
 
 > 这是我 SukaKanger 的第一部作品。它还有很多不足，但我不会设付费墙，也会一直做下去。
+

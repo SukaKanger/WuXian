@@ -16,3 +16,6 @@
 *.apk
 *.zip
 *.exe
+
+/game/saves/
+/game/cache/
