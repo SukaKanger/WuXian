@@ -23,6 +23,21 @@
 - 24 张正片 CG，每张有独立的入画演出（滑入、推近、黑场、换曲）
 - 游戏内「笔记本」会随每一局记录你查到的情报
 
+![营地篝火](docs/screenshots/01_camp_trio.png)
+
+## 宣传片（游戏内实拍）
+
+三段都不含剧透，直接从游戏里录：
+
+- [营地 · 雨林推镜（8s）](https://github.com/SukaKanger/WuXian/releases/download/v1.28.16-beta/WuXian-promo-1-camp.mp4)
+- [CG01 · 入画演出（7.6s）](https://github.com/SukaKanger/WuXian/releases/download/v1.28.16-beta/WuXian-promo-2-cg.mp4)
+- [游戏内笔记本（7.5s）](https://github.com/SukaKanger/WuXian/releases/download/v1.28.16-beta/WuXian-promo-3-notebook.mp4)
+
+| | |
+| --- | --- |
+| ![崖边日出](docs/screenshots/02_cliff_dawn.png) | ![白砚](docs/screenshots/03_bai_clinic.png) |
+| ![笔记本](docs/screenshots/04_notebook.png) | ![CG 画廊](docs/screenshots/05_cg_gallery.png) |
+
 ## 下载
 
 | 平台 | 获取方式 |
