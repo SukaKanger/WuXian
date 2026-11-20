@@ -31,7 +31,7 @@
 
 本作的原创剧情、角色设定与文本也欢迎直接拿去改、扩写、做二创；不必先问授权，别把改后的版本冒充官方原版就行。
 
-**发行**　当前版本为 Beta，版本号 V2.28.2 Beta。itch.io 是本作的发行与更新页：https://sukakanger.itch.io/wuxian
+**发行**　当前版本为 Beta，版本号 V2.28.3 Beta。itch.io 是本作的发行与更新页：https://sukakanger.itch.io/wuxian
 
 Beta 下载与版本说明以该页为准。请不要从非官方分流或收费转载页获取本作。
 
@@ -42,7 +42,7 @@ Beta 下载与版本说明以该页为准。请不要从非官方分流或收费
 ## 上架前检查清单
 
 - [ ] 发行页链接为 https://sukakanger.itch.io/wuxian
-- [ ] 页面版本号显示 V2.28.2 Beta
+- [ ] 页面版本号显示 V2.28.3 Beta
 - [ ] 免责声明五节完整可见
 - [ ] AI 生成声明已填写到 itch.io 的 AI disclosure 字段
 - [ ] 内容提示与成人内容分级按 itch.io 要求设置
