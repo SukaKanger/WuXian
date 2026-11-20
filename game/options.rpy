@@ -230,6 +230,7 @@ init python:
     ## 发版时排除项目根目录下的历史备份、图标工作目录和验收截图，
     ## 避免把旧立绘、旧背景与中间图重复压进 APK。
     build.classify('_backup*/**', None)
+    build.classify('_backup_*', None)
     build.classify('_icon_work*/**', None)
     build.classify('_preview*/**', None)
     build.classify('shots/**', None)

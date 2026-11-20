@@ -20,12 +20,14 @@ style game_menu_viewport:
 define VN2_SET_COL_W = 700
 
 
-screen vn2_section(title, delay=0.0, w=None, side="fade"):
+screen vn2_section(title, delay=0.0, w=None, side="fade", h=None):
     frame:
         # 自带 14px 内缩金线的底板（_tools/make_section_plate.py 生成）；
         # 不能用 gui/frame.png：它的金线在 45px 内缩，padding 小于 45 时内容会压在线上。
         background Frame("images/ui/section.png", 18, 18, 18, 18)
         xsize (w if w else VN2_SET_COL_W)
+        if h:
+            ysize h
         padding (26, 14, 26, 16)
         if side == "left":
             at vn2_slide_left(delay)
@@ -72,7 +74,7 @@ screen preferences():
                 vbox:
                     spacing 12
 
-                    use vn2_section("显示", 0.00, side="left"):
+                    use vn2_section("显示", 0.00, side="fade", h=205):
                         vbox:
                             spacing 8
 
@@ -96,7 +98,7 @@ screen preferences():
                                 style "vn2_card_sub"
                                 color VN2_FAINT
 
-                    use vn2_section("文字", 0.06, side="left"):
+                    use vn2_section("文字", 0.06, side="fade", h=380):
                         vbox:
                             spacing 4
 
@@ -141,7 +143,7 @@ screen preferences():
                                         selected (ts == i)
                                         action Function(vn2_set_text_scale, i)
 
-                    use vn2_section("其他", 0.12, side="left"):
+                    use vn2_section("其他", 0.12, side="fade", h=150):
                         vbox:
                             spacing 10
 
@@ -158,7 +160,7 @@ screen preferences():
                 vbox:
                     spacing 12
 
-                    use vn2_section("音量", 0.03, side="right"):
+                    use vn2_section("音量", 0.03, side="fade", h=390):
                         vbox:
                             spacing 4
 
@@ -200,7 +202,7 @@ screen preferences():
                                 text_style "vn2_btn_text"
                                 action Preference("all mute", "toggle")
 
-                    use vn2_section("快进", 0.09, side="right"):
+                    use vn2_section("快进", 0.09, side="fade", h=230):
                         vbox:
                             spacing 6
 
@@ -224,7 +226,7 @@ screen preferences():
                                 style "vn2_card_sub"
                                 color VN2_FAINT
 
-                    use vn2_section("界面反馈", 0.12, side="right"):
+                    use vn2_section("界面反馈", 0.12, side="fade", h=190):
                         vbox:
                             spacing 6
 
@@ -275,3 +277,4 @@ screen preferences():
                             color VN2_GOLD_DIM
                         text "卡片划入 / 悬停抬升 / 按钮音效":
                             style "vn2_card_sub"
+
