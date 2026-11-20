@@ -27,6 +27,11 @@
 - 只留一个主代理跑 `directors_cut.rpy`，ZCode 内置子代理全程未启用。
 - 审计报告：`_qa_headless_20261121_ai/zcode_ai_audit.txt`。
 
+### 4. Android 中文输入热修
+
+- 修正 Android 端软键盘被强制成 `TYPE_TEXT_VARIATION_VISIBLE_PASSWORD` 的问题；命名/改名输入现在走标准文本键盘，可以正常唤起中文 IME。
+- 只改 Ren'Py Android 模板的 `SDLActivity` 输入类型，不改游戏文本与存档。
+
 ## 校验
 
 - lint：0 error / 0 warning。
@@ -39,5 +44,5 @@
 | 文件 | 字节 | SHA256 |
 |---|---:|---|
 | `WuXian-Setup-2.28.3.exe` | 362,371,592 | `909EEBE634B0DFFF335758021D08F56F70D04860AE0C129FEC60442820F902B8` |
-| `WuXian-2.28.3-beta.apk` | 406,121,601 | `D9E9C5364720A58B580AA10FAFF370B69FE1D21F1D2A236203B60360DD640259` |
+| `WuXian-2.28.3-beta.apk` | 406,111,759 | `749E9B68BDB2AD2AF2C4B70E477D1F82275A98AACFB64BE93CBAADDEB8301435` |
 | `WuXian-2.28.3-beta-win.zip` | 379,924,931 | `46170D0798BF355EC47E4FE6F38C022B40B06206AB2AC29600730173567D545A` |
