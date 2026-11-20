@@ -364,7 +364,7 @@ label ch10_cut:
     $ vn2_current_voice = "voice/lan/lan_0058.ogg"
     voice "voice/lan/lan_0058.ogg"
     lan "别看了。那条线不通。"
-    nar "蓝羽说完就把脸转开。青岩把图捡起来，指腹沿着新线的边缘走了一遍。"
+    nar "蓝羽说完就把脸转开。青岩把图捡起来，指尖沿着新线的边缘走了一遍。"
     $ vn2_current_voice = "voice/qing/qing_0033.ogg"
     voice "voice/qing/qing_0033.ogg"
     qing "墨是新的。画图的人知道我们走到哪。"

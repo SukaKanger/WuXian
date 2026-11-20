@@ -40,9 +40,8 @@ screen choice(items):
 
 
 # ---------- 锁线选择屏（ch14） ----------
-# 未达好感门槛的路线项置灰不可点，灰态下给出「需要多少 / 当前多少 / 还差多少」；
-# solo（独自进入）永远可选。门槛口径仍由 core/20_router.rpy 的
-# vn2_lock_options() / vn2_lock_pick() 决定，本屏只做展示与敏感态。
+# 未达标的路线项置灰，只给一句“这一步还没走到”，不露好感数值、不露结局条件。
+# 判定仍由 core/20_router.rpy 的 vn2_lock_options() / vn2_lock_pick() 决定。
 style vn2_lock_choice_button is vn2_choice_button:
     insensitive_background Frame("images/ui/plate_idle.png", 22, 6, 22, 6)
 
@@ -77,22 +76,8 @@ screen vn2_lock_choice(items, opts):
                         style "vn2_choice_button_text"
 
                     if not opt["eligible"]:
-                        text "需要好感 %d / 当前 %d（还差 %d）" % (
-                            VN2_LOCK_THRESHOLD, opt["aff"], opt["need"]):
+                        text "这一步还没走到。":
                             style "vn2_lock_choice_sub"
 
-                    text "承诺：%s" % opt.get("bond_text", ""):
-                        style "vn2_lock_choice_sub"
-                        color (VN2_GOLD_DIM if opt.get("bond") else VN2_FAINT)
-
-                    if opt.get("bond_hint"):
-                        text opt["bond_hint"]:
-                            style "vn2_lock_choice_sub"
-
-    text "同行：本线好感至少 40 + 本线承诺。  独行：进了这条线，但没把最后一句话交出去。\n第七天：十七信任 + 带出证据 + 本线好感至少 60 + 本线承诺。":
-        style "vn2_lock_choice_sub"
-        xalign 0.5
-        yalign 0.86
-        text_align 0.5
-        color "#b8b09a"
+    # 不在选项层展示好感门槛、同行条件或结局判定表。
 

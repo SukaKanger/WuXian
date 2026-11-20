@@ -39,7 +39,12 @@ style say_label:
     yalign 0.5
 
 
-screen say(who, what):
+screen say(who, what, mc_layout="flush"):
+
+    $ _mc_left = (mc_layout == "left")
+    $ _mc_name_x = 400 if _mc_left else 236
+    $ _mc_text_x = 400 if _mc_left else 236
+    $ _mc_text_w = 1180 if _mc_left else (1336 if mc_layout == "flush" else 1348)
 
     window:
         id "window"
@@ -49,6 +54,16 @@ screen say(who, what):
     # 矢量源文件在 images/ui/_source/dlg_vines.svg。
     add "images/ui/tb_vines.png" xpos 100 ypos 780
 
+    # 主角反应窗：第一人称不把整身立绘摆上舞台，只把老周的头肩裁片
+    # 接进对话框。6 张差分全部接到 vn2_mc_expr，旁白/主角台词驱动。
+    if not getattr(store, "vn2_cg_scene", False):
+        if mc_layout == "left":
+            use vn2_mc_portrait_left
+        elif mc_layout == "flush":
+            use vn2_mc_portrait_flush
+        else:
+            use vn2_mc_portrait
+
     # 名字牌压在对话框上沿，而不是浮在框外。
     # 名字和职位分开渲染：中间用小菱形分隔，不再用容易缺字的中点。
     if who is not None:
@@ -56,7 +71,7 @@ screen say(who, what):
         frame:
             id "namebox"
             background Frame("images/ui/name.png", 18, 6, 18, 6)
-            xpos 236
+            xpos _mc_name_x
             ypos 744
             xminimum 210
             padding (30, 8, 28, 8)
@@ -71,7 +86,7 @@ screen say(who, what):
                     add "images/ui/bar_thumb.png" xysize (10, 10) yalign 0.5
                     text _who_role size 17 color VN2_DIM style "vn2_text" kerning 2.0 yalign 0.5 yoffset 1
 
-    text what id "what" size vn2_dialogue_size() style "say_dialogue"
+    text what id "what" size vn2_dialogue_size() style "say_dialogue" xpos _mc_text_x xsize _mc_text_w
 
     # 对话框右上角的工具行（不再依赖 overlay 层的 quick_menu：
     # 在 call_in_new_context 里 overlay 会被抑制，截图和部分剧情上下文里看不见）
@@ -79,7 +94,7 @@ screen say(who, what):
         hbox:
             style_prefix "vn2_quick"
             xanchor 1.0
-            xpos 1794
+            xpos 1540
             ypos 802
             spacing 24
 
@@ -121,6 +136,100 @@ screen say(who, what):
 
     if not renpy.variant("small"):
         add SideImage() xalign 0.0 yalign 1.0
+
+
+screen vn2_mc_portrait():
+    # 位置在正文右边界（1584）之外、快捷工具行下方；不压正文，不压按钮。
+    $ _mc_expr = getattr(store, "vn2_mc_expr", "neutral")
+
+    frame:
+        background Frame("images/ui/name.png", 18, 6, 18, 6)
+        xpos 1596
+        ypos 788
+        xysize (200, 272)
+        padding (7, 7, 7, 7)
+
+        add Transform(
+            "images/chars/v2/zhou_%s.png" % _mc_expr,
+            crop=(380, 0, 500, 680),
+            zoom=0.37,
+        ) xalign 0.5 yalign 0.5
+
+
+screen vn2_mc_portrait_flush():
+    # 贴住对话框右沿的整高版本，像角色牌，不是浮在画面上的小窗。
+    $ _mc_expr = getattr(store, "vn2_mc_expr", "neutral")
+
+    add Solid(VN2_GOLD_DIM) xpos 1586 ypos 780 xysize (2, 300)
+
+    frame:
+        background Solid("#070b07ee")
+        xpos 1590
+        ypos 780
+        xysize (230, 300)
+        padding (6, 6, 6, 6)
+
+        fixed:
+            xsize 218
+            ysize 288
+
+            add Transform(
+                "images/chars/v2/zhou_%s.png" % _mc_expr,
+                crop=(360, 0, 560, 720),
+                zoom=0.38,
+            ) xalign 0.5 yalign 0.0
+
+            frame:
+                background Solid("#000000cc")
+                xalign 0.5
+                yalign 1.0
+                xsize 218
+                ysize 28
+                padding (0, 2, 0, 2)
+
+                text "队长":
+                    size 15
+                    color VN2_GOLD_SOFT
+                    style "vn2_text"
+                    xalign 0.5
+                    yalign 0.5
+
+
+screen vn2_mc_portrait_left():
+    # 星露谷式：头像坐在对话框左端，正文整体右移让出头像位。
+    $ _mc_expr = getattr(store, "vn2_mc_expr", "neutral")
+
+    frame:
+        background Solid("#070b07ee")
+        xpos 110
+        ypos 780
+        xysize (250, 300)
+        padding (6, 6, 6, 6)
+
+        fixed:
+            xsize 238
+            ysize 288
+
+            add Transform(
+                "images/chars/v2/zhou_%s.png" % _mc_expr,
+                crop=(360, 0, 560, 720),
+                zoom=0.39,
+            ) xalign 0.5 yalign 0.0
+
+            frame:
+                background Solid("#000000cc")
+                xalign 0.5
+                yalign 1.0
+                xsize 238
+                ysize 28
+                padding (0, 2, 0, 2)
+
+                text "队长":
+                    size 15
+                    color VN2_GOLD_SOFT
+                    style "vn2_text"
+                    xalign 0.5
+                    yalign 0.5
 
 
 ## 章号标题卡 ################################################
@@ -204,6 +313,7 @@ screen vn2_chapter_card(no, title, sub=""):
 
 
 label vn2_title_card(no, title, sub=""):
+    $ vn2_mc_face("neutral")
     $ renpy.show_screen("vn2_chapter_card", no=no, title=title, sub=sub)
     with Dissolve(0.35)
     $ renpy.pause(0.5 if renpy.get_skipping() else 2.0, hard=True)

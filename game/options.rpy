@@ -42,12 +42,12 @@ define gui.about = _p("""
 define build.name = "WuXian"
 
 ## Android/Gradle 使用的发行版本号必须是纯数字点分，不带阶段后缀。
-## 游戏内展示仍使用 config.version（V2.28.3 Beta）。
-define build.version = "2.28.3"
+## 游戏内展示仍使用 config.version（V2.28.4 GA）。
+define build.version = "2.28.4"
 
 ## 发行目录名必须 ASCII，且不能包含空格、冒号、分号。
-## 外部展示版本仍由 config.version 提供（V2.28.3 Beta），这里只固定发行目录/产物前缀。
-define build.directory_name = "WuXian-2.28.3-beta"
+## 外部展示版本仍由 config.version 提供（V2.28.4 GA），这里只固定发行目录/产物前缀。
+define build.directory_name = "WuXian-2.28.4"
 
 
 
@@ -231,6 +231,7 @@ init python:
     ## 避免把旧立绘、旧背景与中间图重复压进 APK。
     build.classify('_backup*/**', None)
     build.classify('_icon_work*/**', None)
+    build.classify('_preview*/**', None)
     build.classify('shots/**', None)
 
     ## 不把已生成的旧 APK、开发工具、语音源 WAV 和 QA 工程压进新 APK。

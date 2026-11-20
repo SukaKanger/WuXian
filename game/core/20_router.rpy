@@ -191,19 +191,13 @@ init -1 python:
                 eligible=eligible,
                 need=max(0, VN2_LOCK_THRESHOLD - aff),
                 bond=bond,
-                bond_text=("已交底" if bond else "未交底"),
-                bond_hint=("这条线已交底；最后选一起离开才走同行，"
-                           "十七信任和证据都齐可走第七天"
-                           if bond else
-                           "可以进入，但最后不选一起走、或本线没交底，结局会停在独行"),
             ))
-        options.append(dict(key="solo", name="独自进入", aff=0, eligible=True, need=0,
-                            bond=False, bond_text="不选线", bond_hint="直接走向封口结局"))
+        options.append(dict(key="solo", name="独自进入", aff=0, eligible=True, need=0, bond=False))
         return options
 
 
     def vn2_lock_pick(key):
-        """菜单选项后果：达标则写 vn2_lock_route；未达标给「还差多少」提示，返回 False。"""
+        """菜单选项后果：达标则写 vn2_lock_route；不达标静默返回 False，由锁线屏置灰。"""
         if key == "solo":
             store.vn2_lock_route = "solo"
             return True
@@ -211,13 +205,8 @@ init -1 python:
         aff = vn2_aff_value(key)
         if aff >= VN2_LOCK_THRESHOLD:
             store.vn2_lock_route = key
-            if not vn2_route_bond(key):
-                renpy.notify("%s 已进入，但这一路还没交底：结局会先落独行" % VN2_CHAR_NAMES[key])
             return True
 
-        need = VN2_LOCK_THRESHOLD - aff
-        renpy.notify("%s 还差 %d 点好感（当前 %d / %d）" % (
-            VN2_CHAR_NAMES[key], need, aff, VN2_LOCK_THRESHOLD))
         return False
 
 

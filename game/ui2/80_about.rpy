@@ -12,7 +12,7 @@ define VN2_ANNOUNCE = [
                   "本作的原创剧情、角色设定与文本也欢迎直接拿去改、扩写、做二创；"
                   "不必先问授权，别把改后的版本冒充官方原版就行。"),
     ("发行", "itch.io 是本作的发行与更新页：https://sukakanger.itch.io；"
-             "Beta 下载与版本说明以该页为准。"),
+             "下载与版本说明以该页为准。"),
 ]
 
 define VN2_AUTHOR_NOTE = (
@@ -191,7 +191,7 @@ screen about():
 
                     use vn2_line(1130, 2)
 
-                    text "Beta 下载与版本说明以 itch.io 发行页为准；其余入口是更新与二创的出口。":
+                    text "下载与版本说明以 itch.io 发行页为准；其余入口是更新与二创的出口。":
                         style "vn2_text"
                         size 16
                         color VN2_DIM

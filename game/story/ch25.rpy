@@ -127,8 +127,6 @@ label ch25:
     $ vn2_hide_all(trans=dissolve_soft)
 
     $ vn2_decide_ending(force_sealed=_vn2_force_sealed, force_alone=_vn2_force_alone)
-    $ _vn2_end_item = vn2_ending_item(store.vn2_ending_key)
-    $ renpy.notify("结局：%s" % (_vn2_end_item["title"] if _vn2_end_item else store.vn2_ending_key))
 
     nar "出廊之前，你最后看了一眼灯。半盏光贴着墙根，再照不亮整条走廊。走廊的潮气从衣摆、墙根退回去。墙皮上的水痕留在身后。石地被鞋底磨出一条浅痕，从柜前一直到门口。你顺着这条痕站了一会儿。灯闸留半盏。站不全黑，也再照不亮整条走廊。"
 

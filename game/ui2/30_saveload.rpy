@@ -1,8 +1,8 @@
 # ============================================================
 #  VN2 • 存 / 读档界面（ROUND3：3 列 × 2 行 = 六槽）
 #  ------------------------------------------------------------
-#  卡片是「左图右字」：左侧 16:9 截图，右侧「第 N 章 • 谁线 / 章名」，
-#  底边一条「好感 / 时间」。
+#  卡片是「左图右字」：左侧 16:9 截图，右侧「第 N 章 / 章名」，
+#  底边只留时间。
 #  版面（内容区 fixed xsize 1470，页码条 yalign 1.0 钉底）：
 #    槽位 470×380；列间距 30；行间距 24；
 #    3×470 + 2×30 = 1470，左右边距对称；
@@ -99,13 +99,11 @@ screen vn2_slot_card(slot, page, is_load, delay=0.0):
     $ loaded = FileLoadable(slot, page=page)
     $ cno = FileJson(slot, "vn2_chapter_no", missing=0, page=page)
     $ ctitle = FileJson(slot, "vn2_chapter", missing="", page=page)
-    $ cro = FileJson(slot, "vn2_route", missing="", page=page)
-    $ caff = FileJson(slot, "vn2_aff", missing="", page=page)
     $ cname = FileJson(slot, "vn2_player", missing="队长", page=page)
     $ cdisp = FileJson(slot, "vn2_disp_label", missing="", page=page)
     $ snum = "%02d" % slot
-    # 标题行优先读章节动态标签（共同线 · 第 6 章 / 蓝羽线 · 第 3 章 / 锁线 / 结局 …）
-    $ head = cdisp if cdisp else (("第 %d 章 / %s" % (cno, cro)) if cno else (cro or "—"))
+    # 标题行读章节动态标签；不再把路线名塞进存档卡。
+    $ head = cdisp if cdisp else (("第 %d 章" % cno) if cno else "—")
     $ body = ctitle if ctitle else "—"
     $ can_save = (not is_load) and (page != "auto")
     $ empty_hint = ("读取后在此显示进度" if is_load else
@@ -183,14 +181,6 @@ screen vn2_slot_card(slot, page, is_load, delay=0.0):
                     xpos 332
                     ypos 116
                     xmaximum 122
-
-                if caff:
-                    text caff:
-                        style "vn2_card_sub"
-                        size 13
-                        xpos 16
-                        ypos 280
-                        xmaximum 438
 
                 text FileTime(slot, format="%Y-%m-%d  %H:%M", empty="", page=page):
                     style "vn2_card_sub"

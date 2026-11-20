@@ -89,6 +89,44 @@ init -1 python:
         return None
 
 
+    # ---------- 主角反应立绘（对话框右侧，不占舞台） ----------
+    # 玩家是第一人称「你」，把整身老周摆到台上会和视角打架；
+    # 这里用同一套 6 张差分，裁头肩做成常驻反应窗。
+    VN2_MC_HINTS = (
+        ("angry", ("冷笑", "咬牙", "攥紧", "火气", "发火", "怒火", "凭什么", "混蛋", "闭嘴", "吼")),
+        ("sad", ("喉咙", "发紧", "别走", "对不起", "墓", "埋", "失去", "没能", "眼眶", "空下去")),
+        ("surprised", ("愣", "没想到", "僵住", "一惊", "睁大", "吓")),
+        ("shy", ("别过脸", "不好意思", "耳根", "耳尖", "心跳", "脸红")),
+        ("happy", ("松了口气", "笑", "暖", "高兴", "踏实", "放心")),
+    )
+
+
+    def vn2_mc_guess(what):
+        if not what:
+            return None
+        text = str(what)
+        for expr, words in VN2_MC_HINTS:
+            if any(w in text for w in words):
+                return expr
+        return None
+
+
+    def vn2_mc_face(expr="neutral"):
+        """显式钉住主角反应窗的表情；不改舞台、不动其他角色。"""
+        if expr not in VN2_EXPR_KEYS:
+            return False
+        store.vn2_mc_expr = expr
+        return True
+
+
+    def vn2_mc_react(what):
+        """旁白/主角台词里出现强情绪时，让反应窗跟着换脸。"""
+        expr = vn2_mc_guess(what)
+        if expr:
+            return vn2_mc_face(expr)
+        return False
+
+
     def vn2_set_expr(who, expr=None, what=None):
         """只给已经在舞台上的角色换表情；位置/压暗状态不变。"""
         key, info = _vn2_resolve(who)
@@ -228,6 +266,10 @@ init -1 python:
             except Exception:
                 pass
         store.vn2_stage = {}
+        try:
+            store.vn2_mc_expr = "neutral"
+        except Exception:
+            pass
         if trans is not None:
             renpy.with_statement(trans)
 
@@ -287,6 +329,12 @@ init -1 python:
                     vn2_focus(resolved)
                 except Exception:
                     pass
+                # 主角自己说话时，反应窗跟着这句的情绪走；其他人说话不抢主角的脸。
+                if resolved == "zhou":
+                    try:
+                        vn2_mc_react(what)
+                    except Exception:
+                        pass
                 # 人写的表情优先：这句被 vn2_face / vn2_show(expr=...) 钉过，就不再猜
                 if getattr(store, "vn2_expr_lock", None) != resolved:
                     try:
@@ -301,7 +349,12 @@ init -1 python:
         多角色场景不猜，避免把情绪切到错误的人。"""
         if event != "begin" or not what:
             return
-        # 只要本段出现过人工表情指令，旁白就不再顺手改脸
+        # 旁白/独白同时驱动主角反应窗；角色表情锁不影响这个窗口。
+        try:
+            vn2_mc_react(what)
+        except Exception:
+            pass
+        # 只要本段出现过人工表情指令，旁白就不再顺手改其他角色的脸
         if getattr(store, "vn2_expr_lock", None):
             return
         stage = dict(store.vn2_stage or {})
@@ -393,6 +446,9 @@ define think = Character(None, what_italic=True)
 
 # ---------- 舞台状态（存档/回滚安全） ----------
 default vn2_stage = {}
+
+# 主角反应窗当前表情（存档/回滚安全）
+default vn2_mc_expr = "neutral"
 
 # 本句表情是否已被人工指令钉死（None = 没钉，允许关键词兜底）
 default vn2_expr_lock = None

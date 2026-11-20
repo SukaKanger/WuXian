@@ -26,8 +26,8 @@
 
 | 项 | 值 | 来源常量 |
 | -- | -- | -------- |
-| 内部版本 | `20260002` | `VN2_VERSION_YEAR` + `VN2_VERSION_GEN` |
-| 外部版本 | `V2.28.0 Beta` | `VN2_VERSION_MAJOR` / `VN2_VERSION_CHAPTERS` / `VN2_VERSION_PATCH` / `VN2_VERSION_STAGE` |
+| 内部版本 | `20260004` | `VN2_VERSION_YEAR` + `VN2_VERSION_GEN` |
+| 外部版本 | `V2.28.4 GA` | `VN2_VERSION_MAJOR` / `VN2_VERSION_CHAPTERS` / `VN2_VERSION_PATCH` / `VN2_VERSION_STAGE` |
 
 ## 2. 常量清单（`game/core/05_version.rpy`）
 
@@ -79,10 +79,10 @@
 
 ## 7. 2.x 起步状态
 
-- 外部版本：`V2.28.0 Beta`
-- 内部版本：`20260002`
+- 外部版本：`V2.28.4 GA`
+- 内部版本：`20260004`
 - 章节：ch01–ch28
-- 阶段：公开测试，不标 GA
+- 阶段：正式版（GA）
 - `config.save_directory = "WuxianVN2-1"` 保持不变，1.28.x 存档继续可读
-- 发行目录：`WuXian-2.28.0-beta`
-- Android `build.version`：`2.28.0`；`versionCode` 由 Ren'Py 构建时按时间戳递增，不手写
+- 发行目录：`WuXian-2.28.4`
+- Android `build.version`：`2.28.4`；`versionCode` 由 Ren'Py 构建时按时间戳递增，不手写

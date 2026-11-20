@@ -150,7 +150,7 @@ screen preferences():
                                 text_style "vn2_btn_text"
                                 action InvertSelected(Preference("transitions", "toggle"))
 
-                            text "全部设置即时写入 persistent，重启后保留":
+                            text "设置会自动保存。":
                                 style "vn2_card_sub"
                                 color VN2_FAINT
 
@@ -232,7 +232,7 @@ screen preferences():
                                 style "vn2_card_sub"
                             text "返回 / 翻页 / 存档 / 确认：独立音色":
                                 style "vn2_card_sub"
-                            text "卡片从左划入 0.40s，悬停抬升 0.18s":
+                            text "点击与翻页有轻微的界面反馈。":
                                 style "vn2_card_sub"
 
             # ---------- 通栏底栏：把两列的底边框齐 ----------
@@ -253,7 +253,7 @@ screen preferences():
                             style "vn2_text"
                             size 19
                             color VN2_GOLD_DIM
-                        text "schema v[VN2_SAVE_SCHEMA]　自动 5 槽　手动 9 页 × 6 槽":
+                        text "自动存档 5 槽　手动存档 9 页 × 6 槽":
                             style "vn2_card_sub"
 
                     vbox:

@@ -235,17 +235,18 @@ screen gallery():
 
                                 add ("gui/icons/star_hover.png" if got else "gui/icons/lock.png") yalign 0.5 zoom 0.85
 
-                                text e["title"]:
+                                text (e["title"] if got else "？？？"):
                                     style "vn2_text"
                                     size 22
                                     color (VN2_GOLD_SOFT if got else VN2_FAINT)
                                     xsize 320
 
-                                text e["route"]:
-                                    style "vn2_text"
-                                    size 20
-                                    color (VN2_INK if got else VN2_FAINT)
-                                    xsize 240
+                                if got:
+                                    text e["route"]:
+                                        style "vn2_text"
+                                        size 20
+                                        color VN2_INK
+                                        xsize 240
 
                                 text ("已达成" if got else "未解锁"):
                                     style "vn2_card_sub"

@@ -47,7 +47,7 @@ label ch14_choice:
     $ _vn2_lock_opts = vn2_lock_options()
 
     menu(screen="vn2_lock_choice", opts=_vn2_lock_opts):
-        "跟蓝羽走（[aff_lan]）——他记得你腰上那截双结绳头":
+        "跟蓝羽走——他记得你腰上那截双结绳头":
 
             if vn2_lock_pick("lan"):
                 nar "他接过你腰上那截双结绳头，在自己腕上比了比，又塞回你手里。收口那道结，是他当初多绕一道打上的。"
@@ -58,7 +58,7 @@ label ch14_choice:
             else:
                 jump ch14_choice
 
-        "跟白砚走（[aff_bai]）——他记得你腕上那道活扣":
+        "跟白砚走——他记得你腕上那道活扣":
 
             if vn2_lock_pick("bai"):
                 nar "他翻开药箱，目光先落在你腕上那道活扣。布边磨起毛，结一拉就开。"
@@ -69,7 +69,7 @@ label ch14_choice:
             else:
                 jump ch14_choice
 
-        "跟青岩走（[aff_qing]）——他记得留给你的那份干粮":
+        "跟青岩走——他记得留给你的那份干粮":
 
             if vn2_lock_pick("qing"):
                 nar "他把样本箱往你这边递了递。箱底那半页记录隔着板压着，边角磨毛。"

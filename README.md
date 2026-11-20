@@ -8,7 +8,7 @@
 [![License: MIT](https://img.shields.io/badge/code-MIT-3da639?style=flat-square)](LICENSE)
 [![Story: CC BY 4.0](https://img.shields.io/badge/story-CC%20BY%204.0-ef9421?style=flat-square)](LICENSE-ASSETS.txt)
 [![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20Android-4c8bf5?style=flat-square)](#下载)
-[![Version](https://img.shields.io/badge/version-2.28.3%20Beta-d4a017?style=flat-square)](https://github.com/SukaKanger/WuXian/releases)
+[![Version](https://img.shields.io/badge/version-2.28.4%20GA-d4a017?style=flat-square)](https://github.com/SukaKanger/WuXian/releases)
 
 </div>
 
@@ -27,11 +27,11 @@
 
 | 平台 | 获取方式 |
 | --- | --- |
-| Windows | [最新 Release](https://github.com/SukaKanger/WuXian/releases) 里的 `WuXian-Setup-2.28.3.exe`（解压式安装向导，可选路径与快捷方式） |
-| Android | 同一 Release 里的 `WuXian-2.28.3-beta.apk` |
+| Windows | [最新 Release](https://github.com/SukaKanger/WuXian/releases) 里的 `WuXian-Setup-2.28.4.exe`（解压式安装向导，可选路径与快捷方式） |
+| Android | 同一 Release 里的 `WuXian-2.28.4.apk` |
 | 全部版本 | [itch.io](https://sukakanger.itch.io/wuxian) |
 
-校验：APK 使用项目自有 keystore 签名；Windows 安装包已写入 Authenticode 签名（自签名证书 `CN=WuXianSukaKanger0913`，DigiCert 时间戳），但自签名根不受公共信任，其他机器仍可能提示“未知发布者”。完整校验值见 Release 里的 `SHA256SUMS-2.28.3.csv`。
+校验：APK 使用项目自有 keystore 签名；Windows 安装包已写入 Authenticode 签名（自签名证书 `CN=WuXianSukaKanger0913`，DigiCert 时间戳），但自签名根不受公共信任，其他机器仍可能提示“未知发布者”。完整校验值见 Release 里的 `SHA256SUMS-2.28.4.csv`。
 
 ## 许可
 

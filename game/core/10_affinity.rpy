@@ -18,8 +18,8 @@ init -1 python:
         return int(getattr(store, "aff_" + key, 0) or 0)
 
 
-    def vn2_aff_add(key, amount, notify=True):
-        """加/减好感，自动夹在 0–100，并在右上角提示。"""
+    def vn2_aff_add(key, amount, notify=False):
+        """加/减好感，自动夹在 0–100。默认不弹数值提示，避免把关系做成计分板。"""
         if key in _VN2_LEGACY_AFF:
             renpy.log("VN2: legacy aff_%s dropped (schema 2)" % key)
             return vn2_aff_value(key)
@@ -59,11 +59,8 @@ init -1 python:
 
 
     def vn2_aff_summary():
-        """存档卡片上的一行好感摘要。"""
-        parts = []
-        for key in VN2_AFF_KEYS:
-            parts.append("%s %d" % (VN2_CHAR_NAMES[key], vn2_aff_value(key)))
-        return "  ".join(parts)
+        """存档卡片不再显示好感数值；关系只从剧情里读。"""
+        return ""
 
 
     def vn2_route_label(key):

@@ -18,8 +18,10 @@ label ch01:
     $ vn2_enter_chapter("ch01")
     call vn2_title_card(1, "雨停之后", "第 1 天 • 共同线")
 
+    $ vn2_mc_face("surprised")
     nar "雨停的时候你醒了一次，没看表，先摸外套。外套还在滴水，火也快灭了。白砚半夜把火压得太死，你拿树枝扒了两下，才见到底下的红。地图从内袋掏出来，纸边已经发软，字还在，旧站那块空白也还在。四个人，四个包，你数了一遍，又数了一遍。"
 
+    $ vn2_mc_face("neutral")
     $ vn2_show("lan", expr="neutral", pos="left", trans=dissolve_soft)
     $ vn2_cg_show("images/cg/cg_camp_fire_v1.png", trans=dissolve_soft)
 
@@ -28,7 +30,7 @@ label ch01:
     $ vn2_face("lan", "neutral")
     lan "前面三里有个旧栈道。地图上标着，但没人走过。"
     zhou "没人走过，不等于过不去。"
-    nar "蓝羽没接话，只把地图折成很小一块，露在手心里的部分还没巴掌大。折角被水泡开，线有点发虚；他用指腹抹了一下，没能抹平。"
+    nar "蓝羽没接话，只把地图折成很小一块，露在手心里的部分还没巴掌大。折角被水泡开，线有点发虚；他用拇指抹了一下，没能抹平。"
 
     $ vn2_hide("lan", trans=dissolve_soft)
     $ vn2_show("bai", expr="sad", pos="center", trans=dissolve_soft)
