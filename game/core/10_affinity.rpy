@@ -81,6 +81,8 @@ init -1 python:
 
         store.vn2_lock_route = VN2_DEFAULT_VALUES["vn2_lock_route"]
         store.vn2_ending_key = VN2_DEFAULT_VALUES["vn2_ending_key"]
+        store.vn2_story_mode = VN2_DEFAULT_VALUES["vn2_story_mode"]
+        store.vn2_story_rev = VN2_DEFAULT_VALUES["vn2_story_rev"]
 
         # 笔记本按「每局」清账：新开一局，上一局的情报与已读标记都不再跟着走。
         persistent.vn2_intel_seen = set()

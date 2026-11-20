@@ -81,3 +81,18 @@ screen vn2_lock_choice(items, opts):
                             VN2_LOCK_THRESHOLD, opt["aff"], opt["need"]):
                             style "vn2_lock_choice_sub"
 
+                    text "承诺：%s" % opt.get("bond_text", ""):
+                        style "vn2_lock_choice_sub"
+                        color (VN2_GOLD_DIM if opt.get("bond") else VN2_FAINT)
+
+                    if opt.get("bond_hint"):
+                        text opt["bond_hint"]:
+                            style "vn2_lock_choice_sub"
+
+    text "同行：本线好感至少 40 + 本线承诺。  独行：进了这条线，但没把最后一句话交出去。\n第七天：十七信任 + 带出证据 + 本线好感至少 60 + 本线承诺。":
+        style "vn2_lock_choice_sub"
+        xalign 0.5
+        yalign 0.86
+        text_align 0.5
+        color "#b8b09a"
+

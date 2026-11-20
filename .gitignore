@@ -1,21 +1,71 @@
-# Ren'Py 生成物
-*.rpyc
-*.rpymc
-/saves/
-/log.txt
-/traceback.txt
+# Directories that Ren'Py changes files in.
+/game/saves
+/game/cache
+
+# Compiled script files. These are important for saving, and so should
+# be preserved by developer and build systems after the game has been released.
+/game/**/*.rpyc
+/game/**/*.rpymc
+
+# Files Ren'Py can generate.
+/game/**/*.bak
+/game/**/*.new
+/game/**/*.old
+
+# Error, log, and output files.
 /errors.txt
-/tmp/
+/files.txt
+/image_cache.txt
+/log.txt
+/save_dump.txt
+/traceback.txt
+
+# Launcher-generated files.
+/dialogue.tab
+/dialogue.txt
+/strings.json
+
+# Build outputs and release binaries
 /build/
 /dist/
-/game/cache/
-# 大型素材不入库（见 ASSETS.md）
+*.apk
+*.aab
+*.zip
+*.exe
+*.msi
+*.dmg
+
+# Large runtime assets (source-only repository; see ASSETS.md)
 /game/images/
 /game/audio/
 /game/voice/
-*.apk
-*.zip
-*.exe
+/game/gui/
+/game/fonts/
 
-/game/saves/
-/game/cache/
+# Signing material — never commit private keys
+/*.keystore
+/*.jks
+/*.pfx
+/*.p12
+
+# Local build/QA scratch files
+/_backup*
+/_qa_*
+/_android_dist*
+/android_build_*.txt
+/build_*.txt
+/gradle_*.txt
+/compile_*.txt
+/lint_*.txt
+/qa_*.txt
+/auto_*.txt
+/run_*.txt
+/sdk_*.txt
+/renpy_help.txt
+/progressive_download.txt
+/gitignore.txt
+/1.28.*.apk
+/com.sukakanger.*.apk
+/android-icon*
+/android.json
+/game/_docs/contact_sheet_cg.png

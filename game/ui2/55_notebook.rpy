@@ -106,7 +106,16 @@ screen vn2_notebook():
         "lan": vn2_aff_value("lan"),
         "bai": vn2_aff_value("bai"),
         "qing": vn2_aff_value("qing"),
-        "ari": vn2_aff_value("ari"),
+    }
+    $ _bond = {
+        "lan": vn2_route_bond("lan"),
+        "bai": vn2_route_bond("bai"),
+        "qing": vn2_route_bond("qing"),
+    }
+    $ _bond_text = {
+        "lan": "蓝羽交过底" if _bond["lan"] else "蓝羽还压着旧事",
+        "bai": "你救过白砚的手" if _bond["bai"] else "白砚还藏着右手",
+        "qing": "青岩让你看过那页纸" if _bond["qing"] else "青岩还压着箱底",
     }
 
     add "vn2_ui_common_bg"
@@ -214,13 +223,46 @@ screen vn2_notebook():
                     hbox:
                         spacing 36
 
-                        for _key, _name in [("lan", "蓝羽"), ("bai", "白砚"), ("qing", "青岩"), ("ari", "阿瑞")]:
+                        for _key, _name in [("lan", "蓝羽"), ("bai", "白砚"), ("qing", "青岩")]:
                             vbox:
                                 spacing 3
                                 text _name style "vn2_small"
                                 text "%d / 100" % _aff[_key]:
                                     style "vn2_card_num"
                                 bar value StaticValue(_aff[_key], 100) style "vn2_bar" xsize 220
+                                text _bond_text[_key] style "vn2_card_sub" size 14 color (VN2_GOLD_DIM if _bond[_key] else VN2_FAINT)
+
+                    null height 4
+
+                    text "阿瑞：向导，非攻略角色。她的好感不解锁任何路线，也不会进入结局判定。":
+                        style "vn2_card_sub"
+                        size 15
+                        color VN2_DIM
+                        xsize 1380
+
+            use vn2_section("同行条件", 0.04, w=1470):
+                vbox:
+                    spacing 6
+
+                    text "锁线：任一角色好感 至少 %d，可进入对应路线。" % VN2_LOCK_THRESHOLD:
+                        style "vn2_card_sub"
+                        size 17
+                        color VN2_INK
+
+                    text "同行结局：本线好感 至少 40，并且完成本线承诺（蓝羽交底 / 救过白砚的手 / 青岩当面信你）。":
+                        style "vn2_card_sub"
+                        size 17
+                        color VN2_INK
+
+                    text "第七天：十七信任 + 带出证据 + 本线好感 至少 60 + 完成本线承诺。":
+                        style "vn2_card_sub"
+                        size 17
+                        color VN2_INK
+
+                    text "独行结局不是另一条完整路线：它是“进了这条线，但没把最后一句话交出去”的收束。":
+                        style "vn2_card_sub"
+                        size 15
+                        color VN2_DIM
 
             use vn2_section("已记下的情报", 0.06, w=1470):
                 vbox:

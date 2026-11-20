@@ -37,8 +37,8 @@ init -6 python:
         "shiqi": "十七",
     }
 
-    # 锁线门槛：ch14 菜单上对应好感 >= 25 才可进入该线
-    VN2_LOCK_THRESHOLD = 25
+    # 锁线门槛：ch14 菜单上对应好感 >= 22 才可进入该线
+    VN2_LOCK_THRESHOLD = 22
 
     # 好感度初始值：10 点起（0–100）
     VN2_DEFAULT_VALUES = {
@@ -77,6 +77,10 @@ init -6 python:
         "vn2_route_key":     "common",
         "vn2_day":           1,
         "vn2_ending_key":    "",
+        # 剧情节奏：cut = 1.28.22 起用的导演剪辑版中段；classic = 旧脚本
+        # 老存档只在章节开头读取该值，章节中途仍按旧脚本继续，避免坏档
+        "vn2_story_mode":    "cut",
+        "vn2_story_rev":     1,
     }
 
 
@@ -117,6 +121,8 @@ default vn2_route_name     = VN2_DEFAULT_VALUES["vn2_route_name"]
 default vn2_route_key      = VN2_DEFAULT_VALUES["vn2_route_key"]
 default vn2_day            = VN2_DEFAULT_VALUES["vn2_day"]
 default vn2_ending_key     = VN2_DEFAULT_VALUES["vn2_ending_key"]
+default vn2_story_mode     = VN2_DEFAULT_VALUES["vn2_story_mode"]
+default vn2_story_rev      = VN2_DEFAULT_VALUES["vn2_story_rev"]
 
 
 # ---------- 界面偏好（自定义项，落 persistent） ----------

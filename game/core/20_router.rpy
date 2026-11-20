@@ -183,14 +183,21 @@ init -1 python:
         for key in ("lan", "bai", "qing"):
             aff = vn2_aff_value(key)
             eligible = aff >= VN2_LOCK_THRESHOLD
+            bond = vn2_route_bond(key)
             options.append(dict(
                 key=key,
                 name=VN2_CHAR_NAMES[key],
                 aff=aff,
                 eligible=eligible,
                 need=max(0, VN2_LOCK_THRESHOLD - aff),
+                bond=bond,
+                bond_text=("已交底" if bond else "未交底"),
+                bond_hint=("这条线会走向同行，或满足条件后走向第七天"
+                           if bond else
+                           "可以进入，但结局会停在本线独行；除非在本线后段补上承诺"),
             ))
-        options.append(dict(key="solo", name="独自进入", aff=0, eligible=True, need=0))
+        options.append(dict(key="solo", name="独自进入", aff=0, eligible=True, need=0,
+                            bond=False, bond_text="不选线", bond_hint="直接走向封口结局"))
         return options
 
 
@@ -203,6 +210,8 @@ init -1 python:
         aff = vn2_aff_value(key)
         if aff >= VN2_LOCK_THRESHOLD:
             store.vn2_lock_route = key
+            if not vn2_route_bond(key):
+                renpy.notify("%s 已进入，但这一路还没交底：结局会先落独行" % VN2_CHAR_NAMES[key])
             return True
 
         need = VN2_LOCK_THRESHOLD - aff
@@ -217,21 +226,21 @@ init -1 python:
         """8 个结局的静态定义：key / 路线 / 路线名 / 标题 / 条件文案 / 是否真结局。"""
         return [
             dict(key="lan_together", route="lan",  route_name="蓝羽线", title="蓝羽 · 同行",
-                 cond_text="蓝羽线 · 好感 ≥ 40 · 蓝羽向你交过底", is_true=False),
+                 cond_text="蓝羽线 · 好感 至少 36 · 蓝羽向你交过底", is_true=False),
             dict(key="lan_alone",    route="lan",  route_name="蓝羽线", title="蓝羽 · 独行",
-                 cond_text="蓝羽线 · 好感 < 40 或未交底",  is_true=False),
+                 cond_text="蓝羽线 · 好感 < 36 或未交底",  is_true=False),
             dict(key="bai_together", route="bai",  route_name="白砚线", title="白砚 · 同行",
-                 cond_text="白砚线 · 好感 ≥ 40 · 你救过他的手", is_true=False),
+                 cond_text="白砚线 · 好感 至少 36 · 你救过他的手", is_true=False),
             dict(key="bai_alone",    route="bai",  route_name="白砚线", title="白砚 · 独行",
-                 cond_text="白砚线 · 好感 < 40 或未救过他的手",  is_true=False),
+                 cond_text="白砚线 · 好感 < 36 或未救过他的手",  is_true=False),
             dict(key="qing_together", route="qing", route_name="青岩线", title="青岩 · 同行",
-                 cond_text="青岩线 · 好感 ≥ 40 · 他当面信过你", is_true=False),
+                 cond_text="青岩线 · 好感 至少 36 · 他当面信过你", is_true=False),
             dict(key="qing_alone",    route="qing", route_name="青岩线", title="青岩 · 独行",
-                 cond_text="青岩线 · 好感 < 40 或未当面信过你",  is_true=False),
+                 cond_text="青岩线 · 好感 < 36 或未当面信过你",  is_true=False),
             dict(key="sealed",   route="common", route_name="共同线", title="封口",
                  cond_text="选择封站，或独自进入且未达真结局", is_true=False),
             dict(key="seventh",  route="common", route_name="共同线", title="第七天",
-                 cond_text="十七信任 · 带出证据 · 非独线 · 本线好感 ≥ 60 · 完成本线承诺", is_true=True),
+                 cond_text="十七信任 · 带出证据 · 非独线 · 本线好感 至少 52 · 完成本线承诺", is_true=True),
         ]
 
 
@@ -244,31 +253,40 @@ init -1 python:
 
     def vn2_route_bond(route):
         """路线承诺：光靠好感不够，必须在本线关键选择里留下过动作。
-        lan = 蓝羽交过底；bai = 你救过白砚的手；qing = 青岩当面信过你。
+        lan = 蓝羽交过底，或你替他补过地图；
+        bai = 你救过白砚的手，或陪他做完了那台手术；
+        qing = 你知道他的秘密，或他当面信过你。
         """
         if route == "lan":
-            return bool(getattr(store, "close_lan", False))
+            return bool(getattr(store, "close_lan", False)
+                        or getattr(store, "lan_map_fixed", False))
         if route == "bai":
-            return bool(getattr(store, "saved_bai", False))
+            return bool(getattr(store, "saved_bai", False)
+                        or getattr(store, "bai_treated", False))
         if route == "qing":
-            return bool(getattr(store, "qing_trusted", False))
+            # ch13 看见他把半页纸塞回箱底，是青岩线的交底起点；
+            # ch22 他主动把纸摊开，才把 qing_trusted 补成“当面信过你”。
+            return bool(getattr(store, "know_qing_secret", False)
+                        or getattr(store, "qing_trusted", False))
         return False
 
 
-    def vn2_decide_ending(force_sealed=False):
-        """按优先级 封口 > 真结局 > 同行 > 独行 落结局 key，并写入收集。"""
+    def vn2_decide_ending(force_sealed=False, force_alone=False):
+        """按优先级 封口 > 强制独行 > 真结局 > 同行 > 独行 落结局 key，并写入收集。"""
         route = store.vn2_lock_route
         route_aff = vn2_aff_value(route) if route in VN2_ROMANCE_KEYS else 0
         route_bond = vn2_route_bond(route)
 
         if force_sealed or route == "solo":
             key = "sealed"
+        elif force_alone and route in VN2_ROMANCE_KEYS:
+            key = "%s_alone" % route
         elif (getattr(store, "trust_shiqi", False)
                 and getattr(store, "evidence_kept", False)
-                and route_aff >= 60
+                and route_aff >= 52
                 and route_bond):
             key = "seventh"
-        elif route in VN2_ROMANCE_KEYS and route_aff >= 40 and route_bond:
+        elif route in VN2_ROMANCE_KEYS and route_aff >= 36 and route_bond:
             key = "%s_together" % route
         elif route in VN2_ROMANCE_KEYS:
             key = "%s_alone" % route
@@ -304,6 +322,8 @@ init -1 python:
         ch = CHAPTERS[cid]
         route = ch["route"]
         no = ch["no"]
+        store.vn2_story_mode = "cut"
+        store.vn2_story_rev = 1
 
         # 好感：共同线按进度缓升；进入本线后把对应恋爱线抬到可读区间
         base = min(35, 10 + int(no * 1.2))

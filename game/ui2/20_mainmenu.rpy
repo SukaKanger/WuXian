@@ -127,7 +127,7 @@ screen main_menu():
 
         hbox:
             xsize 330
-            text "章节":
+            text "正文章节":
                 style "vn2_small"
                 size 18
                 color "#cfc8b2"

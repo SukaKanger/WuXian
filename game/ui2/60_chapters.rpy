@@ -187,7 +187,7 @@ screen chapter_select():
                             ("已解锁章节", "%d" % n_unlocked, "/ %d" % n_chapter_total),
                             ("CG", "%d" % vn2_cg_count(), "/ %d" % len(VN2_GALLERY)),
                             ("结局", "%d" % vn2_endings_count(), "/ %d" % n_end),
-                            ("总好感", "%d" % sum(vn2_aff_value(k) for k in VN2_AFF_KEYS), ""),
+                            ("总好感", "%d" % sum(vn2_aff_value(k) for k in VN2_ROMANCE_KEYS), ""),
                         ):
                             vbox:
                                 xsize 310
