@@ -7,6 +7,17 @@
 
 ---
 
+## 0. 2.28.3 Beta 去 AI 味与结局脱钩（2026-11-21）
+
+- 全量旁白/内心去 AI 味：30 个 story 文件 + `directors_cut.rpy`，只动 `nar` / `think`；角色台词 541 行、`voice` 引用 482 条逐一比对，0 改动，不触发重配。
+- 原文 142 处“像……”降到 48 处；`一道一道 / 一点一点 / 一层压一层` 类排比从 67 处降到 1 处；清掉 `像在确认 / 像在等 / 像怕` 的猜心理句式，以及“同行结局 / 可攻略路线 / 好感够不够 / 选择里”这类元叙述。
+- 合并重复复读、物件清单和章末格言收束；`ch26` 开场与随身清点从 7 段压到 3 段；`.rpy` 对话块 2037 → 2030，字符 108,608 → 105,822。
+- ZCode 0.17.3 单代理执行：`--disallowed-tools "Agent Task"` + `--workflow-mode disabled`，ZCode 子代理全程禁用；其中 `directors_cut.rpy` 由 ZCode 直接改，98 个 `nar` 块、94 行 diff；审计报告在 `_qa_headless_20261121_ai/zcode_ai_audit.txt`。
+- 结局判定与好感隐藏分脱钩：`vn2_decide_ending` 不再读 `aff_lan/aff_bai/aff_qing` 的 36/52 阈值。同行看“本线交底 + ch25 明确选一起离开（`route_commit`）”；第七天看“本线交底 + `trust_shiqi` + `evidence_kept`”；`ch27` 的后日谈分支也改用 `vn2_ending_key`，不再按 `aff >= 60` 分叉。
+- 结局矩阵条件文案同步去掉好感阈值；`ch25` “和身边的人一起离开”写入 `route_commit`，`ch25` 进章时重置为 False。
+- lint：0 error / 0 warning；100 菜单、8 结局、8 张结局 CG。
+- 版本：内部 `20260004`（补丁不动内部号），外部 `V2.28.3 Beta`；`build.version = 2.28.3`，发行目录 `WuXian-2.28.3-beta`。
+
 ## 0. 2.28.2 Beta 全量旁白雕刻（2026-11-21）
 
 - 30 个 story 文件全部过稿，旁白 / 内心逐块扫过；全量重排 71 处连续短句，把句号改成逗号或合流，保留原信息、原动作、原选择。

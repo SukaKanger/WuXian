@@ -192,9 +192,10 @@ init -1 python:
                 need=max(0, VN2_LOCK_THRESHOLD - aff),
                 bond=bond,
                 bond_text=("已交底" if bond else "未交底"),
-                bond_hint=("这条线会走向同行，或满足条件后走向第七天"
+                bond_hint=("这条线已交底；最后选一起离开才走同行，"
+                           "十七信任和证据都齐可走第七天"
                            if bond else
-                           "可以进入，但结局会停在本线独行；除非在本线后段补上承诺"),
+                           "可以进入，但最后不选一起走、或本线没交底，结局会停在独行"),
             ))
         options.append(dict(key="solo", name="独自进入", aff=0, eligible=True, need=0,
                             bond=False, bond_text="不选线", bond_hint="直接走向封口结局"))
@@ -226,21 +227,21 @@ init -1 python:
         """8 个结局的静态定义：key / 路线 / 路线名 / 标题 / 条件文案 / 是否真结局。"""
         return [
             dict(key="lan_together", route="lan",  route_name="蓝羽线", title="蓝羽 · 同行",
-                 cond_text="蓝羽线 · 好感 至少 36 · 蓝羽向你交过底", is_true=False),
+                 cond_text="蓝羽线 · 蓝羽向你交过底 · 最后选择一起离开", is_true=False),
             dict(key="lan_alone",    route="lan",  route_name="蓝羽线", title="蓝羽 · 独行",
-                 cond_text="蓝羽线 · 好感 < 36 或未交底",  is_true=False),
+                 cond_text="蓝羽线 · 未交底，或最后没有选择一起离开",  is_true=False),
             dict(key="bai_together", route="bai",  route_name="白砚线", title="白砚 · 同行",
-                 cond_text="白砚线 · 好感 至少 36 · 你救过他的手", is_true=False),
+                 cond_text="白砚线 · 你救过他的手 · 最后选择一起离开", is_true=False),
             dict(key="bai_alone",    route="bai",  route_name="白砚线", title="白砚 · 独行",
-                 cond_text="白砚线 · 好感 < 36 或未救过他的手",  is_true=False),
+                 cond_text="白砚线 · 没救过他的手，或最后没有选择一起离开",  is_true=False),
             dict(key="qing_together", route="qing", route_name="青岩线", title="青岩 · 同行",
-                 cond_text="青岩线 · 好感 至少 36 · 他当面信过你", is_true=False),
+                 cond_text="青岩线 · 他当面信过你 · 最后选择一起离开", is_true=False),
             dict(key="qing_alone",    route="qing", route_name="青岩线", title="青岩 · 独行",
-                 cond_text="青岩线 · 好感 < 36 或未当面信过你",  is_true=False),
+                 cond_text="青岩线 · 没当面信过你，或最后没有选择一起离开",  is_true=False),
             dict(key="sealed",   route="common", route_name="共同线", title="封口",
-                 cond_text="选择封站，或独自进入且未达真结局", is_true=False),
+                 cond_text="选择封站，或独自进入", is_true=False),
             dict(key="seventh",  route="common", route_name="共同线", title="第七天",
-                 cond_text="十七信任 · 带出证据 · 非独线 · 本线好感 至少 52 · 完成本线承诺", is_true=True),
+                 cond_text="十七信任 · 带出证据 · 完成本线承诺", is_true=True),
         ]
 
 
@@ -272,21 +273,23 @@ init -1 python:
 
 
     def vn2_decide_ending(force_sealed=False, force_alone=False):
-        """按优先级 封口 > 强制独行 > 真结局 > 同行 > 独行 落结局 key，并写入收集。"""
+        """按优先级 封口 > 强制独行 > 真结局 > 同行 > 独行 落结局 key。
+        只看显式旗标，不读 aff_lan/aff_bai/aff_qing；好感不再参与终局判定。
+        """
         route = store.vn2_lock_route
-        route_aff = vn2_aff_value(route) if route in VN2_ROMANCE_KEYS else 0
         route_bond = vn2_route_bond(route)
+        route_commit = bool(getattr(store, "route_commit", False))
 
         if force_sealed or route == "solo":
             key = "sealed"
         elif force_alone and route in VN2_ROMANCE_KEYS:
             key = "%s_alone" % route
-        elif (getattr(store, "trust_shiqi", False)
-                and getattr(store, "evidence_kept", False)
-                and route_aff >= 52
-                and route_bond):
+        elif (route in VN2_ROMANCE_KEYS
+                and route_bond
+                and getattr(store, "trust_shiqi", False)
+                and getattr(store, "evidence_kept", False)):
             key = "seventh"
-        elif route in VN2_ROMANCE_KEYS and route_aff >= 36 and route_bond:
+        elif route in VN2_ROMANCE_KEYS and route_bond and route_commit:
             key = "%s_together" % route
         elif route in VN2_ROMANCE_KEYS:
             key = "%s_alone" % route
@@ -358,6 +361,8 @@ init -1 python:
             vn2_flag("evidence_copied", True)
         if no >= 24:
             vn2_flag("evidence_kept", True)
+        if no >= 25:
+            vn2_flag("route_commit", True)
 
         store.vn2_lock_route = route if route in VN2_ROMANCE_KEYS else "solo"
 

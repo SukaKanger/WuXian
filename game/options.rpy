@@ -42,12 +42,12 @@ define gui.about = _p("""
 define build.name = "WuXian"
 
 ## Android/Gradle 使用的发行版本号必须是纯数字点分，不带阶段后缀。
-## 游戏内展示仍使用 config.version（V2.28.2 Beta）。
-define build.version = "2.28.2"
+## 游戏内展示仍使用 config.version（V2.28.3 Beta）。
+define build.version = "2.28.3"
 
 ## 发行目录名必须 ASCII，且不能包含空格、冒号、分号。
-## 外部展示版本仍由 config.version 提供（V2.28.2 Beta），这里只固定发行目录/产物前缀。
-define build.directory_name = "WuXian-2.28.2-beta"
+## 外部展示版本仍由 config.version 提供（V2.28.3 Beta），这里只固定发行目录/产物前缀。
+define build.directory_name = "WuXian-2.28.3-beta"
 
 
 

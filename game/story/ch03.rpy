@@ -72,7 +72,7 @@ label ch03:
             voice "voice/bai/bai_0016.ogg"
             $ vn2_face("bai", "sad")
             bai "今天别再抬重物。"
-            nar "他指腹顺着上臂按过去，按到发紧的地方停了一下。你肩背绷着，他松手时拍了拍你上臂。他小腿上的口子还淌着血，先把你的胳膊和手处理完，扣好药箱，才挪到石头另一边给自己包。收拾药箱的时候，他视线落到你左耳上，停了一下。"
+            nar "他指腹顺着上臂按过去，按到发紧的地方停了一下。你肩背绷着，他松手时拍了拍你上臂。他小腿上的口子还淌着血，先包好你的胳膊和手，扣上药箱，才挪到石头另一边处理自己。收拾药箱的时候，他看了下你的左耳。"
             $ vn2_current_voice = "voice/bai/bai_0017.ogg"
             voice "voice/bai/bai_0017.ogg"
             $ vn2_face("bai", "surprised")
@@ -83,7 +83,7 @@ label ch03:
         "清点青岩的样本箱有没有碰湿":
             $ vn2_aff_add("qing", 3)
             $ vn2_show("qing", expr="happy", pos="right")
-            nar "青岩开箱验样，一格一格翻，你把箱角的泥擦掉，递回去。"
+            nar "青岩开箱验样，逐格翻，你把箱角的泥擦掉，递回去。"
             $ vn2_current_voice = "voice/qing/qing_0009.ogg"
             voice "voice/qing/qing_0009.ogg"
             $ vn2_face("qing", "happy")

@@ -60,6 +60,7 @@ init -6 python:
         "evidence_kept":    False,  # 真把证据带出去了（真结局判定只认这个）
         "evidence_copied":  False,  # 先抄了一份名单（ch23 分支，ch24 按编号取格）
         "trust_shiqi":      False,  # 守门人十七信了你
+        "route_commit":     False,  # ch25 明确选择“和身边的人一起离开”，不靠隐藏好感补
         "ari_helped":       False,  # 你帮过阿瑞
 
         "player_name": "队长",
@@ -104,6 +105,7 @@ default station_key      = VN2_DEFAULT_VALUES["station_key"]
 default evidence_kept     = VN2_DEFAULT_VALUES["evidence_kept"]
 default evidence_copied  = VN2_DEFAULT_VALUES["evidence_copied"]
 default trust_shiqi      = VN2_DEFAULT_VALUES["trust_shiqi"]
+default route_commit     = VN2_DEFAULT_VALUES["route_commit"]
 default ari_helped       = VN2_DEFAULT_VALUES["ari_helped"]
 
 
