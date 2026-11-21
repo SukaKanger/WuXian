@@ -143,17 +143,21 @@ screen vn2_mc_portrait():
     $ _mc_expr = getattr(store, "vn2_mc_expr", "neutral")
 
     frame:
-        background Frame("images/ui/name.png", 18, 6, 18, 6)
+        background "images/ui/portrait_jungle_solid.png"
         xpos 1596
         ypos 788
         xysize (200, 272)
         padding (7, 7, 7, 7)
 
-        add Transform(
-            "images/chars/v2/zhou_%s.png" % _mc_expr,
-            crop=(380, 0, 500, 680),
-            zoom=0.37,
-        ) xalign 0.5 yalign 0.5
+        fixed:
+            xsize 186
+            ysize 258
+
+            add Transform(
+                "images/chars/v2/zhou_%s.png" % _mc_expr,
+                crop=(380, 0, 500, 680),
+                zoom=0.37,
+            ) xalign 0.5 yalign 0.5
 
 
 screen vn2_mc_portrait_flush():
@@ -163,7 +167,7 @@ screen vn2_mc_portrait_flush():
     add Solid(VN2_GOLD_DIM) xpos 1586 ypos 780 xysize (2, 300)
 
     frame:
-        background Solid("#070b07ee")
+        background "images/ui/portrait_jungle_solid.png"
         xpos 1590
         ypos 780
         xysize (230, 300)
@@ -180,19 +184,20 @@ screen vn2_mc_portrait_flush():
             ) xalign 0.5 yalign 0.0
 
             frame:
-                background Solid("#000000cc")
+                background Solid("#050805")
                 xalign 0.5
                 yalign 1.0
                 xsize 218
                 ysize 28
                 padding (0, 2, 0, 2)
 
-                text "队长":
+                text "[player_name]":
                     size 15
                     color VN2_GOLD_SOFT
                     style "vn2_text"
                     xalign 0.5
                     yalign 0.5
+                    xmaximum 210
 
 
 screen vn2_mc_portrait_left():
@@ -200,7 +205,7 @@ screen vn2_mc_portrait_left():
     $ _mc_expr = getattr(store, "vn2_mc_expr", "neutral")
 
     frame:
-        background Solid("#070b07ee")
+        background "images/ui/portrait_jungle_solid.png"
         xpos 110
         ypos 780
         xysize (250, 300)
@@ -217,19 +222,20 @@ screen vn2_mc_portrait_left():
             ) xalign 0.5 yalign 0.0
 
             frame:
-                background Solid("#000000cc")
+                background Solid("#050805")
                 xalign 0.5
                 yalign 1.0
                 xsize 238
                 ysize 28
                 padding (0, 2, 0, 2)
 
-                text "队长":
+                text "[player_name]":
                     size 15
                     color VN2_GOLD_SOFT
                     style "vn2_text"
                     xalign 0.5
                     yalign 0.5
+                    xmaximum 230
 
 
 ## 章号标题卡 ################################################
@@ -425,3 +431,4 @@ screen confirm(message, yes_action, no_action):
                     action no_action
 
     key "game_menu" action no_action
+

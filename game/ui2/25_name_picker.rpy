@@ -13,7 +13,11 @@ default _vn2_name_hint = ""
 
 init python:
 
-    def vn2_submit_name(text):
+    def vn2_submit_name(text=None):
+        # 输入框是 EditableValue，按钮/回车必须读提交那一刻的值，
+        # 不能把屏幕构建时传进来的字符串快照写死。
+        if text is None:
+            text = getattr(store, "_vn2_name_text", "")
         name = (text or "").strip()
         if len(name) < 2 or len(name) > 10:
             store._vn2_name_hint = "称呼需要 2–10 个字（当前 %d 字）" % len(name)
@@ -101,8 +105,10 @@ screen vn2_name_picker():
                 input:
                     value VariableInputValue("_vn2_name_text")
                     length 10
+                    default True
                     style "vn2_name_input"
                     yalign 0.0
+                    action Function(vn2_submit_name)
 
                 add "images/ui/hairline.png" xysize (560, 2) yalign 1.0 alpha 0.85
 
@@ -110,7 +116,7 @@ screen vn2_name_picker():
                 style "vn2_btn"
                 text_style "vn2_btn_text"
                 yalign 0.42
-                action Function(vn2_submit_name, _vn2_name_text)
+                action Function(vn2_submit_name)
 
         text "2–10 个字，回车确认":
             style "vn2_card_sub"
@@ -124,8 +130,8 @@ screen vn2_name_picker():
             color VN2_GOLD
             kerning 1.0
 
-    key "K_RETURN" action Function(vn2_submit_name, _vn2_name_text)
-    key "K_KP_ENTER" action Function(vn2_submit_name, _vn2_name_text)
+    key "K_RETURN" action Function(vn2_submit_name)
+    key "K_KP_ENTER" action Function(vn2_submit_name)
 
 
 label vn2_name_picker:

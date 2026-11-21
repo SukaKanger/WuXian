@@ -16,7 +16,7 @@ init -6 python:
     VN2_VERSION_YEAR     = 2026   # 内部版本年份
     VN2_VERSION_GEN      = 4      # 第几代序号，内部号补零到四位（0004）
     VN2_VERSION_CHAPTERS = 28     # 已完成章节数（ch01–ch28）
-    VN2_VERSION_PATCH    = 4      # 补丁号：2.28.4
+    VN2_VERSION_PATCH    = 5      # 补丁号：2.28.5
     VN2_VERSION_STAGE    = "GA"   # 阶段："Demo" 早期测试 / "Beta" 公开测试 / "GA" 转正
 
     # ---- 拼合（一般不需要手改）----
@@ -33,3 +33,5 @@ init -6 python:
 define VN2_RELEASE_URL = "https://sukakanger.itch.io"
 define VN2_RELEASE_LABEL = "itch.io"
 define VN2_VLINK_URL = "https://vlink.cc/sukakanger"
+
+

@@ -2,7 +2,7 @@
 ; 默认安装到当前用户目录，无需管理员权限；可选安装路径、可选快捷方式。
 
 #define MyAppName "雾线 WuXian"
-#define MyAppVersion "2.28.4"
+#define MyAppVersion "2.28.5"
 #define MyAppPublisher "SukaKanger"
 #define MyAppURL "https://sukakanger.itch.io/wuxian"
 #define MyAppExeName "WuXian.exe"
@@ -18,8 +18,8 @@ AppPublisher={#MyAppPublisher}
 AppPublisherURL={#MyAppURL}
 AppSupportURL={#MyAppURL}
 AppUpdatesURL={#MyAppURL}
-VersionInfoVersion=2.28.4.0
-VersionInfoProductVersion=2.28.4.0
+VersionInfoVersion=2.28.5.0
+VersionInfoProductVersion=2.28.5.0
 VersionInfoCompany=SukaKanger
 DefaultDirName={localappdata}\Programs\WuXian
 ; 安装目录页始终显示：可以直接输入或浏览到任意盘符（C/D/E…），不再锁死在用户目录。
@@ -68,3 +68,4 @@ Filename: "{app}\{#MyAppExeName}"; Description: "启动 雾线 WuXian"; Flags: n
 
 [UninstallDelete]
 Type: filesandordirs; Name: "{app}\game\saves"
+
