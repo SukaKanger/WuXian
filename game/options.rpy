@@ -227,6 +227,11 @@ init python:
     build.classify('_docs/**', None)
     build.classify('game/saves/**', None)
 
+    ## 发行包剔除开发期脚本、备份与误命名的文本源，避免把调试文件带进 zip/APK。
+    build.classify('**.off', None)
+    build.classify('**.bak_*', None)
+    build.classify('**.rpy.txt', None)
+
     ## 发版时排除项目根目录下的历史备份、图标工作目录和验收截图，
     ## 避免把旧立绘、旧背景与中间图重复压进 APK。
     build.classify('_backup*/**', None)

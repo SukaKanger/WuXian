@@ -99,7 +99,7 @@ screen chapter_select():
             $ max_rows = max(len(vn2_block_chapters(k)) for k in VN2_BLOCK_ORDER)
             $ footer_y = 40 + 62 * max_rows + 30
 
-            text "已解锁 [n_unlocked] / [n_chapter_total]　/　点已解锁章节可直接进入（数值按章节预设）":
+            text "已解锁 [n_unlocked] / [n_chapter_total]　·　点已解锁章节可直接进入":
                 style "vn2_card_sub"
                 xpos 0
                 ypos 6

@@ -97,11 +97,12 @@ screen vn2_cg_card(item, delay=0.0):
                 xpos 32
                 ypos 296
 
-            text item["sub"]:
-                style "vn2_card_sub"
-                xalign 1.0
-                xoffset -32
-                ypos 300
+            if unlocked:
+                text item["sub"]:
+                    style "vn2_card_sub"
+                    xalign 1.0
+                    xoffset -32
+                    ypos 300
 
 
 screen vn2_cg_slot_empty(delay=0.0):
