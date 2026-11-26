@@ -31,7 +31,7 @@
 | Android | 同一 Release 里的 `WuXian-2.28.3-beta.apk` |
 | 全部版本 | [itch.io](https://sukakanger.itch.io/wuxian) |
 
-校验：APK 使用项目自有 keystore 签名；Windows 安装包已写入 Authenticode 签名（自签名证书 `CN=WuXianSukaKanger0913`，DigiCert 时间戳），但自签名根不受公共信任，其他机器仍可能提示“未知发布者”。完整校验值见 Release 里的 `SHA256SUMS-2.28.3.csv`。
+校验：APK 使用项目自有 keystore 签名；Windows 安装包已写入 Authenticode 签名（自签名证书 `CN=[已脱敏]`，DigiCert 时间戳），但自签名根不受公共信任，其他机器仍可能提示“未知发布者”。完整校验值见 Release 里的 `SHA256SUMS-2.28.3.csv`。
 
 ## 许可
 
